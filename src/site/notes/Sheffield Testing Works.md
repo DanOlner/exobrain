@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sheffield-testing-works/","tags":["stworks"]}
+{"dg-publish":true,"permalink":"/sheffield-testing-works/","tags":["#stworks"]}
 ---
 
 Mentioned in [[Clippings/Accident at Levant Tin Mine 1919\|this article on the 1919 Levant Mining Accident]]: 

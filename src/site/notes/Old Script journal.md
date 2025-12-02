@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/old-script-journal/","tags":["oldscript","scifi"]}
+{"dg-publish":true,"permalink":"/old-script-journal/","tags":["#oldscript","#scifi"]}
 ---
 
 # What's this?
