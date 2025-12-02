@@ -11,7 +11,7 @@ Registered UK Charity (No. 1154342)
 
 **Grace's Guide** is the leading source of historical information on industry and manufacturing in Britain. This web publication contains **147,919 pages** of information and **233,587 images** on early companies, their products and the people who designed and built them.
 
-Thomas Nash (1838-1903) of [Sheffield Testing Works](https://www.gracesguide.co.uk/Sheffield_Testing_Works "Sheffield Testing Works")
+Thomas Nash (1838-1903) of [Sheffield Testing Works](https://www.gracesguide.co.uk/Sheffield_Testing_Works "Sheffield Testing Works") ([[Sheffield Testing Works\|internal link]])
 
 1838 Born in Swindon
 

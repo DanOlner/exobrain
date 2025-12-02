@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/old-script-journal/","tags":["oldscript","scifi"]}
+{"dg-publish":true,"permalink":"/old-script-journal/","tags":["#oldscript","#scifi","#AI"]}
 ---
 
 # What's this?
 
-A journal of progress (or lack of it) on getting the sci-fi book self-published and "one last edit"ed prior to that. ("The Old Script" was its working title, taken from the final lines of [this Peter Boyle poem](https://www.poetryinternational.com/en/poets-poems/poems/poem/103-9755_THE-UNKNOWABLE)).  
+A journal of progress (or lack of it) on getting the sci-fi book self-published and "one last edit"ed prior to that. ("The Old Script" was its working title, taken from the final lines of [this Peter Boyle poem](https://www.poetryinternational.com/en/poets-poems/poems/poem/103-9755_THE-UNKNOWABLE)). 
 
 Skip to the end for the latest; it's a working doc.
 
