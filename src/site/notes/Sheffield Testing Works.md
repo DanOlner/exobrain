@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sheffield-testing-works/","tags":["#stworks","gardenEntry"]}
+{"dg-publish":true,"permalink":"/sheffield-testing-works/","tags":["#stworks"]}
 ---
 
 #stworks 
