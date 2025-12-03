@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/paper-the-race-between-man-and-machine-2018/","tags":["#AI","#productivity","#technology"]}
+{"dg-publish":true,"permalink":"/paper-the-race-between-man-and-machine-2018/","tags":["#AI","#productivity","#technology","#paper"]}
 ---
 
 - [ ] Think about the composition point: productivity up but not the same people
