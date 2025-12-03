@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/paper-the-race-between-man-and-machine-2018/","tags":["#AI","#productivity","#technology","#paper"]}
 ---
 
+
 - [ ] Think about the composition point: productivity up but not the same people
 
 Acemoglu, D., Restrepo, P., 2018. The Race between Man and Machine: Implications of Technology for Growth, Factor Shares, and Employment. American Economic Review 108, 1488–1542. [https://doi.org/10.1257/aer.20160696](https://doi.org/10.1257/aer.20160696)
