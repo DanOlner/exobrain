@@ -8,4 +8,4 @@ I'm backing off "all the things I thought writing should be for" and trying to p
 
 Dunno. Hence "experiment".
 
-I'm writing this in Obsidian, a digital garden plugin is able to send it to Vercel, that builds it on my github, I've pointed a subdomain to it, and I just press CMD+P then  those things make me irrationally happy. Let's go with that feeling, shall we?
+I'm writing this in Obsidian, a digital garden plugin is able to send it to Vercel, that builds it on my github, I've pointed a subdomain to it, and I just press CMD+P then 'publish active note' and it's live, and I can link to anything else on here. Those things make me irrationally happy. Let's go with that feeling, shall we?
