@@ -3,7 +3,7 @@
 ---
 
 
-- [ ] Think about the composition point: productivity up but not the same people
+- [x] Think about the composition point: productivity up but not the same people ✅ 2025-12-03
 
 Acemoglu, D., Restrepo, P., 2018. The Race between Man and Machine: Implications of Technology for Growth, Factor Shares, and Employment. American Economic Review 108, 1488–1542. [https://doi.org/10.1257/aer.20160696](https://doi.org/10.1257/aer.20160696)
 
