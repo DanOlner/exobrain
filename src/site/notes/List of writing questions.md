@@ -4,7 +4,7 @@
 
 ## Starter questions.
 
-Actually answer these, with any thought I’m on.
+For any thought being chewed over, actually answer these!
 
 * What do I actually want to say about this, right now, in the state I’m in?
 * What tiny part of this could I write about today and call it “enough”?
