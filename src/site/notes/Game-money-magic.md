@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/game-money-magic/","tags":["#socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/game-money-magic/","tags":["socialoperatingsystems"]}
 ---
 
 # Links:
@@ -15,6 +15,6 @@ Couple of starting points. Pick some bits from the [[List of writing questions\|
 - What am I curious about even if I have no idea where it's going?
 
 I've had a slightly stoned series of connected thoughts about [[social operating systems\|social operating systems]] for a while but haven't laid them down in order. Let's try and write them down clearly:
-* Are humans kind of the Swiss-army-knife species making natural distributed systems? In [this old 2009 post](https://coveredinbees.org.archived.website/3adaptivelandscapes.html) about Balinese rice-growing and Peruvian potato cultivation, 
+* Are humans the Swiss-army-knife of natural distributed systems? Cf. [this old 2009 post](https://coveredinbees.org.archived.website/3adaptivelandscapes.html) about Balinese rice-growing and Peruvian potato cultivation. 
 
 
