@@ -71,7 +71,7 @@ Reminder again: if useful, use these for writing by directly answering.
 
 ## Functions of writing: expanding the available options
 
-Let’s start with the ones that we often mistake for the _only_ available options.
+Let’s start with the ones that we often mistake for the _only_ available options - professional functions.
 
 ### Professional functions:
 
