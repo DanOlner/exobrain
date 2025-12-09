@@ -3,7 +3,7 @@
 ---
 
 
-- [x] Think about the composition point: productivity up but not the same people ✅ 2025-12-03
+- [ ] Think about the composition point: productivity up but not the same people
 
 Acemoglu, D., Restrepo, P., 2018. The Race between Man and Machine: Implications of Technology for Growth, Factor Shares, and Employment. American Economic Review 108, 1488–1542. [https://doi.org/10.1257/aer.20160696](https://doi.org/10.1257/aer.20160696)
 
@@ -12,6 +12,8 @@ Acemoglu, D., Restrepo, P., 2018. The Race between Man and Machine: Implications
 ..
 
 But: “Mechanization (e.g., in bootmaking, textiles, iron and steel) often created as many jobs as it destroyed, but the new jobs were different and didn't tend to go to those displaced from the old ones. This resulted in persistent unemployment for some segments, while others benefited from expanding job opportunities in newly created sectors.”
+{ #d045c7}
+
 
 Which is paraphrasing [[Paper - The Past and Future of Work How History Can Inform the Age of Automation\|Schneider & Vipond]]
 

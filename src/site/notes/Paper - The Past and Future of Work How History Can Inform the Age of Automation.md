@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/paper-the-past-and-future-of-work-how-history-can-inform-the-age-of-automation/","tags":["#AI","#productivity","#technology","#paper"]}
+{"dg-publish":true,"permalink":"/paper-the-past-and-future-of-work-how-history-can-inform-the-age-of-automation/","tags":["AI","productivity","technology","paper"]}
 ---
 
 Schneider & Vipond. CESinfo working paper 2023.

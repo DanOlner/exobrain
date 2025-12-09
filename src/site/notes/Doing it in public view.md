@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/doing-it-in-public-view/","tags":["#writingexperiment"]}
+{"dg-publish":true,"permalink":"/doing-it-in-public-view/","tags":["writingexperiment"]}
 ---
 
 Writing words that appear on the internet always has this weird vibe. I vaguely recall Bauman talking about it - synoptic not panoptic, where you're always looking out at everyone, always visible, but most likely no-one is looking. But they might. But they're not.

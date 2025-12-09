@@ -1,10 +1,20 @@
 ---
-{"dg-publish":true,"permalink":"/game-money-magic/","tags":["socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/game-money-magic/","tags":["#socialoperatingsystems"]}
 ---
 
-Links:
+# Links:
 * [[The game\|The game]] - archetypal example of possibly uncertain rules leading to collective, emergent outcomes? Or at least a good route into the conversation.
 * [[Growing the collective social thing that makes money possible\|Growing the collective social thing that makes money possible]] - the path from coins to notes to entirely digital, all impossible without what's going on between human minds?
 * Is that the same thing as [[Bali Peru style magic\|Bali Peru style magic]]? How is it different? What difference does it make when these kinds of #socialoperatingsystems get tangled with technology?
+
+# Ramble
+
+Couple of starting points. Pick some bits from the [[List of writing questions\|List of writing questions]]. 
+- What do I actually want to say about this?
+- Why? Where is it going, if anywhere? Does that matter?
+- What am I curious about even if I have no idea where it's going?
+
+I've had a slightly stoned series of connected thoughts about [[social operating systems\|social operating systems]] for a while but haven't laid them down in order. Let's try and write them down clearly:
+* Are humans kind of the Swiss-army-knife species making natural distributed systems? In [this old 2009 post](https://coveredinbees.org.archived.website/3adaptivelandscapes.html) about Balinese rice-growing and Peruvian potato cultivation, 
 
 

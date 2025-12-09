@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ll-ms-vs-collective-intelligence/","tags":["#AI","#socialoperatingsystems","#llm"]}
+{"dg-publish":true,"permalink":"/ll-ms-vs-collective-intelligence/","tags":["AI","socialoperatingsystems","llm"]}
 ---
 
 Need to understand firm collective intelligence before any idea about LLM impact.
