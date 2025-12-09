@@ -2,7 +2,11 @@
 {"dg-publish":true,"permalink":"/list-of-writing-questions/","tags":["brainsystems"]}
 ---
 
-## Starter questions.
+## See also
+
+* '[How I garden](https://jzhao.xyz/posts/networked-thought#how-i-garden)' 
+
+## Starter questions
 
 For any thought being chewed over, actually answer these!
 
