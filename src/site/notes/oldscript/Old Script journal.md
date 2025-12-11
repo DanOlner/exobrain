@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/oldscript/old-script-journal/","tags":["#oldscript","#scifi","#AI","#planner"]}
+{"dg-publish":true,"permalink":"/oldscript/old-script-journal/","tags":["oldscript","scifi","AI","planner"]}
 ---
 
 # What's this?
@@ -72,7 +72,7 @@ Including some thought on what's actually realistic and when to leave alone. Mos
 
     -   This needs more thought than I've given it. Hill wouldn't take a voice at face value. The simplenotes above cover a lot of this, but it might be an idea to make it foundational. E.g. the whole system is ostensibly built on protecting human IP, creation, provenance. And there's meant to be an impregnable line between that and automated systems. But... what have we got?
 	    - Real world examples working on the same thing: 
-		    - [[Clippings/Stone journalist academic show your working platform\|the Stone video system]] for journalists etc.
+		    - [[Clippings/Stone system\|the Stone video system]] for journalists etc.
 
     -   E.g. bouncing off "used Bernard as a proxy, got far enough into the brain stuff to be able to use him": the skin, Ipai can argue, is exactly a way to deepen provenance, make sure any IP captures the true source's creativity in a way that protects them. Hill: you're the one that breached the entire system and you're trying to sell us the cure? \[That's a trope to IP too isn't it? I'll sell you the disease and the cure.\]
 
