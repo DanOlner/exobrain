@@ -4,7 +4,7 @@
 
 ## See also
 
-* '[How I garden](https://jzhao.xyz/posts/networked-thought#how-i-garden)' 
+* External: '[How I garden](https://jzhao.xyz/posts/networked-thought#how-i-garden)' 
 
 ## Starter questions
 
