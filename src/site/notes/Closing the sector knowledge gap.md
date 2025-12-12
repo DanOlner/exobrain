@@ -20,7 +20,7 @@ I'm increasingly concerned that regional economic data has patches where it can 
 
 But if we could build better regional insight networks, what else might that change? Can we allow ourselves to move away from the rankitis that flows quite naturally from the spuriously accurate economic data we get?
 
-Compare to [[Econ error rates\|Econ error rates]] - if we knew those error rates, we'd be floating in a much murkier space relative to other places. How much do those comparisons drive how we think about development? What other thinking modes might emerge if we had better insight networks ourselves?
+Compare to [[Econ error rates\|Econ error rates]] (that link includes a quick look at Y&H GVA sector error via the ABS; code in link). If we knew those error rates, we'd be floating in a much murkier space relative to other places. How much do those comparisons drive how we think about development? What other thinking modes might emerge if we had better insight networks ourselves?
 
 The risk: losing that national picture. But if that picture isn't entirely reliable anyway...?
 
