@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/game-money-magic/","tags":["socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/game-money-magic/","tags":["#socialoperatingsystems"]}
 ---
 
 # Links:
