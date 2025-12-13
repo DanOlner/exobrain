@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/richard-whately/","tags":["socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/richard-whately/","tags":["#socialoperatingsystems"]}
 ---
 
 # Why?
