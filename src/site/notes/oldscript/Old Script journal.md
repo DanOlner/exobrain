@@ -6,7 +6,7 @@
 
 A journal of progress (or lack of it) on getting the sci-fi book out into the world and "one last edit"ed prior to that. ("The Old Script" was its working title, taken from the final lines of [this Peter Boyle poem](https://www.poetryinternational.com/en/poets-poems/poems/poem/103-9755_THE-UNKNOWABLE)). 
 
-Current thinking: the most interesting part of this process is dissolving it into the [broader exobrain process](https://coveredinbees.org/posts/why-make-things-simple/); see [[oldscript/Old Script journal#Obsidian / exobraining the book? 2025-12-13\|exobraining the book 13th Dec 25]] for first thoughts on that.
+Current thinking: the most interesting part of this process is dissolving it into the [broader exobrain process](https://coveredinbees.org/posts/why-make-things-simple/); see [exobraining the book 13th Dec 25](https://exobrain.coveredinbees.org/oldscript/old-script-journal/#obsidian-exobraining-the-book-2025-12-13-2025-12-13) for first thoughts on that.
 
 Skip to the end for the latest; it's a working doc.
 
