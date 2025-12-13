@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/andy-matuschak-on-notes/","tags":["#brainsystems","#socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/andy-matuschak-on-notes/","tags":["brainsystems"]}
 ---
 
 - [Main website](https://andymatuschak.org)
@@ -26,5 +26,3 @@ But that doesn't mean you can't steal ideas. Thus.
 - This one has some deep implications that I'm only just starting to notice as I play with new approaches: [metacognitive supports as cognitive scaffolding](https://notes.andymatuschak.org/zL2zRTTRhWf1Lx4x9p2uCDt). "[Learning requires metacognition](https://notes.andymatuschak.org/zBwPoJqo3vzLwzGSa4Tcgma), but environments can take some of that metacognitive burden off of learners’ shoulders." He mentions that teachers can provide the function of executive control in classrooms, allowing students to learn. The question is what other structures / scaffolds are there? That piece talks a bit about gamification too (to more tightly link reward/test structures).
 - [Writing notes for yourself by default. disregarding audience](https://notes.andymatuschak.org/zXDPrYcxUSZbF5M8vM5Y1U9) is super-useful too and again feeds back to the [[List of writing questions\|List of writing questions]]. He writes eloquently about the barriers that go up, sometimes subtle, but powerful enough to stymie progress, if thinking something is 'public'. What's interesting is how we can play around with that - as live exobrain pages do. I don't intend them for public consumption directly - I'll decide what ends up on the live blog - but I do see content here as part of the sinews of that. I'm not sure quite what's going on with it, that weird sort-of-Bauman-synoptic-I-can-be-seen blurred line. Obviously, there are plenty of cynical takes one could have. But let's not be cynical!
 	- Regardless, that is a very good principle he has: "write notes for myself 'by default,' and only 'opt into' writing notes for an audience explicitly."
-	- 
-
