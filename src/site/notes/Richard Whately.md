@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/richard-whately/","tags":["socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/richard-whately/","tags":["#socialoperatingsystems"]}
 ---
 
 # Why?
@@ -10,8 +10,7 @@ Or is there more to it than that? The parallels are so strong, so many of the fe
 
 Why is that important? I think that answers lie somewhere in both their shared blindness to other sources of social operating systems (especially if looking at 'uncivilised' societies) and their fundamental, religious reverence toward the order they believe they see. Arguably Hayek's is even stronger than Whately's - he wants to impose it on others, to educate out of them any residual 'anachronistic' altruism in service of that religion.
 
-
-## dfg
+## Some background
 
 I got to Whately via [this wikipedia page](https://en.wikipedia.org/wiki/Catallactics) on 'catallactics' - MIses and Hayek cite him as their source for the term. But after reading into Whately's thinking more, I'm struck by how much else from his work clearly informed Hayek (though Hayek himself doesn't cite him much).  
 
