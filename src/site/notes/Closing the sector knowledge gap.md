@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/closing-the-sector-knowledge-gap/","tags":["#regecon"]}
+{"dg-publish":true,"permalink":"/closing-the-sector-knowledge-gap/","tags":["regecon"]}
 ---
 
 # What?

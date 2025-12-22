@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/clippings/stone-system/","title":"Stone system","tags":["#clippings","#areyouhumansystem","#llm"]}
+{"dg-publish":true,"permalink":"/clippings/stone-system/","title":"Stone system","tags":["clippings","areyouhumansystem","llm"]}
 ---
 
 # journalist / academic 'show your working' platform

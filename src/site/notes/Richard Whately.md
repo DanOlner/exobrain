@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/richard-whately/","tags":["#socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/richard-whately/","tags":["socialoperatingsystems"]}
 ---
 
 # Why?
@@ -25,7 +25,7 @@ That's quite an image.
 
 This is him in his last decade, via the [National Portrait Gallery](https://www.npg.org.uk/collections/search/portrait/mw148150/Richard-Whately). ([This illustration](https://www.npg.org.uk/collections/search/portrait/mw42280/Richard-Whately) might be closer to his white attire.)
 
-![Screenshot 2025-12-13 at 18.15.50.png](/img/user/Screenshot%202025-12-13%20at%2018.15.50.png)
+![Screenshot 2025-12-13 at 18.15.50.png](/img/user/Attachments/Screenshot%202025-12-13%20at%2018.15.50.png)
 
 # 'Introductory Lectures on Political Economy' (1831)
 

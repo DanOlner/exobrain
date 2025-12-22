@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/andy-matuschak-on-notes/","tags":["#brainsystems","#socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/andy-matuschak-on-notes/","tags":["brainsystems"]}
 ---
 
 - [Main website](https://andymatuschak.org)

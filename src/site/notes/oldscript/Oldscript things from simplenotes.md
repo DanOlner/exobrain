@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/oldscript/oldscript-things-from-simplenotes/","tags":["#oldscript"]}
+{"dg-publish":true,"permalink":"/oldscript/oldscript-things-from-simplenotes/","tags":["oldscript"]}
 ---
 
 

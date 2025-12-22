@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/exobrain-diary/","tags":["#brainsystems"]}
+{"dg-publish":true,"permalink":"/exobrain-diary/","tags":["brainsystems"]}
 ---
 
 

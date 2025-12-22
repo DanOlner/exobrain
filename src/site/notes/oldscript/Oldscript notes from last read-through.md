@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/oldscript/oldscript-notes-from-last-read-through/","tags":["#oldscript"]}
+{"dg-publish":true,"permalink":"/oldscript/oldscript-notes-from-last-read-through/","tags":["oldscript"]}
 ---
 
 

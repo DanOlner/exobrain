@@ -10,4 +10,4 @@ Regular reminder: "The economy contracted by 0.1% in October, the Office for Nat
 * [Code for linking ABS error rate data](https://github.com/DanOlner/RegionalEconomicTools/blob/gh-pages/bits_of_code/ABS_error_rates.R) and plot below.
 
 
-![Pasted image 20251212112438.png](/img/user/Pasted%20image%2020251212112438.png)
+![Attachments/Pasted image 20251212112438.png](/img/user/Attachments/Pasted%20image%2020251212112438.png)
