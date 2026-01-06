@@ -3,7 +3,7 @@
 ---
 
 
-Summary of the transcipt via [this youtube vid](https://www.youtube.com/watch?v=_bBRVNkAfkQ) [[2025-12-15\|2025-12-15]].
+ChatGPT summary of the transcipt via [this youtube vid](https://www.youtube.com/watch?v=_bBRVNkAfkQ) [[2025-12-15\|2025-12-15]].
 ### Origins, purpose, and “what counts as evidence” for early writing
 
 - **Writing as an agreed sound system, not just pictures**
