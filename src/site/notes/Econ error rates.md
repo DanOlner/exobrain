@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/econ-error-rates/","tags":["#regecon","#econerror"]}
+{"dg-publish":true,"permalink":"/econ-error-rates/","tags":["regecon","econerror"]}
 ---
 
 Was going to post this to linkedin. Thinking better of it until I have some constructive suggestions!

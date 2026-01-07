@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ll-moutput/fridman-irving-finkel-transcript-summary-by-chat-gpt/","tags":["language","socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/ll-moutput/fridman-irving-finkel-transcript-summary-by-chat-gpt/","tags":["#language","#socialoperatingsystems"]}
 ---
 
 

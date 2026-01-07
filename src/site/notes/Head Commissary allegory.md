@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/head-commissary-allegory/","tags":["#socialoperatingsystems","#stub"]}
+{"dg-publish":true,"permalink":"/head-commissary-allegory/","tags":["socialoperatingsystems","stub"]}
 ---
 
 
