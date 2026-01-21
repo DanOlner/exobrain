@@ -11,3 +11,17 @@ Regular reminder: "The economy contracted by 0.1% in October, the Office for Nat
 
 
 ![Attachments/Pasted image 20251212112438.png](/img/user/Attachments/Pasted%20image%2020251212112438.png)
+
+# Threads
+
+- Key question is: what difference would/could it make to regional policy and how we think about growth? Overlap with Richard Harris / Bristol's work on university ranks.
+
+# Notes
+
+Why the ABS is a decent proxy for thinking about overall error in regional economic data - see ONS "Analysis of the extent of modelling and estimation in regional gross value added" [here](https://www.ons.gov.uk/economy/grossvalueaddedgva/articles/analysisoftheextentofmodellingandestimationinregionalgrossvalueadded/2018-03-28#principal-data-sources-used-in-regional-gross-value-added):  
+
+> Of all the data sources used in regional GVA, the ABS has the greatest overall impact, representing around 71% of GVA(P) and 22% of GVA(I). It also includes elements corresponding to all three of the categories of data we wish to analyse: directly collected from businesses operating in a single region; weighted to represent non-sampled businesses; and apportioned to regions from UK-wide company information.
+
+Note also:
+
+> The ABS data are not used in the agriculture or finance industries, or for the non-market public services or activities of households. ... 
