@@ -16,11 +16,17 @@ I pointed out, not unfairly I thought, that we didn't have any kite-making mater
 
 "We need to make kites," she repeated, her eyes piercing me with murderous intent. "Just use what we've got. There are sticks. There is paper. There is paint. There is glue. MAKE KITES."
 
-So we did. We glued two sticks together into a cross, and stuck paper on the cross, and the children happily painted their little kites, and we all got through those few hours alive.
+So we did. We glued two sticks together into a cross, and stuck paper on the cross, and the children happily painted their little kites, and we all got through those few hours alive, which is all the parents wanted from us.
 
-Did it matter that the kites weren't actually kites? Depends on your perspective I suppose. Most of the children didn't really know the difference and were perfectly content painting their little squares of paper glued on sticks. We passed the time and everyone went about their day.
+Did it matter that thei kites weren't actually kites? Depends on your perspective I suppose. Most of the children didn't really know the difference and were perfectly content painting their little squares of paper glued on sticks. We passed the time and everyone went about their day.
 
-On the other hand, it didn't cost four million pounds. I think with four million pounds we probably could have made real kites.
+On the other hand, it didn't cost four million pounds. I think with four million pounds we probably could have hired some actual kite makers.
+
+This isn't to pick just on the AI Skills Hub. It's AI generally. It's that same feeling we got seeing the '[Fatima's next job](https://www.bbc.co.uk/news/business-54505841) could be in cyber' ad. The inescapable sense that behind that poster lurked a whole range of people and politicians who had no idea what the word cyber meant.
+
+And now, somehow, the UK government have convinced themselves that AI will solve everything. It's the answer to any problem. Productivity puzzle? AI will fix it. Inequality? AI. Male pattern balding? AI. 
+
+Millions are being spent on something that very few people seem to have taken any time to actually try to understand. The result is this bizarre, borderline gaslighting attempt to convince every business in the UK that AI is magic fairy dust that will transform them into minority-report-screen-wielding Vulcans (mixed movie metaphor, excellent).
 
 # The new govt AI skills hub! Exciting! Let's look.
 
