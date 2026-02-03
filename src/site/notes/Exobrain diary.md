@@ -7,7 +7,7 @@ One on tying in with running / composting the connections while doing that
 
 # Obsidian / exobraining the sci-fi book? [[2025-12-13\|2025-12-13]]
 
-The thought: since [the original post](https://coveredinbees.org/posts/i_wrote_a_scifi_book/) about a 'get sci-fi book live' plan on CiB, it's become apparent the process I was embarking on was much wider. The book is part of it, but it's also gone into full re-assess-brainsystems mode, in light of trying to figure out how to work with my brain, not just smash it against the wall while blaming myself ([last CiB post](https://coveredinbees.org/posts/why-make-things-simple/)).
+The thought: since [the original post](https://coveredinbees.org/posts/i_wrote_a_scifi_book/) about a 'get sci-fi book live' plan on CiB, it's become apparent the process I was embarking on was wider. The book is part of it, but it's also gone into full re-assess-brainsystems mode, in light of trying to figure out how to work with my brain, not just smash it against the wall while blaming myself ([last CiB post](https://coveredinbees.org/posts/why-make-things-simple/)).
 
 A few things flow from that:
 - The book gets embedded in everything else in the exobrain. I can smush it all together and to an extent not worry about that mess or where it goes.
