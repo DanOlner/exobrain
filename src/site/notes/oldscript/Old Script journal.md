@@ -89,3 +89,11 @@ Chewing over this again. This is great from Cory ([reverse centaur piece](https:
 * "So what _is_ the alternative? A lot of artists and their allies think they have an answer: they say we should extend copyright to cover the activities associated with training a model. And I'm here to tell you _they are wrong_: wrong because this would inflict terrible collateral damage on socially beneficial activities, and it would represent a massive expansion of copyright over activities that are currently permitted – for good reason!"
 * "The day Disney and Universal filed suit against Midjourney, I got a press release from the RIAA, which represents Disney and Universal through their recording arms. Universal is the largest label in the world. Together with Sony and Warner, they control 70% of all music recordings in copyright today. It starts: "There is a clear path forward through partnerships that both further AI innovation and foster human artistry." It ends: "This action by Disney and Universal represents a critical stand for human creativity and responsible innovation." And it's signed by Mitch Glazier, CEO of the RIAA."
 
+# Naomi Alderman / don't burn anyone at the stake today 
+
+p.103 - ger plan for a distributed LLM that returns value to those it has combined / synthesised. Yep! Which offers an interesting fictional history point in all this. Maybe this happened - huzzah - but then it got recommoditised in a different way.
+
+It's probably OK to write up differing versions of this history...
+
+And! What about a computational breakthrough allowing vast model training with trillions of parameters on a single box or small set of connected boxes?
+

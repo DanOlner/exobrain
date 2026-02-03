@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/exobrain-diary/","tags":["brainsystems"]}
+{"dg-publish":true,"permalink":"/exobrain-diary/","tags":["#brainsystems"]}
 ---
 
 
@@ -25,4 +25,22 @@ So, picking a single scene - [[oldscript/oldscript_scenes/Hill -- Outside line\|
 
 Here, I'm chewing over the topics in [[Regecons live question list\|Regecons live question list]], where I'm trying to gently explore issues with the regional economic data we're using in the UK. It would be good to use this as a chance to pull together stuff I've learned over the past couple of years wrangling this stuff.
 
+But first, pulling focus a bit. If I'm not just going to try and headbutt my way through this as per usual - and quite likely feel like I've failed in various ways - what do I want from it? What counts as OK? Why do this at all? How could I tweak what I'm doing to maximise the odds of it being something I want it to be?
+
+The actual content is easy enough to state, is it, I think?
+
+- National accounts are now a global accounting framework built into economic governance/management. Accounts have to balance. It's a ledger.
+- Regions have to use that accounts framework because it's all there is. Or rather, it's the only accepted framework for national / international bodies to view regions through. It's a top-down lens, reflected in the fact that much of the data itself is top-down - national numbers divvied up between the regions based on some proxy. E.g. public sector output: a national output number in pounds, sliced up based on job counts and regional average public sector pay. Any apparent regional public sector output differences reflect nothing except pay and job count.
+
+And then I think I want a bunch of examples that ask "how different could regional economies appear if we use other lenses? How sensitive are they to these choices?" Most of which I've already coded up, at least in part.
+
+And that's key too - doing the data openly and making that available to others. That could be a useful thing.
+
+(Noting in passing one I haven't yet looked at, but we should - regional price indices. See e.g. [David Hearne's paper](https://www.tandfonline.com/doi/full/10.1080/00343404.2020.1836340#d1e150) on estimating regional price differences.)
+
+..
+
+So that's all great. But what about the 'so what' and the 'really, this?' and the 'are there ways to do this differently' stuff? Tricky given headbutting through is how I've always done it. But let's have a think.
+
+I could probably start by going through the [[List of writing questions\|List of writing questions]]. 
 
