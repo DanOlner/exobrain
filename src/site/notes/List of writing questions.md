@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/list-of-writing-questions/","tags":["brainsystems"]}
+{"dg-publish":true,"permalink":"/list-of-writing-questions/","tags":["#brainsystems"]}
 ---
 
 ## See also
@@ -12,7 +12,7 @@
 
 For any thought being chewed over, actually answer these!
 
-* What do I actually want to say about this, right now, in the state I’m in? xx
+* What do I actually want to say about this, right now, in the state I’m in?
 * What tiny part of this could I write about today and call it “enough”?
 * If this was just a blog note to my future self, what would I want to remember?
 * How can I use this to nudge my ‘public self’ a tiny bit closer to my actual self?
