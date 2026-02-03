@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/list-of-writing-questions/","tags":["#brainsystems"]}
+{"dg-publish":true,"permalink":"/list-of-writing-questions/","tags":["brainsystems"]}
 ---
 
 ## See also
