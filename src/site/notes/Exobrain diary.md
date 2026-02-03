@@ -3,9 +3,12 @@
 ---
 
 
-One on tying in with running / composting the connections while doing that
+## What's this doc?
 
-# Obsidian / exobraining the sci-fi book? [[2025-12-13\|2025-12-13]]
+1. A place to ramble about the process going on here at the exobrain
+2. And to chew over / whinge about / hopefully make some headway on testing different ways for my brain to exist in the world, do things I want to do, or possibly realise the reasons I thought I wanted to do a thing might change the direction things take.
+
+## Obsidian / exobraining the sci-fi book? [[2025-12-13\|2025-12-13]]
 
 The thought: since [the original post](https://coveredinbees.org/posts/i_wrote_a_scifi_book/) about a 'get sci-fi book live' plan on CiB, it's become apparent the process I was embarking on was wider. The book is part of it, but it's also gone into full re-assess-brainsystems mode, in light of trying to figure out how to work with my brain, not just smash it against the wall while blaming myself ([last CiB post](https://coveredinbees.org/posts/why-make-things-simple/)).
 
@@ -17,5 +20,9 @@ A few things flow from that:
 	- Doing this, I'm mulling how to connect to people who might be interested in this fairly odd way of doing things.
 
 So, picking a single scene - [[oldscript/oldscript_scenes/Hill -- Outside line\|Hill/Rem first]]...
+
+## Regional econs writing - why / what / maybe not? [[3rd-Feb-2026\|3rd-Feb-2026]]
+
+Here, I'm chewing over the topics in [[Regecons live question list\|Regecons live question list]], where I'm trying to gently explore issues with the regional economic data we're using in the UK. It would be good to use this as a chance to pull together stuff I've learned over the past couple of years wrangling this stuff.
 
 
