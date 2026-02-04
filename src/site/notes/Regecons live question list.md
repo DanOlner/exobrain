@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
 ---
 
 # What's this page?
@@ -13,6 +13,7 @@ I'll break it down into different kinds of question. Though picking any one ques
 With exobrain sub-pages linked if made.
 
 - [[Econ error rates\|Econ error rates]]
+- Uncertainty. Connects to error rates but is a bit different - some of that is already in [[Econ error rates\|Econ error rates]]. Ranks, the power of the single number.
 - [[National accounts\|National accounts]] (probably no replacement possible given its status as global accounting system responsible e.g. for regional funding allocation; possible to work alongside it?)
 - Wild deflators - telecoms example (see growth point below and links in [[Planners/Productivity digging\|Productivity digging]])
 - Imputed rent, the numbers. And why it's a reflection of the 'accounting' part of national accounts / the need to align nations. But then, is that really any use for understanding regional development?
@@ -71,7 +72,11 @@ A different but similar axis:
 * Claim: focus on [tradeable jobs](https://whatworksgrowth.org/insights/understanding-tradable-non-tradable-sectors/), as growing these is the quickest route to strong growth. These jobs are almost always the opposite of foundational ones - any job/sector that makes goods and services that can be traded *outside* the region. 
 	* The theoretical foundation comes from (I think) [this Rice & Venables working paper](https://www.productivity.ac.uk/wp-content/uploads/2022/06/WP021-Tradability-Productivity-and-RD-FINAL-240622.pdf) for the Productivity Institute. From a quick read, it looks like it's re-stating [Ricardian comparative advantage](https://en.wikipedia.org/wiki/Comparative_advantage) for UK regions pretty much exactly. So all the same arguments and counter-arguments for international trade as inter-regional apply (though of course domestic context adds plenty of wrinkles).
 * The claim continues: those tradeable jobs are the linchpin of any region; the wage rates of service / foundational sectors are higher in places with better tradeable jobs because there's more internal demand for them. While this is clearly a chunk of the economic story, it's also worth considering the ways non-tradeable sectors feed into overall regional productivity - they aren't just passive beneficiaries of tradeable 'trickle down'.
+	* But foundational jobs / sectors trade across borders too. How different are they in terms of cross-regional purchases, if looking at intermediate links? Might be some answers in the industry to industry payment data...
 
+What scale to deepen connections between?
+- Strengthen them within a region (e.g. build a West Yorkshire tram system) or between them (cancel that and put money instead into improved services between Northern cities?)
+	- Both, of course. But - what's the theory on the relative ROI for each approach, and why? Cf. the arg between Paul Swinney and West Mids.
 
 ## What is real growth? Why is it all so mad?
 
@@ -80,5 +85,17 @@ See e.g. the telecoms stuff in [[Planners/Productivity digging\|Productivity dig
 Here's a comment for this Calvin Jones post on digital:
 
 My brain is a bit scrambled by how digital services are measured anyway. Their value shift since all the early 2020s adjustments are boggling - see the plot here: the telecoms sector's chained volume measure increased by a *hundred and fifty times* (index of 0.7 in 1998 up to 106.1 in 2023). Whereas its proportion of the economy in pounds went from 1.92% in 1998 to 1.45% in 2023 - i.e. *dropped* by * 0.75ish. I can go through the CV vs CP numbers and I think just about get the quality-adjusted volume / pounds per bit justifications, but it still melts my noggin - mainly along "if growth can be this reliant on model choices and what deflator theory we like, what does it really mean??" lines. Thoughts gratefully received! Cf. the Brookings paper. https://www.brookings.edu/wp-content/uploads/2020/03/WP58_Abdirahman-et-al-1.pdf
+
+
+# Regecon journal
+
+## [[4th-Feb-2026\|4th-Feb-2026]]: reflective writing on the whole regecon thing
+
+Trying to get started on this. See [[Exobrain diary#^4779eb\|Exobrain diary#^4779eb]] for thoughts on going with the brain grain.
+
+I have a first sentence to put on LinkedIn anyway: "Seems to me there's a bit of a shortage of White Blokes Expressing Strong Opinions about Regional Economics on here, so thought I'd add my tuppence."
+
+What I'd like first, though, is just to shape what I think this is going to be, and some way to maximise the odds it'll progress. 
+
 
 
