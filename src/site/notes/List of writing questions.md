@@ -1,12 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/list-of-writing-questions/","tags":["#brainsystems"]}
+{"dg-publish":true,"permalink":"/list-of-writing-questions/","tags":["brainsystems"]}
 ---
 
 ## See also
 
 * External: '[How I garden](https://jzhao.xyz/posts/networked-thought#how-i-garden)' 
 
-> Note: this page is a horrible hodgepodge of my ideas and chatGPT's output. In future I want to be very clear about what's human and not. It absolutely shouldn't be any different to standard citation practice - if there's ambiguity, that's plagiarism! That's without getting into all the common LLMs being industrial plagiarism machines. [Here's a search engine](https://www.theatlantic.com/technology/archive/2025/03/search-libgen-data-set/682094/) to check if Meta's LLMs have used any of your work in a trove of pirated books they use. The rest do it too but hide it better.
+*Note: this page is a horrible hodgepodge of my ideas and chatGPT's output. In future I want to be very clear about what's human and not. It absolutely shouldn't be any different to standard citation practice - if there's ambiguity, that's plagiarism! That's without getting into all the common LLMs being industrial plagiarism machines. [Here's a search engine](https://www.theatlantic.com/technology/archive/2025/03/search-libgen-data-set/682094/) to check if Meta's LLMs have used any of your work in a trove of pirated books they use. The rest do it too but hide it better.*
+
+*That said, it really did help in expanding the options I had in my mind, especially in the section below on the various functions writing can have (beyond very narrow professional uses). So...*
 
 ## Starter questions
 
