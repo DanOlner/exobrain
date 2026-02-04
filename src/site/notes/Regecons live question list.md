@@ -18,6 +18,7 @@ With exobrain sub-pages linked if made.
 - Wild deflators - telecoms example (see growth point below and links in [[Planners/Productivity digging\|Productivity digging]])
 - Imputed rent, the numbers. And why it's a reflection of the 'accounting' part of national accounts / the need to align nations. But then, is that really any use for understanding regional development?
 - Public sector output - as an example for thinking through the implications of top-down slicing of output (in this case based purely on average public sector pay times job number, used to slice a nationally estimated pound value up between regions).
+- Tradeable vs foundational - thinking about the whole economy.
 
 # Misc links
 
