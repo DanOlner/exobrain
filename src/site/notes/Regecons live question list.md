@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
 ---
 
 # What's this page?
@@ -8,7 +8,7 @@ A place where I'll update questions about regional economies I'm chewing over an
 
 I'll break it down into different kinds of question. Though picking any one question inevitably pulls on other threads, let's see if we can keep it at least moderately sane. I will aim to write self-contained little pieces discussing each and how they connect, where appropriate with some data analysis.
 
-# Subtopics to cover
+# Topics to cover
 
 With exobrain sub-pages linked if made.
 
@@ -99,4 +99,39 @@ I have a first sentence to put on LinkedIn anyway: "Seems to me there's a bit of
 What I'd like first, though, is just to shape what I think this is going to be, and some way to maximise the odds it'll progress. 
 
 
+## Bits on the uncertainty article [[5th-Feb-2026\|5th-Feb-2026]]
 
+See [here](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/articles/ukproductivityintroduction/latest#data-sources-and-quality)? "Imputed rental is excluded from "Industry L: real estate" because including it would distort productivity measures, since the output is mainly an imputed value rather than a result of labour or market service provision."
+
+I was told it's included. Excluding would seem sensible to me, but... well, that's something we can check against the CP totals.
+
+Note also 'strengths / limitations' in the [latest subregional thingyo](https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/bulletins/regionalandsubregionallabourproductivityuk/2023#data-sources-and-quality). Points out it gets volatile below ITL1.
+
+Oh - I asked about regional GDP figures. Let's see if I can check on productivity figures. I'll check totals (as I've done before) and then email.
+
+Oh ah 2: CIs are in the LFS / APS hours worked data - I can grab that from NOMIS. Would be good to check it roughly aligns with hours in the prod stuff. But let's see (or possibly just nab the CIs and apply them).
+
+..
+
+OK, got a reasonable way just with the ABS and linking to region/industry GVA (the usual sector mismatch faff). Just want to list some things to aim for before calling it done:
+
+- Use exactly the same approach for current prices, and put some bounds around locations quotients at ITL1 level.
+- Make some assumptions about SEs scaling to smaller geographies and do the same, maybe showing how much uncertainty bounds could increase.
+	- This may require thinking through how whole-economy growth numbers come out of its underlying parts, which might be a bit much for a first post.
+- 
+
+
+
+
+
+
+![Pasted image 20260206152804.png](/img/user/Attachments/Pasted%20image%2020260206152804.png)
+
+
+![Pasted image 20260206153330.png](/img/user/Attachments/Pasted%20image%2020260206153330.png)
+
+![Pasted image 20260206155035.png](/img/user/Attachments/Pasted%20image%2020260206155035.png)
+
+![Pasted image 20260206160206.png](/img/user/Attachments/Pasted%20image%2020260206160206.png)
+
+That's really nice, you can see the COVID signal very clearly in many places.

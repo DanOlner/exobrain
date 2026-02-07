@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/exobrain-diary/","tags":["#brainsystems"]}
+{"dg-publish":true,"permalink":"/exobrain-diary/","tags":["brainsystems"]}
 ---
 
 
@@ -22,6 +22,8 @@ A few things flow from that:
 So, picking a single scene - [[oldscript/oldscript_scenes/Hill -- Outside line\|Hill/Rem first]]...
 
 ## Regional econs writing - why / what / maybe not? [[3rd-Feb-2026\|3rd-Feb-2026]]
+{ #4779eb}
+
 
 Here, I'm chewing over the topics in [[Regecons live question list\|Regecons live question list]], where I'm trying to gently explore issues with the regional economic data we're using in the UK. It would be good to use this as a chance to pull together stuff I've learned over the past couple of years wrangling this stuff.
 
@@ -40,7 +42,16 @@ And that's key too - doing the data openly and making that available to others. 
 
 ..
 
+The plan might include: 
+- Starting drafts of each on the exobrain, and getting feedback on those before publishing anything else. 
+	- Or not. I mean, probably not. Spreading it over 3 different blogs would be pretty insane, no?
+
+..
+
 So that's all great. But what about the 'so what' and the 'really, this?' and the 'are there ways to do this differently' stuff? Tricky given headbutting through is how I've always done it. But let's have a think.
 
-I could probably start by going through the [[List of writing questions\|List of writing questions]]. 
+I could probably start by going through the [[List of writing questions\|List of writing questions]]. Let's see what jumps out for thinking about this project.
+
+
+
 
