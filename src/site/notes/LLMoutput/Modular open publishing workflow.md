@@ -514,7 +514,7 @@ For a research project (rather than production software), a pragmatic adaptation
 4. Click "Publish release"
 5. Zenodo automatically archives and mints a DOI (if integration is enabled)
 
-Note: you can use [GitKraken](https://www.gitkraken.com/) (which you already use) to create tags before drafting the release in the GitHub web interface. See GitKraken's [guide on semantic versioning with git tags](https://www.gitkraken.com/gitkon/semantic-versioning-git-tags).
+Note: you can use [GitKraken](https://www.gitkraken.com/) to create tags before drafting the release in the GitHub web interface. See GitKraken's [guide on semantic versioning with git tags](https://www.gitkraken.com/gitkon/semantic-versioning-git-tags).
 
 **After a release**, paste the new Zenodo DOI into:
 - The repo README
