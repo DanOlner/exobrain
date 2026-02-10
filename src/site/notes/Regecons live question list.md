@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
 ---
 
 # What's this page?
@@ -155,3 +155,5 @@ Though it that: I want to include the Lost Boys thing. Academic writing schmacad
 
 Let's try and braindump the things I want to test with this:
 - NOT the [preprint model](https://www.ntu.ac.uk/media/documents/library/preprints_faq.pdf) ("a complete (full draft version) manuscript shared with a public audience without peer review") i.e. the full working paper. Or not that being the 'first public view' stage. That's too late, and I want it to be more modular. I was thinking this looking at the list of focus points above - what's in, what's out, what's 'complete'? 
+- Headlines at the top for policy implications. Doesn't need to be a fancy-graphic'd two pager. Policymakers can read headlines. I though [Manski's paper here](https://mea.sites.grinnell.edu/wp-content/uploads/2021/05/manski_mea_address.pdf) had a nice structure for that - very, very clear top level points.
+	- See also LLM ideas for modular policy engagement [[LLMoutput/Modular open publishing workflow\|here]].
