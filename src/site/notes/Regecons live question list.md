@@ -18,7 +18,7 @@ With exobrain sub-pages linked if made.
 - Wild deflators - telecoms example (see growth point below and links in [[Planners/Productivity digging\|Productivity digging]])
 - Imputed rent, the numbers. And why it's a reflection of the 'accounting' part of national accounts / the need to align nations. But then, is that really any use for understanding regional development?
 - Public sector output - as an example for thinking through the implications of top-down slicing of output (in this case based purely on average public sector pay times job number, used to slice a nationally estimated pound value up between regions).
-- Tradeable vs foundational - thinking about the whole economy.
+- Tradeable vs foundational - thinking about the whole economy (some stuff coming out of the intermediate links work that suggests this is more complex).
 
 # Misc links
 
@@ -99,11 +99,11 @@ I have a first sentence to put on LinkedIn anyway: "Seems to me there's a bit of
 What I'd like first, though, is just to shape what I think this is going to be, and some way to maximise the odds it'll progress. 
 
 
-## Bits on the uncertainty article [[5th-Feb-2026\|5th-Feb-2026]]
+## Bits on uncertainty article 1 [[5th-Feb-2026\|5th-Feb-2026]]
 
 See [here](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/articles/ukproductivityintroduction/latest#data-sources-and-quality)? "Imputed rental is excluded from "Industry L: real estate" because including it would distort productivity measures, since the output is mainly an imputed value rather than a result of labour or market service provision."
 
-I was told it's included. Excluding would seem sensible to me, but... well, that's something we can check against the CP totals.
+I was told it's included. Excluding would seem sensible to me, but... well, that's something we can check against the CP totals. Ah no - that was regional GDP figures, not productivity. That needs checking.
 
 Note also 'strengths / limitations' in the [latest subregional thingyo](https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/bulletins/regionalandsubregionallabourproductivityuk/2023#data-sources-and-quality). Points out it gets volatile below ITL1.
 
@@ -118,20 +118,40 @@ OK, got a reasonable way just with the ABS and linking to region/industry GVA (t
 - Use exactly the same approach for current prices, and put some bounds around locations quotients at ITL1 level.
 - Make some assumptions about SEs scaling to smaller geographies and do the same, maybe showing how much uncertainty bounds could increase.
 	- This may require thinking through how whole-economy growth numbers come out of its underlying parts, which might be a bit much for a first post.
-- 
+
+I can leave those last ones open for another post. I think here - get to 'error bars for LQS at ITL1' and that will be plenty to make the point. I can then list the other things we can check later e.g. testing the rank issue. Implications include the kind of league table thinking we see when comparing to EU cities: "UK cities should be like x or y but... " Soooo many reasons we can't be sure about that. But - as we show here - quantifying uncertainty can bring a new, better kind of certainty! (Could link to man crossing bridge point.)
+
+## Doing LQ uncertainty bounds [[9th-Feb-2026\|9th-Feb-2026]]
+
+... is slightly trickier. I was trying to find LQs separately for central, min and max but I realise that actually doesn't make sense (having seen the batty CIs) - they won't sum correctly, will they? Think this through a bit.
+- The central GVA estimate gets summed across all places, and against other sector sizes too both regionally and nationally. So the variation in the sizes of those is going to wamp out totals isn't it? Though I'm struggling a bit to visualise how.
+- Possibly I should be **holding all other values constant**, not using mins and maxes for everything - or more likely, using the CIs values to simulate what the values could be. That's probably a better idea.
+..
+Just running through each SIC2 after some claude-code sims on LQs. To pick out some that jump out.
+	- CCI: biiiig error bars there. 
+	- Human health...
+	- Land transport:  that's really nice, you can see the COVID signal very clearly in many places.
 
 
+## Plan for writing / actually, broader plan
 
+Think there's enough data and tools for this now! Let's just run through what I've got and give myself a sense of what I'm going to write about.
 
+- First say what the GVA data is / how I'm using it. 
 
+..
 
-![Pasted image 20260206152804.png](/img/user/Attachments/Pasted%20image%2020260206152804.png)
+Scratch that last bit. I've been thinking about what this writing project is, and a few things are happening:
+- The new exobrain system is, I think, beginning to work. It is going with my grain and allowing some larger stuff to happen.
+- I want to get out these reflections, but as I've worked on it, it's become apparent that - if I wanted to - I could make it something a bit more official.
+- But in doing that, I also want to balance openness and protection i.e. that this is my work, but I want to collaborate.
+- AND! It offers ways to experiment with academic writing - or rather, the kind of knowledge work where we want things to progress, collaboration to be possible, traceable systems to exist. The 'open feedback and protection' thread in chatGPT has a lot of useful links.
 
+Now then. I am of course concerned about mission creep, and about getting dragged in a wrong direction that I don't have time for. But... I think this does all go with the grain of what I want to do, and gives me a chance to do this on my own terms.
 
-![Pasted image 20260206153330.png](/img/user/Attachments/Pasted%20image%2020260206153330.png)
+But it'll take a little bit of planning. The writing in [[Regecons reflections 1\|Regecons reflections 1]] is all good and useful, but it may end up in different places. 
 
-![Pasted image 20260206155035.png](/img/user/Attachments/Pasted%20image%2020260206155035.png)
+Though it that: I want to include the Lost Boys thing. Academic writing schmacademic schmiting.
 
-![Pasted image 20260206160206.png](/img/user/Attachments/Pasted%20image%2020260206160206.png)
-
-That's really nice, you can see the COVID signal very clearly in many places.
+Let's try and braindump the things I want to test with this:
+- NOT the [preprint model](https://www.ntu.ac.uk/media/documents/library/preprints_faq.pdf) ("a complete (full draft version) manuscript shared with a public audience without peer review") i.e. the full working paper. Or not that being the 'first public view' stage. That's too late, and I want it to be more modular. I was thinking this looking at the list of focus points above - what's in, what's out, what's 'complete'? 
