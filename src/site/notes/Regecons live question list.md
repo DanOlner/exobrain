@@ -157,4 +157,21 @@ Let's try and braindump the things I want to test with this:
 - NOT the [preprint model](https://www.ntu.ac.uk/media/documents/library/preprints_faq.pdf) ("a complete (full draft version) manuscript shared with a public audience without peer review") i.e. the full working paper. Or not that being the 'first public view' stage. That's too late, and I want it to be more modular. I was thinking this looking at the list of focus points above - what's in, what's out, what's 'complete'? 
 - Headlines at the top for policy implications. Doesn't need to be a fancy-graphic'd two pager. Policymakers can read headlines. I though [Manski's paper here](https://mea.sites.grinnell.edu/wp-content/uploads/2021/05/manski_mea_address.pdf) had a nice structure for that - very, very clear top level points.
 	- See also LLM ideas for modular policy engagement [[LLMoutput/Modular open publishing workflow\|here]] (part 5).
-- 
+
+
+Here's what I think the modular order could look like:
+- **This first set of uncertainty examples**. I can then ask: what am I getting horribly wrong here? What assumptions are wrong? Try and get a bit of feedback, though stating things clearly so they can be clearly refuted. Have em as hypotheses.
+	- Which can include the Manski 
+- Module 2: uncertainty in policymaking lit review / thoughts. I need to start with some of those, but then deeper dive?
+- Module 3: applying that to how we're thinking about industrial strategy and place. Or whatever else becomes relevant.
+
+That can sit within the wider goals this doc talks about.
+
+OK, if that's the order of things... what goes where? I think what I want is the following:
+- Introductory CiB post on what I'm doing. That'll be some of the gumph from [[Regecons reflections 1\|Regecons reflections 1]].
+- Actual modular component within its own github repo. That needs to be smaller and more compact than the existing [regecontools site](https://github.com/DanOlner/RegionalEconomicTools), and can have DOI refs. Modules can be assembled there. I may want to just directly write in RStudio for that, keep the obsidian/CiB crossover for the blog?
+	- Yeah, quick test - RStudio automatically makes a bibliography.tex file so the bib auto-compiles. It doesn't here.
+
+
+
+
