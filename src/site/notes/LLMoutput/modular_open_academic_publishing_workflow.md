@@ -204,6 +204,128 @@ Even without a full preprint, a **DOI'd method module + DOI'd code snapshot** es
 
 ---
 
+## Part 5: Aligning Modular Outputs With UK Regional Economic Policy Engagement
+
+### The Opportunity
+
+UK regional economic policy is in a period of intense institutional development — devolution, the creation of combined authorities, ONS's subnational statistics programme, and a growing emphasis on evidence-based local decision-making. This creates a natural audience for modular, open research outputs: policymakers and analysts who need *usable components* (methods, data, code) more than they need finished papers. The modular approach described above is worth testing for building genuine research-policy feedback loops.
+
+### The UK Institutional Landscape: Who to Connect With
+
+#### ONS Centre for Subnational Analysis & ONS Local
+
+The [ONS Centre for Subnational Analysis](https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/onscentres/centreforsubnationalanalysis) leads on producing regional accounts, subnational GDP, GDHI, and experimental local statistics. They actively share prototypes and code via GitHub. [ONS Local](https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/onslocal), established in 2023, provides dedicated analytical advisory services to local leaders — analysts embedded across the UK who need practical tools and methods.
+
+The [GSS Subnational Data Strategy](https://analysisfunction.civilservice.gov.uk/policy-store/gss-subnational-data-strategy/) explicitly centres collaboration with academia and the private sector. This is a direct route for feeding modular code/method outputs into the statistical production system.
+
+#### ADR UK (Administrative Data Research UK)
+
+[ADR UK](https://www.adruk.org/) is a UK-wide ESRC-funded partnership transforming public sector data into research insights. Their model is explicitly about **bringing government and academic groups together into collaborative partnerships** — with a feedback loop between data owners and researchers. ADR UK runs [research fellowships](https://www.adruk.org/news-publications/funding-opportunities/) and community catalysts that could align well with modular, open outputs that demonstrate method on linked administrative data.
+
+#### The Productivity Institute
+
+[The Productivity Institute](https://www.productivity.ac.uk/) runs **Regional Productivity Forums** across the UK — forums that bring together businesses, policymakers, and academics on regional productivity issues. Their research on [regional inequality and binding constraints](https://www.productivity.ac.uk/research/tackling-the-uks-regional-economic-inequality-binding-constraints-and-avenues-for-policy-intervention/) is directly adjacent to regional accounts work. They publish working papers and policy briefs and actively seek engaged research contributions.
+
+#### What Works Centre for Local Economic Growth
+
+The [What Works Centre for Local Economic Growth](https://whatworksgrowth.org/) (hosted at LSE / Centre for Cities) focuses on which policies are most effective for local economic growth, using rigorous impact evaluation. They help local and central government make growth policy more cost-effective through better use of evidence. Sharing reproducible method modules — especially around measurement and evaluation — maps directly onto their mission.
+
+#### ESRC Local Policy Innovation Partnerships (LPIPs)
+
+[Local Policy Innovation Partnerships](https://www.ukri.org/opportunity/developing-local-policy-innovation-partnerships/) bring together devolved governments, local authorities, businesses, and communities to address local policy challenges through research and innovation. The programme explicitly supports **co-production** between researchers and local stakeholders. A [strategic coordination hub](https://www.ukri.org/opportunity/strategic-coordination-hub-for-local-policy-innovation-partnerships/) links the partnerships together.
+
+#### Areas of Research Interest (ARIs)
+
+The [ARI Database](https://ari.org.uk/) lists questions that UK government departments are actively seeking to answer. Checking ARIs for relevant regional economics / measurement questions gives you a direct line to "this is what government wants to know" — and lets you frame modular outputs as contributing to those questions.
+
+#### ESRC P2R (Policymaker Engagement with Research)
+
+The [P2R programme](https://www.ukri.org/opportunity/p2r-increasing-uk-policymaker-engagement-with-research/) funds projects that increase policymaker engagement with research. Worth tracking for funding opportunities and for understanding the institutional framing of research-policy collaboration. (Already funded projects about to start...)
+
+### Maximising Iteration, Feedback, and Conversation
+
+#### 1. Make Modules Legible to Non-Academic Partners
+
+Policymakers and ONS analysts don't read working papers the same way academics do. For each module, produce a **twin output**:
+
+- **Technical module**: the Quarto doc with full method, code, reproducible example (aimed at researchers / ONS methodologists)
+- **Policy-facing note**: a 1-2 page summary — "what this means for X", "what question this helps answer", "what data this needs" (aimed at policymakers, combined authority analysts, ONS Local staff)
+
+The policy note should always link back to the technical module and its DOI. This is the "citable artefact + legible summary" pattern from Part 1, but oriented towards government partners.
+
+#### 2. Use the Blog as a "Conversation Starter" Layer
+
+The [coveredinbees.org](https://coveredinbees.org/) blog already functions as an open notebook. To maximise feedback from non-academic partners:
+
+- **Tag posts by audience**: "for-policymakers", "for-ONS", "technical-method" — so people can filter to what matters to them
+- **End each post with explicit questions**: "Does this assumption match your production reality?" / "Is this data available at LA level?" / "Would this be useful for X?"
+- **Share specific posts (not "the whole project") on LinkedIn** with a short hook aimed at the relevant audience. Policy people respond to "here's a finding that affects your decisions" more than "here's my workflow."
+
+#### 3. Build a "Stakeholder Feedback" Loop Into the Manifest
+
+Extend the `modules.yml` manifest (from Part 4) to track engagement:
+
+```yaml
+- name: expected-vs-observed-flows
+  slug: exp-obs-flows
+  status: stable
+  doi: 10.5281/zenodo.XXXXXXX
+  feedback_from:
+    - org: ONS Subnational
+      date: 2025-03-15
+      summary: "Confirmed LA-level data available from 2024"
+    - org: Combined Authority X
+      date: 2025-04-02
+      summary: "Interested in applying method to transport flows"
+  policy_note: papers/exp-obs-flows/policy-note.md
+```
+
+This creates a transparent record of who has engaged with what, which strengthens both the academic paper ("we tested this with practitioners") and the policy case ("researchers and local government co-developed this").
+
+#### 4. Offer Reproducible "Sandboxes" Not Just Finished Results
+
+Government analysts (especially in ONS and combined authorities) increasingly work with R and Python. Sharing a **runnable example** they can adapt is more valuable than a PDF they can only read. For each stable method module:
+
+- Include a minimal reproducible example with synthetic or open data
+- Consider a small [Binder](https://mybinder.org/) or [Posit Cloud](https://posit.cloud/) link so someone can run it without local setup
+- Make the code work with [ONS open data APIs](https://developer.ons.gov.uk/) where possible, so the examples are immediately relevant to their data ecosystem
+
+#### 5. Attend to the "Co-Production" Framing
+
+UKRI and ESRC increasingly value **co-production** — research designed *with* stakeholders, not just *for* them. The modular approach naturally supports this: you can share a draft method module with ONS analysts or local authority economists, incorporate their feedback, and credit their contribution explicitly in the module metadata and the eventual paper.
+
+This is distinct from traditional "impact" (where you do the research, then tell people about it). Co-production means the iteration loop is part of the research design. Document it as such — it strengthens both the intellectual case and the REF/impact case.
+
+#### 6. Align With the Subnational Statistics Calendar
+
+ONS publishes regional accounts, subnational GDP, GDHI, and experimental statistics on a known schedule (see the [ONS subnational work programme](https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/articles/subnationalstatisticsandanalysiscurrentandupcomingwork/october2023)). Timing module releases and blog posts to coincide with relevant ONS publications maximises relevance and visibility — e.g., releasing a method module on measuring regional flows just as new regional accounts data drops.
+
+#### 7. Use Existing Forums and Networks
+
+Rather than building an audience from scratch, plug into existing convening structures:
+
+| Forum / Network | What It Does | How to Engage |
+|---|---|---|
+| [Regional Productivity Forums](https://www.productivity.ac.uk/) (Productivity Institute) | Regional stakeholder convenings | Present method modules; seek practitioner feedback |
+| [ONS Local](https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/onslocal) | Embedded analysts advising local leaders | Share tools/methods directly with embedded analysts |
+| [UPEN](https://upen.ac.uk/) (Universities Policy Engagement Network) | Bridges academia and policymakers | Use as a channel for policy notes; learn from their [resources on regional collaboration](https://upen.ac.uk/resources/enhancing-regional-policy-research-collaboration-in-london-and-beyond/) |
+| [NIESR](https://niesr.ac.uk/) (National Institute of Economic and Social Research) | Independent economic research | Engage via seminars, working paper series |
+| [What Works Growth](https://whatworksgrowth.org/) seminars & evidence reviews | Evidence for local growth policy | Submit evidence; attend practitioner events |
+| [ESRC Knowledge Exchange opportunities](https://www.ukri.org/opportunity/collaborative-knowledge-exchange-projects-on-the-theme-of-place/) | Funded place-based knowledge exchange | Apply for collaborative funding with local partners |
+
+### How This Feeds Back Into the Paper
+
+The modular, open, engaged approach doesn't just generate feedback — it generates **evidence of impact and co-production** that strengthens the eventual academic output:
+
+- Feedback from practitioners validates assumptions and improves methods (documented in the manifest)
+- Policy notes demonstrate real-world relevance
+- Co-production with ONS/local government analysts can be cited as methodological validation
+- The open, timestamped trail (DOIs, blog posts, GitHub releases) tells a compelling story about how the research developed in dialogue with its intended users
+
+This is increasingly what funders (ESRC, UKRI) and assessment frameworks ([REF impact case studies](https://www.ref.ac.uk/), [DORA](https://sfdora.org/)) want to see: research that was engaged from the start, not retrofitted with an "impact" narrative after publication.
+
+---
+
 ## Summary & Additional Notes
 
 ### The Core Strategy in One Sentence
@@ -230,6 +352,18 @@ Even without a full preprint, a **DOI'd method module + DOI'd code snapshot** es
 | RegionalEconomicTools repo | https://github.com/DanOlner/RegionalEconomicTools |
 | coveredinbees.org | https://coveredinbees.org/ |
 | Workflow post | https://coveredinbees.org/posts/why-make-things-simple/ |
+| ONS Centre for Subnational Analysis | https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/onscentres/centreforsubnationalanalysis |
+| ONS Local | https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/onslocal |
+| GSS Subnational Data Strategy | https://analysisfunction.civilservice.gov.uk/policy-store/gss-subnational-data-strategy/ |
+| ADR UK | https://www.adruk.org/ |
+| The Productivity Institute | https://www.productivity.ac.uk/ |
+| What Works Centre for Local Economic Growth | https://whatworksgrowth.org/ |
+| Local Policy Innovation Partnerships | https://www.ukri.org/opportunity/developing-local-policy-innovation-partnerships/ |
+| ARI Database | https://ari.org.uk/ |
+| ESRC P2R Programme | https://www.ukri.org/opportunity/p2r-increasing-uk-policymaker-engagement-with-research/ |
+| UPEN (Universities Policy Engagement Network) | https://upen.ac.uk/ |
+| NIESR | https://niesr.ac.uk/ |
+| Binder (reproducible environments) | https://mybinder.org/ |
 
 ### Additional Considerations (Claude)
 
@@ -245,4 +379,4 @@ Even without a full preprint, a **DOI'd method module + DOI'd code snapshot** es
 
 ---
 
-*Generated from ChatGPT conversation, with additional context and links added by Claude. February 2025.*
+*Generated from ChatGPT conversation (Parts 1-4), with Part 5 and additional context/links added by Claude. February 2025.*
