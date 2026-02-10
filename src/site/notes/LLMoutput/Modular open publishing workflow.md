@@ -4,7 +4,7 @@
 
 ## Maximising Openness & Contribution Acknowledgement
 
-*Summary of ChatGPT conversation on building an open-first academic writing workflow where all contributors have their contributions acknowledged and cited. Digested and annotated by Claude, with occasional Dan edits.
+*Summary of ChatGPT conversation on building an open-first academic writing workflow where all contributors have their contributions acknowledged and cited. Digested and annotated by Claude, with occasional Dan edits.*
 
 ---
 
