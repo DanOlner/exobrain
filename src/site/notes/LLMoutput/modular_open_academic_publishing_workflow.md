@@ -2,23 +2,23 @@
 {"dg-publish":true,"permalink":"/ll-moutput/modular-open-academic-publishing-workflow/"}
 ---
 
-# Modular Open Academic Publishing: Maximising Openness & Idea Protection
+# Modular Open Academic Publishing: Maximising Openness & Contribution Acknowledgement
 
-*Summary of ChatGPT conversation on building an open-first, priority-safe academic writing workflow. Digested and annotated by Claude., with occasional Dan edits.
+*Summary of ChatGPT conversation on building an open-first academic writing workflow where all contributors have their contributions acknowledged and cited. Digested and annotated by Claude., with occasional Dan edits.
 
 ---
 
 ## Context
 
-The core challenge: how to pursue an output as an *endpoint* of an ongoing, open research project — sharing work early for feedback (blog posts, LinkedIn, policymakers, ONS) — while still protecting intellectual priority. The workflow already in place: **Obsidian** (writing) -> **Quarto** (rendering) -> **GitHub** (versioning/hosting), with R functions handling link/YAML conversion. Code lives at the [RegionalEconomicTools](https://github.com/DanOlner/RegionalEconomicTools) repo. The published blog is at [coveredinbees.org](https://coveredinbees.org/), with the workflow itself described in [Why Make Things Simple?](https://coveredinbees.org/posts/why-make-things-simple/).
+The core challenge: how to pursue an output as an *endpoint* of an ongoing, open research project — sharing work early for feedback (blog posts, LinkedIn, policymakers, ONS) — while making sure all contributors have their contributions acknowledged and cited. The workflow already in place: **Obsidian** (writing) -> **Quarto** (rendering) -> **GitHub** (versioning/hosting), with R functions handling link/YAML conversion. Code lives at the [RegionalEconomicTools](https://github.com/DanOlner/RegionalEconomicTools) repo. The published blog is at [coveredinbees.org](https://coveredinbees.org/), with the workflow itself described in [Why Make Things Simple?](https://coveredinbees.org/posts/why-make-things-simple/).
 
 ---
 
-## Part 1: The "Open-First, Priority-Safe" Workflow
+## Part 1: The "Open-First, Attribution-Clear" Workflow
 
-### Key Principle: Timestamped Public Disclosure = Priority
+### Key Principle: Timestamped Public Disclosure = Clear Attribution
 
-In academia, **copyright protects expression** (your text/code) but **not ideas**. What protects academic priority is **public, timestamped, citable disclosure**. The strategy is to shift from "I said it on LinkedIn" to "I have a citable record with a DOI that establishes precedence."
+In academia, **copyright protects expression** (your text/code) but **not ideas**. What ensures contributions are properly acknowledged is **public, timestamped, citable disclosure**. The strategy is to shift from "I said it on LinkedIn" to "I have a citable record with a DOI that makes it easy for anyone to acknowledge and cite the contribution."
 
 ### Preprint / Working Paper Venues for Economics & Policy
 
@@ -198,9 +198,9 @@ A `modules.yml` or `modules.csv` in the repo listing:
 
 This is a lightweight "Research Object map" implemented with boring files.
 
-### Why This Protects Ideas
+### Why This Ensures Contributions Are Acknowledged
 
-Even without a full preprint, a **DOI'd method module + DOI'd code snapshot** establishes precedence for the core contribution (method + implementation), while interpretation stays flexible. When you *do* preprint, it becomes an assembly of already-citable modules.
+Even without a full preprint, a **DOI'd method module + DOI'd code snapshot** makes it straightforward for anyone building on the work to cite and credit the contribution (method + implementation), while interpretation stays flexible. When you *do* preprint, it becomes an assembly of already-citable modules — and all contributors along the way have a clear citation trail.
 
 ---
 
