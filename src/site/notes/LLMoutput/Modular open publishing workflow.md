@@ -4,7 +4,7 @@
 
 ## Maximising Openness & Contribution Acknowledgement
 
-*Summary of ChatGPT conversation on building an open-first academic writing workflow where all contributors have their contributions acknowledged and cited. Digested and annotated by Claude, with occasional Dan edits.*
+*Summary of ChatGPT thread on building an open-first academic writing workflow where all contributors have their contributions acknowledged and cited. Digested and annotated by Claude, with occasional Dan edits.*
 
 ---
 
@@ -381,4 +381,387 @@ This is increasingly what funders (ESRC, UKRI) and assessment frameworks ([REF i
 
 ---
 
-*Generated from ChatGPT conversation (Parts 1-4), with Part 5 and additional context/links added by Claude. February 2025.*
+## Part 6: Technical Setup — Configuring a GitHub Repo for Modular Outputs With DOIs
+
+This section collates the practical, technical details for setting up a GitHub repository to support the modular publishing workflow described above: Zenodo integration, metadata files, repo structure, versioning, issue templates for feedback, and GitHub Discussions.
+
+### 1. Connecting GitHub to Zenodo (One-Time Setup)
+
+The [Zenodo-GitHub integration](https://help.zenodo.org/docs/github/enable-repository/) is straightforward. Once connected, every GitHub Release you create is automatically archived on Zenodo and assigned a DOI.
+
+**Steps:**
+
+1. **Create a Zenodo account** at [zenodo.org](https://zenodo.org/). You can sign up with your GitHub account directly, which links the two.
+2. **Go to Zenodo settings** → GitHub tab, or navigate to [zenodo.org/account/settings/github/](https://zenodo.org/account/settings/github/).
+3. **Click "Sync now"** to refresh your repository list.
+4. **Toggle on the repository** you want to archive (e.g. `DanOlner/RegionalEconomicTools`). The slider turns green when connected.
+5. **That's it.** From now on, every GitHub Release on that repo will be automatically ingested and archived by Zenodo, with a DOI minted for each release.
+
+For a detailed walkthrough with screenshots, see [this guide from INBO](https://tutorials.inbo.be/tutorials/git_zenodo/) or [GitHub's own docs on referencing and citing content](https://docs.github.com/articles/referencing-and-citing-content).
+
+**Important:** You can also link your [ORCID iD](https://orcid.org/) to your Zenodo account. This ties your DOI'd outputs to your persistent author identity across all platforms. See the [INBO guide on setting up GitHub, Zenodo and ORCID together](https://inbo.github.io/checklist/articles/zenodo.html).
+
+### 2. Metadata Files: CITATION.cff and .zenodo.json
+
+Zenodo extracts metadata from your repo when it archives a release. It looks for files in this priority order:
+
+1. **`.zenodo.json`** (highest priority — if present, CITATION.cff is ignored by Zenodo)
+2. **`CITATION.cff`**
+3. **`LICENSE`**
+
+You can use either or both, but be aware: **if your repo contains both `.zenodo.json` and `CITATION.cff`, Zenodo will only use `.zenodo.json`**. However, GitHub itself uses `CITATION.cff` for its "Cite this repository" widget, so there's a case for having both — `.zenodo.json` for Zenodo-specific metadata, `CITATION.cff` for GitHub display.
+
+#### CITATION.cff
+
+The [Citation File Format](https://citation-file-format.github.io/) is a YAML file that tells people how to cite your work. When placed in the root of your repo, GitHub renders a "Cite this repository" button on the landing page, with BibTeX and APA formats auto-generated.
+
+A minimal example:
+
+```yaml
+cff-version: 1.2.0
+message: "If you use this software or analysis, please cite it using these metadata."
+authors:
+  - family-names: Olner
+    given-names: Dan
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+title: "RegionalEconomicTools"
+version: 0.1.0
+date-released: "2025-02-10"
+license: MIT
+url: "https://github.com/DanOlner/RegionalEconomicTools"
+repository-code: "https://github.com/DanOlner/RegionalEconomicTools"
+keywords:
+  - regional economics
+  - subnational statistics
+  - R
+```
+
+You can generate one using the [CFF initializer tool](https://citation-file-format.github.io/cff-initializer-javascript/). The full schema guide is at [citation-file-format/schema-guide.md](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md). The Turing Way has an excellent [guide on software citation with CITATION.cff](https://book.the-turing-way.org/communication/citable/citable-cff/).
+
+#### .zenodo.json
+
+The [`.zenodo.json`](https://help.zenodo.org/docs/github/describe-software/zenodo-json/) file supports Zenodo-specific metadata that CITATION.cff doesn't, including:
+
+- **`grants`** — link to funder grant IDs
+- **`communities`** — associate the record with Zenodo communities
+- **`related_identifiers`** — link to related papers, datasets, other DOIs
+- **`access_right`** — open, embargoed, restricted, or closed
+- **`contributors`** — with roles (Researcher, ProjectLeader, DataCollector, etc.)
+
+An example tailored for a modular research project:
+
+```json
+{
+    "creators": [
+        {
+            "name": "Olner, Dan",
+            "orcid": "0000-0000-0000-0000",
+            "affiliation": "Your Affiliation"
+        }
+    ],
+    "title": "RegionalEconomicTools",
+    "version": "0.1.0",
+    "access_right": "open",
+    "license": "mit",
+    "upload_type": "software",
+    "language": "eng",
+    "keywords": [
+        "regional economics",
+        "subnational statistics",
+        "uncertainty",
+        "R"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://coveredinbees.org/",
+            "relation": "isDocumentedBy",
+            "resource_type": "publication-other"
+        }
+    ],
+    "communities": [
+        {"identifier": "your-community-if-applicable"}
+    ]
+}
+```
+
+The `.zenodo.json` format is parsed as [JSON5](https://json5.org/), which means you can include comments — useful for documenting why certain metadata choices were made.
+
+The full metadata schema is at [zenodraft/metadata-schema-zenodo](https://github.com/zenodraft/metadata-schema-zenodo).
+
+### 3. Versioning and Release Strategy
+
+[Semantic versioning](https://semver.org/) uses the format **MAJOR.MINOR.PATCH** (e.g. `v1.2.3`):
+
+- **PATCH** (v0.1.0 → v0.1.1): bug fixes, typo corrections, minor data updates
+- **MINOR** (v0.1.0 → v0.2.0): new module added, new analysis, new dataset
+- **MAJOR** (v0.2.0 → v1.0.0): substantial restructuring, first "paper-ready" release, breaking changes to method/API
+
+For a research project (rather than production software), a pragmatic adaptation:
+
+| Version | Meaning | When to Use |
+|---|---|---|
+| `v0.x.y` | Pre-publication development | All work before the first formal working paper release |
+| `v0.1.0` | First meaningful public release | Enough content for others to engage with |
+| `v0.2.0`, `v0.3.0`... | Module milestones | Each time a new method/evidence module reaches "stable" |
+| `v1.0.0` | First working paper / preprint release | The assembled paper is ready for external feedback |
+| `v1.1.0`, `v1.2.0`... | Post-feedback revisions | Incorporating reviewer/practitioner feedback |
+
+**Creating a release in GitHub:**
+
+1. Go to your repo → "Releases" (right sidebar) → "Draft a new release"
+2. Create a new tag (e.g. `v0.2.0`)
+3. Write release notes — describe what changed, which modules are new/updated, link to relevant blog posts
+4. Click "Publish release"
+5. Zenodo automatically archives and mints a DOI (if integration is enabled)
+
+Note: you can use [GitKraken](https://www.gitkraken.com/) (which you already use) to create tags before drafting the release in the GitHub web interface. See GitKraken's [guide on semantic versioning with git tags](https://www.gitkraken.com/gitkon/semantic-versioning-git-tags).
+
+**After a release**, paste the new Zenodo DOI into:
+- The repo README
+- The `CITATION.cff` (update the version and date-released fields)
+- The relevant blog post / module page
+- The `modules.yml` manifest (from Part 4)
+
+### 4. Suggested Repository Structure
+
+Drawing on the [research compendium](https://github.com/benmarwick/rrtools) tradition (see also [rcompendium](https://frbcesab.github.io/rcompendium/) and the [CodeRefinery guide on organising projects](https://coderefinery.github.io/reproducible-research/organizing-projects/)), here's a structure that supports the modular workflow:
+
+```
+RegionalEconomicTools/
+├── README.md                    # Project overview, how to cite, link to Zenodo DOI
+├── CITATION.cff                 # Citation metadata (GitHub display)
+├── .zenodo.json                 # Zenodo-specific metadata
+├── LICENSE                      # Code licence (e.g. MIT)
+├── modules.yml                  # Manifest of all modules (from Part 4)
+├── FEEDBACK.md                  # Guide for giving feedback (or link to it)
+│
+├── R/                           # Reusable R functions
+│   ├── data_processing.R
+│   ├── flow_analysis.R
+│   └── ...
+│
+├── data/                        # Small/example/synthetic data only
+│   ├── README.md                # Data dictionary, sources, licences
+│   └── ...
+│
+├── modules/                     # Modular analysis components
+│   ├── expected-vs-observed/
+│   │   ├── README.md            # What this module does, dependencies, status
+│   │   ├── method.qmd           # Quarto doc: full method + reproducible example
+│   │   ├── policy-note.md       # 1-2 page summary for non-academic audiences
+│   │   ├── run.R                # Entrypoint script to reproduce results
+│   │   └── outputs/             # Generated figures, tables
+│   ├── another-module/
+│   │   └── ...
+│   └── ...
+│
+├── papers/                      # Assembled working papers
+│   ├── paper-1/
+│   │   ├── paper.qmd            # Working paper pulling from modules
+│   │   ├── README.md            # Which modules/scripts/data this paper uses
+│   │   └── paper-v0.1.pdf       # Rendered PDF for deposit
+│   └── ...
+│
+├── posts/                       # Blog post drafts (if co-located)
+│   └── ...
+│
+├── .github/                     # GitHub configuration
+│   ├── ISSUE_TEMPLATE/          # Issue templates (see below)
+│   │   ├── feedback.yml
+│   │   ├── method-question.yml
+│   │   └── config.yml
+│   └── DISCUSSION_TEMPLATE/     # Discussion category templates (if using)
+│       └── ...
+│
+└── renv/                        # R environment lockfile (if using renv)
+    └── ...
+```
+
+Each `modules/` subfolder is a self-contained unit that can be DOI'd as part of the repo release, referenced from blog posts, and assembled into papers. The `README.md` in each module folder acts as a lightweight metadata record (status, dependencies, which paper section it maps to).
+
+### 5. Issue Templates for Structured Feedback
+
+GitHub lets you create [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) so that when someone opens an issue, they get a structured form rather than a blank text box. Templates live in `.github/ISSUE_TEMPLATE/` as YAML files.
+
+An example feedback template (`.github/ISSUE_TEMPLATE/feedback.yml`):
+
+```yaml
+name: Feedback on a module or post
+description: Share feedback, questions, or suggestions about a specific piece of work
+title: "[Feedback] "
+labels: ["external-feedback"]
+body:
+  - type: dropdown
+    id: module
+    attributes:
+      label: Which module or post is this about?
+      options:
+        - Expected vs Observed Flows
+        - Regional Accounts Method
+        - General / cross-cutting
+        - Other (please specify below)
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: Questions, suggestions, corrections, or anything else
+      placeholder: Tell us what you think...
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your background (optional, helps us understand context)
+      options:
+        - Academic researcher
+        - Government analyst / policymaker
+        - ONS / statistical producer
+        - Local authority / combined authority
+        - Other
+    validations:
+      required: false
+  - type: checkboxes
+    id: attribution
+    attributes:
+      label: Attribution
+      options:
+        - label: I'm happy to be credited by name in any resulting work
+          required: false
+```
+
+A method-question template (`.github/ISSUE_TEMPLATE/method-question.yml`):
+
+```yaml
+name: Method question
+description: Ask a technical question about a method or analysis
+title: "[Method] "
+labels: ["method-question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to understand about the method?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (optional)
+      description: Any context that helps — e.g. you're trying to apply this to a different dataset or geography
+    validations:
+      required: false
+```
+
+You can also add a `config.yml` to control the template chooser:
+
+```yaml
+blank_issues_enabled: true
+contact_links:
+  - name: Email feedback
+    url: mailto:your@email.com
+    about: Prefer to give feedback by email? That's fine too.
+  - name: Project blog
+    url: https://coveredinbees.org/
+    about: Read the latest posts and context for this work.
+```
+
+**Suggested issue labels** (create these in the repo under Settings → Labels):
+
+| Label | Colour | Purpose |
+|---|---|---|
+| `external-feedback` | blue | Feedback from outside contributors |
+| `method-question` | purple | Technical questions about methods |
+| `data-request` | green | Questions about data availability/access |
+| `policy-implication` | orange | Feedback on policy relevance |
+| `from-email` | grey | Logged by you from email correspondence |
+| `from-linkedin` | grey | Logged by you from LinkedIn comments |
+| `module:exp-obs-flows` | teal | Tagged to a specific module |
+| `addressed` | light green | Issue has been incorporated into the work |
+
+### 6. GitHub Discussions (Alternative/Complement to Issues)
+
+[GitHub Discussions](https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions) provides a more forum-like space — less "bug tracker", more open-ended conversation. It uses the same GitHub account as Issues but feels more inviting for non-developers. You can enable it under Settings → General → Features → Discussions.
+
+Discussions support [categories](https://docs.github.com/en/discussions/managing-discussions-for-your-community/managing-categories-for-discussions) with different formats:
+
+| Category | Format | Purpose |
+|---|---|---|
+| Methods & data | Open-ended discussion | Conversation about approaches, data sources, assumptions |
+| Policy implications | Open-ended discussion | What the findings mean for practice |
+| Questions | Question & Answer | Specific questions with markable answers |
+| Announcements | Announcement | New releases, new modules, new blog posts (only you can post) |
+
+Discussions can coexist with Issues: use **Issues** for specific, actionable feedback tied to modules, and **Discussions** for broader conversation about direction, interpretation, and policy relevance.
+
+### 7. README as the Landing Page
+
+The repo README is the first thing anyone sees. For a modular research project, it should include:
+
+- **One-paragraph project description** — what the research is about, what stage it's at
+- **How to cite** — point to the CITATION.cff / Zenodo DOI badge
+- **Module index** — table listing each module with status, link, and brief description (this can be auto-generated from `modules.yml`)
+- **How to give feedback** — link to the feedback guide / issues page / discussions
+- **Related outputs** — links to blog posts, working papers, policy notes
+- **Licence** — for code, text, and data separately if they differ
+
+You can add a [Zenodo DOI badge](https://help.zenodo.org/docs/github/) to the README that always resolves to the latest version:
+
+```markdown
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+```
+
+(Zenodo provides this badge markdown automatically when your first release is archived.)
+
+### 8. Putting It All Together: The Release Checklist
+
+A concrete checklist for each milestone release:
+
+- [ ] All module `README.md` files are up to date (status, dependencies)
+- [ ] `modules.yml` manifest is current
+- [ ] `CITATION.cff` version and date-released are updated
+- [ ] `.zenodo.json` version is updated (if using)
+- [ ] `renv.lock` is current (if using `renv`)
+- [ ] Any new policy notes are in place
+- [ ] Create git tag: `git tag -a v0.X.0 -m "Description of this release"`
+- [ ] Push tag: `git push origin v0.X.0`
+- [ ] Draft GitHub Release with notes (what changed, which modules, links to blog posts)
+- [ ] Publish release → Zenodo archives and mints DOI
+- [ ] Copy new DOI into README badge, CITATION.cff, modules.yml, and relevant blog posts
+- [ ] Upload rendered PDF to MPRA/SSRN (if this release includes a working paper version)
+- [ ] Announce on blog / LinkedIn with DOI link
+
+### Technical References
+
+| Resource | Link |
+|---|---|
+| Zenodo: Enable a repository | [help.zenodo.org](https://help.zenodo.org/docs/github/enable-repository/) |
+| Zenodo: Describe your software | [help.zenodo.org](https://help.zenodo.org/docs/github/describe-software/) |
+| Zenodo: .zenodo.json reference | [help.zenodo.org](https://help.zenodo.org/docs/github/describe-software/zenodo-json/) |
+| Zenodo: CITATION.cff reference | [help.zenodo.org](https://help.zenodo.org/docs/github/describe-software/citation-file/) |
+| Zenodo FAQ: GitHub integration | [support.zenodo.org](https://support.zenodo.org/help/en-gb/24-github-integration) |
+| Zenodo-GitHub integration documentation (community) | [rue-a.github.io](https://rue-a.github.io/github-zenodo-integration/documentation/) |
+| INBO: Setting up GitHub + Zenodo + ORCID | [inbo.github.io](https://inbo.github.io/checklist/articles/zenodo.html) |
+| INBO: Zenodo-GitHub integration tutorial | [tutorials.inbo.be](https://tutorials.inbo.be/tutorials/git_zenodo/) |
+| Citation File Format specification | [citation-file-format.github.io](https://citation-file-format.github.io/) |
+| CFF initializer tool | [citation-file-format.github.io](https://citation-file-format.github.io/cff-initializer-javascript/) |
+| CFF schema guide | [github.com](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) |
+| The Turing Way: Software citation with CFF | [book.the-turing-way.org](https://book.the-turing-way.org/communication/citable/citable-cff/) |
+| GitHub Docs: About CITATION files | [docs.github.com](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) |
+| GitHub Docs: Referencing and citing content | [docs.github.com](https://docs.github.com/articles/referencing-and-citing-content) |
+| GitHub Docs: Configuring issue templates | [docs.github.com](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) |
+| GitHub Docs: About Discussions | [docs.github.com](https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions) |
+| GitHub Docs: Managing discussion categories | [docs.github.com](https://docs.github.com/en/discussions/managing-discussions-for-your-community/managing-categories-for-discussions) |
+| Semantic Versioning 2.0.0 | [semver.org](https://semver.org/) |
+| GitKraken: Semantic versioning with git tags | [gitkraken.com](https://www.gitkraken.com/gitkon/semantic-versioning-git-tags) |
+| rrtools: R research compendium tools | [github.com/benmarwick/rrtools](https://github.com/benmarwick/rrtools) |
+| rcompendium: R package for research compendium structure | [frbcesab.github.io](https://frbcesab.github.io/rcompendium/) |
+| CodeRefinery: Organising reproducible projects | [coderefinery.github.io](https://coderefinery.github.io/reproducible-research/organizing-projects/) |
+| GitHub for collaborative documentation: Zenodo integration | [cassgvp.github.io](https://cassgvp.github.io/github-for-collaborative-documentation/docs/tut/6-Zenodo-integration.html) |
+| Zenodo .zenodo.json metadata schema | [github.com/zenodraft](https://github.com/zenodraft/metadata-schema-zenodo) |
+
+---
+
+*Generated from ChatGPT conversation (Parts 1-4), with Parts 5-6 and additional context/links added by Claude. February 2025.*
