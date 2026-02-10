@@ -57,6 +57,8 @@ Most journals now allow preprints, but policies vary. Check target journals via 
 
 Send a link to the **working paper DOI** + a **1-2 page policy note summary**, inviting comments on specific questions. This anchors conversations to a citable artefact rather than scattered posts.
 
+See part 5 below for more on policy engagement.
+
 ---
 
 ## Part 2: Integrating With the Existing Obsidian/Quarto/GitHub Workflow
