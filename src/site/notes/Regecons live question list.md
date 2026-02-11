@@ -6,7 +6,11 @@
 
 A place where I'll update questions about regional economies I'm chewing over and add in any others (with acknowledgements obv) that I've picked up from reading or chats.
 
+While also experimenting with ways to output thoughts / results that are robust but modular, not too stuffy, open to feedback from any interested party not just other academics, and safely/ethically integrating LLM use (especially the terrifyingly powerful Claude Code; and where I'm putting aside the ethics of using tools built on theft like these, which arguably I shouldn't.)
+
 I'll break it down into different kinds of question. Though picking any one question inevitably pulls on other threads, let's see if we can keep it at least moderately sane. I will aim to write self-contained little pieces discussing each and how they connect, where appropriate with some data analysis.
+
+The journal below charts each bit I'm trying to work through, for better or worse. 
 
 # Topics to cover
 
