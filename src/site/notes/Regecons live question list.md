@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
 ---
 
 # What's this page?
@@ -144,7 +144,7 @@ Think there's enough data and tools for this now! Let's just run through what I'
 Scratch that last bit. I've been thinking about what this writing project is, and a few things are happening:
 - The new exobrain system is, I think, beginning to work. It is going with my grain and allowing some larger stuff to happen.
 - I want to get out these reflections, but as I've worked on it, it's become apparent that - if I wanted to - I could make it something a bit more official.
-- But in doing that, I also want to balance openness and protection i.e. that this is my work, but I want to collaborate.
+- But in doing that, I also want to balance openness and acknowledgement (of myself and any other input that comes along) i.e. that this is my work, but I want to collaborate.
 - AND! It offers ways to experiment with academic writing - or rather, the kind of knowledge work where we want things to progress, collaboration to be possible, traceable systems to exist. The 'open feedback and protection' thread in chatGPT has a lot of useful links.
 
 Now then. I am of course concerned about mission creep, and about getting dragged in a wrong direction that I don't have time for. But... I think this does all go with the grain of what I want to do, and gives me a chance to do this on my own terms.
@@ -171,6 +171,22 @@ OK, if that's the order of things... what goes where? I think what I want is the
 - Introductory CiB post on what I'm doing. That'll be some of the gumph from [[Regecons reflections 1\|Regecons reflections 1]].
 - Actual modular component within its own github repo. That needs to be smaller and more compact than the existing [regecontools site](https://github.com/DanOlner/RegionalEconomicTools), and can have DOI refs. Modules can be assembled there. I may want to just directly write in RStudio for that, keep the obsidian/CiB crossover for the blog?
 	- Yeah, quick test - RStudio automatically makes a bibliography.tex file so the bib auto-compiles. It doesn't here.
+
+
+## The actual thing
+
+Let's try and avoid getting bogged down in trying to frame the intro (that's now in its own Zenodo'd up / modular repo [here](https://github.com/DanOlner/RegEconWorks)). I can come back to that. Get in what I've got and see if that's enough for a first version.
+
+Noting that I think it's OK to stop after the two examples I have and pause for feedback on direction. What my roadmap is, what others think about that.
+
+Note also: a good claude uncertainty / SY LIPF summary is in the LIPF_synthesis folder.
+
+And yes I do need to edit both html outputs to explain them better but again GET SOMETHING WRITTEN ABOUT THEM FIRST!! FOR GOD'S SAKE!
+
+Getting there. Worth noting - I'm experimenting with several things at the same time here:
+- Making policy-relevant, open to feedback, but robust outputs
+- Testing novel ways to produce that
+- Experimenting with how best to safely, ethically integrate AI tools (in this case primarily Claude Code). (And where I'm putting aside the ethics of using tools built on theft like these, which arguably I shouldnt.)
 
 
 
