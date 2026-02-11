@@ -206,7 +206,7 @@ So let's think through all the things I want to try and get done before this fir
 - [ ] Decide when first 'release' is to get DOI.
 - [ ] Be clear on the 'open modular feedback iterate cross-academia/policy paper' approach thing.
 - [ ] Include a clear summary somewhere (there's a policymaker summary folder in the repo, could put some slides there?)
-- [ ] Oh, a biggie - get key data and code over to the modular repo and make sure it runs.
+- [x] Oh, a biggie - get key data and code over to the modular repo and make sure it runs. ✅ 2026-02-11 (actually not so bad, all data is downloadable from various places)
 - [ ] Draft a 'using LLMs/Claude Code code of practice' that starts from the principle that it's just like any other citation - source needed. So I will try to separate out what's done what, as diligently as I'd not plagiarise. Noting that this is experimental.
 
 OK, that's quite a lot!
