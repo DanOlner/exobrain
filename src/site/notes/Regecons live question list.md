@@ -24,6 +24,11 @@ With exobrain sub-pages linked if made.
 - Public sector output - as an example for thinking through the implications of top-down slicing of output (in this case based purely on average public sector pay times job number, used to slice a nationally estimated pound value up between regions).
 - Tradeable vs foundational - thinking about the whole economy (some stuff coming out of the intermediate links work that suggests this is more complex).
 
+The error rates stuff I think lends itself to a discrete piece of work that does this:
+- Lays out the national accounts constriction; understandable but keeping us a bit blind
+- Provides the if.. then examples (mostly done as of [[11th-Feb-2026\|11th-Feb-2026]])
+- Uses that as a basis for asking 'how would this change decision making on regional economic policy? What's that look like with this level of uncertainty?
+
 # Misc links
 
 - "Have the UK’s northern cities really experienced a productivity miracle?" Paul Swinney, [economics observatory](https://www.economicsobservatory.com/have-the-uks-northern-cities-really-experienced-a-productivity-miracle) via [linkedin](https://www.linkedin.com/posts/paulswinney_have-the-uks-northern-cities-really-experienced-activity-7417612085670416384-p-HT).
@@ -192,6 +197,21 @@ Getting there. Worth noting - I'm experimenting with several things at the same 
 - Testing novel ways to produce that
 - Experimenting with how best to safely, ethically integrate AI tools (in this case primarily Claude Code). (And where I'm putting aside the ethics of using tools built on theft like these, which arguably I shouldnt.)
 
+## Next stages ([[11th-Feb-2026\|11th-Feb-2026]])
+
+So let's think through all the things I want to try and get done before this first stage counts as 'done'. I think there's quite a lot of them.
+- Complete this first draft, especially those early sections.
+- Put a roadmap somewhere, probably in the main repo's README.md
+- Smaller roadmap for this piece includes: what other error-rate tests to consider, if we press on with this approach? I'd like to do some using Companies House jobs data for smaller sectors - treat those like samples, do the same national LQ error simulations, plot.
+- Decide when first 'release' is to get DOI.
+- Be clear on the 'open modular feedback iterate cross-academia/policy paper' approach thing.
+- Include a clear summary somewhere (there's a policymaker summary folder in the repo, could put some slides there?)
+- Oh, a biggie - get key data and code over to the modular repo and make sure it runs.
+- Draft a 'using LLMs/Claude Code code of practice' that starts from the principle that it's just like any other citation - source needed. So I will try to separate out what's done what, as diligently as I'd not plagiarise.
+	- Noting that this is experimental.
+
+
+OK, that's quite a lot!
 
 
 
