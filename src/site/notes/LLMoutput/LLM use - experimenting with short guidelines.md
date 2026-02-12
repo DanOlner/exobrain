@@ -1,0 +1,328 @@
+---
+{"dg-publish":true,"permalink":"/ll-moutput/llm-use-experimenting-with-short-guidelines/","tags":["#AI","#brainsystems"]}
+---
+
+# DAN-WRITTEN BIT ([[11th-Feb-2026\|11th-Feb-2026]])
+## What's this doc?
+
+A live / experiment outline of 'what I think I should do when using LLMs in my work'. It's broken into three sections:
+
+1 and 2 are the DAN-WRITTEN BITS. 3 was Claude-Code drafted and markdowned.
+
+1. An outline of what I will aim to do to keep the distinction between LLM use and my own work clear. Obviously, they will feed back on each other, but anyone looking at my writing and code should know who produced what.
+2. Some of my own brief reflections on that outline 
+3. Reports drafted by Claude Code for supporting information/links. Currently there are two of these - the first is a broad sweep of the ethics of LLMs. The second focuses on academic ethics specifically.
+
+
+
+## What I'll aim to do to keep the distinction between LLM use and my own work clear
+
+The simplest and most reasonable position to take is that **LLM use without acknowledgement is equivalent to plagiarism**.
+
+In Claude's survey below, some institutions are taking exactly that position; some are questioning whether unacknowledged use is closer to falsification of data (because effectively an LLM is making up the ouput for you). But I think that distinction doesn't matter so much if you're making **very clear** what's your work and what isn't your work.
+
+So that's what I'll try to do (while acknowledging that feedback will occur between my work and LLM output). To state clearly:
+
+> I'll aim to always clearly distinguish my own writing and code from LLM output.
+
+I'm still experimenting with mechanisms for doing this, but it doesn't necessarily need to be more complex than:
+
+> In writing and code, I'll use either headings or designated blocks to separate out my own work from LLM output.
+
+That's what I've done in this piece, for instance - Claude Code acting as a slightly posh, source-synthesising search engine that can draft useful text around its search results, and we can keep here for reference. Useful. But that's Claude-written and clearly marked as so.
+
+As other examples, I've done the same in some [recent R code](https://github.com/DanOlner/RegEconWorks/blob/master/code/ABS_error_rates.R) where Claude Code output some super-useful code. I've used R sections here to separate my coding from CC's.
+
+What I haven't yet settled on is a single way to record the process of using Claude Code. 
+
+
+
+
+As long as we understand the claude-code-generated report below for *what it is* - an auto-generated body of links and sources to draw on, not a replacement for that
+
+Counter-argument: it insidiously replaces human information skills. Does it? I don't think any studies I've seen seem robust enough to conclude that. Conversely, anything that provides the headline "Paper proves LLMs cause human brain matter to actually physically leak out of your ears like runny porridge" will always get a million shares.
+
+The best comparison isn't LLMs and human thought - it's LLMs and google. Let me just go and check, did google cause similar 'human brains will become porridge' warnings...?
+
+
+-----
+# CLAUDE-CODE-WRITTEN REPORTS ([[11th-Feb-2026\|11th-Feb-2026]]): 
+
+# 1. The Deeper Ethics of LLM Use: Structural Issues Behind the Research Debate
+
+The question of whether and how to cite LLM use in research (covered below) sits inside a much larger set of ethical concerns. University disclosure policies tend to focus narrowly on attribution and academic integrity — but the decision to use an LLM at all implicates a researcher in a wider web of environmental, labour, intellectual property, and power-concentration issues. This section collates sources on those structural concerns and considers how they interact with the research-ethics debate.
+
+---
+
+## Environmental Cost: Energy and Water
+
+LLM use is not environmentally neutral. The computational demands of both training and inference are enormous and growing.
+
+- **Energy at scale.** Training GPT-3 alone consumed an estimated 1,287 MWh of electricity and emitted over 550 tonnes of CO2. More recent models are substantially larger. A 2025 benchmarking study found that the most energy-intensive models exceed 29 Wh per long prompt — over 65 times the most efficient systems — with o3 and DeepSeek-R1 consuming over 33 Wh per prompt ([Jegham et al., "How Hungry is AI?", arXiv 2505.09598](https://arxiv.org/abs/2505.09598)).
+- **Inference dominates.** While training gets the headlines, inference (the ongoing cost of *using* models) may account for up to 90% of a model's total lifecycle energy. Scaled to estimated daily query volumes, a single model's inference can consume electricity comparable to 35,000 US homes annually ([Jegham et al.](https://arxiv.org/html/2505.09598v1)).
+- **Water consumption.** Data centres require vast quantities of freshwater for cooling — roughly 80% of which evaporates and is permanently lost. Cornell researchers estimate AI-related water withdrawals could reach 6 billion cubic metres per year by 2027, equivalent to New Zealand's total annual water use. Two-thirds of data centres built since 2022 are in water-stressed regions ([Undark investigation](https://undark.org/2025/12/16/ai-data-centers-water/); [Brookings](https://www.brookings.edu/articles/ai-data-centers-and-water/); [EESI](https://www.eesi.org/articles/view/data-centers-and-water-consumption)).
+- **A recent review** in *Science Direct* attempts to reconcile contrasting narratives about LLM environmental impact, noting that while per-query costs are falling, aggregate demand is growing far faster ([Reconciling the contrasting narratives — *Scientific Reports*](https://www.nature.com/articles/s41598-024-76682-6); [Carbon and water footprints of data centers — *ScienceDirect*](https://www.sciencedirect.com/science/article/pii/S2666389925002788)).
+
+**Implication for research ethics:** If a university requires ethical review for research with significant environmental impact, the routine embedding of LLM tools into research workflows arguably deserves similar scrutiny — particularly at institutional scale.
+
+## Pirated and Copyrighted Training Data
+
+The corpora on which major LLMs were trained include vast quantities of copyrighted material used without permission or compensation.
+
+- **Books3 and LibGen.** Anthropic co-founder Ben Mann downloaded the Books3 dataset (196,640 pirated books) in 2021, then 5 million more from LibGen and 2 million from other pirate libraries. Meta downloaded 35.7 terabytes of pirated material — over 31 million books — with court documents alleging CEO Mark Zuckerberg approved use of the LibGen dataset knowing it contained pirated material ([Authors Guild on Meta](https://authorsguild.org/news/meta-libgen-ai-training-book-heist-what-authors-need-to-know/)).
+- **Ongoing litigation.** Authors including Sarah Silverman and Ta-Nehisi Coates have sued Meta; a class action against Anthropic was certified in 2025. Over 50 copyright lawsuits were filed against AI companies in 2025 alone, with authors seeking up to $150,000 per work ([Benesch law firm on Anthropic class action](https://www.beneschlaw.com/resources/judge-certifies-authors-copyright-class-action-against-anthropic.html); [The Register on Anthropic ruling](https://www.theregister.com/2025/06/24/anthropic_book_llm_training_ok/)).
+- **The "fair use" question.** In *Bartz v. Anthropic*, Judge Alsup ruled that LLM training on copyrighted books was "transformative — spectacularly so" and likely fair use — but this remains contested and under appeal. The ruling does not settle the question of whether researchers who *use* these models share any ethical responsibility for the upstream appropriation ([Hugging Face analysis of the ruling](https://huggingface.co/blog/fdaudens/anthropic-ai-training-fair-use-ruling-2025)).
+- **The Conversation** notes that US fair-use rulings may not apply in other jurisdictions, leaving researchers in the UK, EU, and Australia in a different legal and ethical position ([The Conversation on Meta and Australian authors](https://theconversation.com/meta-allegedly-used-pirated-books-to-train-ai-australian-authors-have-objected-but-us-courts-may-decide-if-this-is-fair-use-253105)).
+
+**Implication for research ethics:** Universities that insist on proper citation and intellectual property respect in their plagiarism policies face an uncomfortable tension: the tools they are integrating into research workflows were themselves built on unconsented use of others' intellectual property.
+
+## Labour Exploitation in the AI Supply Chain
+
+The human labour behind LLMs extends well beyond engineering teams in San Francisco.
+
+- **Content moderation and RLHF.** OpenAI outsourced content moderation and reinforcement learning from human feedback (RLHF) to Kenyan workers through contractor Sama, paying $1.32–$2/hour (compared to ~$20/hour for US counterparts). Workers were exposed to graphic descriptions of child abuse, sexual violence, and self-harm ([Vice/Motherboard investigation](https://www.vice.com/en/article/openai-used-kenyan-workers-making-dollar2-an-hour-to-filter-traumatic-content-from-chatgpt/)).
+- **Suppressed organising.** When 185 Kenyan content moderators working for Meta via Sama attempted to unionise, they were fired. They are now suing Meta and Sama in Kenyan courts ([Anadolu Agency](https://www.aa.com.tr/en/africa/-continuation-of-slavery-and-colonialism-kenya-s-youth-face-exploitation-in-ai-sweatshops-/3666703)).
+- **A colonial pattern.** AI ethics researchers describe this as a continuation of colonial extraction — the Global South provides cheap labour and bears the psychic costs of content moderation while the Global North captures the value. A peer-reviewed article in *Project MUSE* frames this as "Artificial Intelligence Colonialism" ([Project MUSE](https://muse.jhu.edu/article/950958); [Qhala / Medium](https://qhalahq.medium.com/data-workers-in-ai-a-new-frontier-of-labour-exploitation-in-the-global-south-362e22eae01b)).
+- **Worker resistance.** Kenyan data workers formed the [Data Labelers Association](https://www.computerweekly.com/news/366619321/Kenyan-AI-workers-form-Data-Labelers-Association) in 2024 to advocate for fair treatment.
+
+**Implication for research ethics:** Research ethics frameworks routinely ask whether a study's methods exploit vulnerable populations. The same question can be asked of the tools researchers use — if the instrument was produced through exploitative labour, does its use raise ethical concerns analogous to those in supply-chain ethics more broadly?
+
+## Centralised Control and the "Compute Divide"
+
+LLM development is concentrated among a handful of firms, with consequences for who shapes knowledge production.
+
+- **AI Now Institute's 2025 "Artificial Power" report** documents how market power in AI is concentrated among Microsoft, Google, Amazon, Meta, OpenAI, and Anthropic — with new entrants still dependent on these "hyperscalers" for infrastructure. The report argues that AI "is predominantly used *on* us, not *by* us, to shape access to resources and life chances" ([AI Now Institute — Artificial Power 2025](https://ainowinstitute.org/publications/research/ai-now-2025-landscape-report)).
+- **The compute divide.** A growing gap exists between Big Tech's computational resources and those available to universities. Most top generative AI models are entirely or partially owned by a few companies, and the share of AI research conducted or funded by industry is steadily rising ([Eynard, "Why and how is the power of Big Tech increasing" — *Policy and Society*, Oxford Academic](https://academic.oup.com/policyandsociety/article/44/1/52/7636223)).
+- **Global inequality.** Only 3% of global AI research funding reaches non-OECD countries. US private AI investment in 2024 was $109 billion — nearly 12 times China's $9.3 billion, and orders of magnitude more than the Global South. Some scholars frame this as a new form of Western hegemony ([Modern Diplomacy — "Are LLMs Bringing a New Form of Western Hegemony?"](https://moderndiplomacy.eu/2025/05/19/are-llms-bringing-in-a-new-form-of-western-hegemony/)).
+
+**Implication for research ethics:** When universities embed commercial LLMs into their research infrastructure, they deepen dependency on firms whose incentives are commercial, not educational — and whose market position gives them de facto influence over the conditions of knowledge production.
+
+## Epistemic Dependency: Who Controls What Counts as Knowledge?
+
+Beyond practical dependency lies a deeper epistemological concern.
+
+- **From producer to consumer.** An SRHE blog post argues that when universities become dependent on tools owned by Big Tech, "they enter an ecosystem where the incentives are commercial, not educational" — and institutions that embed AI into learning systems "hand part of their epistemic governance — their authority to define what knowledge is and how it is judged — to private corporations" ([SRHE Blog — "Who gets to decide what counts as knowledge?"](https://srheblog.com/2025/10/17/who-gets-to-decide-what-counts-as-knowledge-big-tech-ai-and-the-future-of-epistemic-agency-in-higher-education/)).
+- **Epistemic downsides of LLM use in writing.** A 2025 study identifies three pitfalls: illusions of understanding, cognitive dulling, and AI dependency (both habitual and emotional). When users routinely defer to LLM-generated text, the distinction between knowing something and having been told something by a machine erodes ([MDPI — "The Epistemic Downside of Using LLM-Based Generative AI in Academic Writing"](https://www.mdpi.com/2304-6775/13/4/63)).
+- **AI at the knowledge gates.** A *Frontiers in Computer Science* article examines how AI is being embedded at institutional chokepoints — peer review, search, writing assistance — creating "hybrid configurations" where human and machine epistemic authority become entangled ([Frontiers — "AI at the knowledge gates"](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1608276/full)).
+
+**Implication for research ethics:** The plagiarism debate (below) asks whether researchers properly *cite* their use of LLMs. The epistemic-dependency question asks something more fundamental: whether routine LLM use changes the nature of the knowledge researchers produce, and whether institutions have adequately reckoned with that possibility.
+
+## How These Structural Issues Connect to the Research-Use Debate
+
+Most university LLM policies focus on a narrow set of questions: *Did you disclose? Did you cite? Is the output reliable?* These are important, but they leave the structural issues above largely unaddressed. A researcher can fully comply with disclosure requirements and still be:
+
+- contributing to significant environmental harm through aggregate computational demand;
+- benefiting from tools built on pirated intellectual property;
+- participating in a system sustained by exploitative labour in the Global South;
+- deepening institutional dependency on a small number of commercially motivated firms;
+- gradually ceding epistemic authority to opaque, proprietary systems.
+
+None of this means LLMs should never be used in research. But it does suggest that the ethics of LLM use in academia cannot be reduced to citation practice — and that the current policy landscape has a significant blind spot. A fuller ethical framework would ask not just "did you disclose?" but "what are you participating in?"
+
+### Further Reading: Structural Ethics
+
+- [Deconstructing the Ethics of Large Language Models — *AI and Ethics*, Springer (2025)](https://link.springer.com/article/10.1007/s43681-025-00797-3)
+- [A Guide to Ethical Research with Large Language Models — ACL Anthology (COLING 2025)](https://aclanthology.org/2025.coling-main.603.pdf)
+- [Ethical and Social Risks of Harm from Language Models — Weidinger et al. (2021, arXiv)](https://arxiv.org/abs/2112.04359)
+- [Navigating LLM Ethics: Advancements, Challenges, and Future Directions (arXiv 2024)](https://arxiv.org/abs/2406.18841)
+- [AI Now Institute — Artificial Power: 2025 Landscape Report](https://ainowinstitute.org/publications/research/ai-now-2025-landscape-report)
+- [Data Drain: The Land and Water Impacts of the AI Boom — Lincoln Institute](https://www.lincolninst.edu/publications/land-lines-magazine/articles/land-water-impacts-data-centers/)
+- [UK Research Integrity Office — AI in Research](https://ukrio.org/ukrio-resources/ai-in-research/)
+- [EthicalLLMs 2025 Workshop Proceedings — ACL Anthology](https://aclanthology.org/2025.ethicalllms-1.pdf)
+
+---
+
+# 2. LLM Use in Research: Is Uncited AI Use Plagiarism?
+
+An initial claude-code-run survey of how universities, publishers, and researchers are grappling with whether uncited LLM use in research constitutes plagiarism — or something categorically different.
+
+---
+
+## The Core Question
+
+As LLMs become embedded in research workflows, institutions face a definitional puzzle: **does submitting AI-assisted work without disclosure count as plagiarism?** Traditional plagiarism assumes a *human* originator whose ideas or words are misattributed. LLM output complicates this — it has no single author, draws on vast training data, and can produce text that feels original to the user even when it closely echoes existing work. Researchers have noted an "illusion of originality" where users mistakenly believe AI-generated concepts are novel when they derive from training materials ([Lemley & Ouellette, *University of Chicago Law Review*](https://lawreview.uchicago.edu/online-archive/plagiarism-copyright-and-ai)).
+
+## Where Universities Have Landed
+
+### The "Plagiarism" Camp
+
+Several major institutions have explicitly expanded their definitions of plagiarism to encompass undisclosed AI use:
+
+- **University of Oxford** states that "unauthorised use of AI falls under the plagiarism regulations and would be subject to academic penalties in summative assessments." AI use is permitted only where explicitly allowed, and must be accompanied by a declaration ([Oxford plagiarism guidance](https://www.ox.ac.uk/students/academic/guidance/skills/plagiarism)).
+- **Harvard Faculty of Arts and Sciences** expanded its definition of plagiarism during AY 2024–25 to encompass AI-assisted writing without proper attribution. The Graduate School of Education policy for 2025–26 states that using generative AI to create all or part of an assignment and submitting it as your own violates academic integrity unless the instructor permits it ([HGSE AI Policy](https://registrar.gse.harvard.edu/learning/policies-forms/ai-policy); [Harvard GenAI Guidance](https://oue.fas.harvard.edu/faculty-resources/generative-ai-guidance/)).
+- **Stanford** updated its Honor Code to include explicit guidelines on AI usage, categorising undisclosed AI use as a form of academic dishonesty akin to cheating ([Thesify overview of top university policies](https://www.thesify.ai/blog/gen-ai-policies-update-2025)).
+- **Imperial College London** requires students to list the AI tool, publisher, URL, and description when AI contributes to assessed work.
+
+### The "Instructor Discretion" Camp
+
+Many elite US institutions — including Harvard, MIT, Stanford, Princeton, and Yale — operate "follow your instructor's policy" frameworks, allowing individual academics to set specific rules within broader institutional principles. This acknowledges that appropriate AI use varies by discipline and assessment type ([Thesify policy update](https://www.thesify.ai/blog/gen-ai-policies-update-2025)).
+
+### The Russell Group (UK) Principles
+
+All 24 Russell Group universities adopted [five shared principles](https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education) in 2023, which emphasise AI literacy, ethical use, equal access, and upholding academic rigour — but leave detailed policy to individual institutions and departments. The principles recognise that "appropriate uses of generative AI tools are likely to differ between academic disciplines."
+
+## An Alternative Framing: Research Misconduct, Not Plagiarism
+
+A strand of the scholarly literature argues that undisclosed AI use is better understood as **research misconduct** rather than plagiarism in the traditional sense. The argument runs:
+
+- Plagiarism requires a human originator whose work is misappropriated. LLM-generated text doesn't straightforwardly fit this model.
+- Undeclared AI use potentially constitutes "manipulation of the research process to produce unreliable data/knowledge," which falls under **falsification** rather than plagiarism ([Council of Science Editors discussion](https://www.csescienceeditor.org/article/undeclared-ai-assisted-academic-writing-as-a-form-of-research-misconduct/)).
+- The deeper problem may be one of **reliability and accountability** — an AI-assisted manuscript may contain hallucinated claims, fabricated references, or subtly recycled ideas, none of which the submitting author can vouch for in the way traditional authorship requires.
+
+Lemley and Ouellette's analysis in the *Chicago Law Review* draws a useful three-way distinction between **copyright infringement** (economic, legal), **plagiarism** (ethical, about attribution), and **bad scholarly practice** (rigour, familiarity with the literature). They argue these are routinely conflated in AI debates, and that each demands different remedies ([Lemley & Ouellette](https://lawreview.uchicago.edu/online-archive/plagiarism-copyright-and-ai)).
+
+## What Publishers and Research Bodies Say
+
+### COPE (Committee on Publication Ethics)
+
+COPE's [position statement on authorship and AI tools](https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools) is clear that AI cannot meet authorship criteria because it cannot take responsibility for submitted work, manage conflicts of interest, or handle copyright. Authors must disclose AI tool use in their Methods section and remain **fully responsible** for all content — including anything the AI produced. COPE's guidelines underpin policies at Springer Nature, Wiley, Elsevier, and other major publishers.
+
+### UK Research Integrity Office (UKRIO)
+
+[UKRIO's guidance on AI in research](https://ukrio.org/ukrio-resources/ai-in-research/) warns that using chatbots to obscure content origin creates serious plagiarism risks — the underlying ideas and wording still require proper attribution even when passed through an intermediary tool. They emphasise that "longstanding principles of good research practice can be applied to help navigate the challenges" and that researchers must fact-check every AI-generated statement.
+
+### ICLR 2026
+
+The machine-learning conference ICLR has taken one of the strongest lines: papers making extensive undisclosed use of LLMs face [desk rejection](https://blog.iclr.cc/2025/08/26/policies-on-large-language-model-usage-at-iclr-2026/). Authors must state how LLMs were used both in the paper text and the submission form, and any falsehood or plagiarism produced by an AI is treated as a Code of Ethics violation.
+
+### APA (American Psychological Association)
+
+The APA requires authors to explicitly document AI use in their methods sections and provide full AI outputs as supplemental materials.
+
+## The Emerging Consensus — and the Gap
+
+A rough consensus is forming around several points:
+
+1. **Disclosure is non-negotiable.** Nearly all institutional and publisher policies now require transparent reporting of AI use.
+2. **AI cannot be an author.** Following COPE and ICMJE guidelines, AI is treated as a tool, not a contributor meeting authorship criteria.
+3. **The author remains fully responsible** for all content, including AI-generated material — a higher bar than many users appreciate.
+4. **Whether undisclosed AI use is "plagiarism" remains genuinely contested.** Some institutions have expanded plagiarism definitions; others treat it as a distinct category of misconduct; legal scholars argue it is a different kind of ethical failure altogether.
+
+The gap is in the space between "you must disclose" and a shared understanding of *why* non-disclosure is wrong. Is it wrong because you're stealing someone's words (plagiarism)? Because you're misrepresenting the reliability of your claims (falsification)? Because you're breaking a social contract about what academic authorship means (misconduct)? Different answers to this question will shape how seriously institutions treat violations and what remedies they pursue.
+
+## Further Reading
+
+- [Plagiarism, Copyright, and AI — *University of Chicago Law Review*](https://lawreview.uchicago.edu/online-archive/plagiarism-copyright-and-ai)
+- [Moving Beyond Plagiarism and AI Detection: Academic Integrity in 2025-2026 — Packback](https://packback.co/resources/blog/moving-beyond-plagiarism-and-ai-detection-academic-integrity-in-2025/)
+- [What counts as plagiarism? AI-generated papers pose new risks — *Nature*](https://www.nature.com/articles/d41586-025-02616-5)
+- [A university framework for the responsible use of generative AI in research — *Journal of Higher Education Policy and Management*](https://www.tandfonline.com/doi/full/10.1080/1360080X.2025.2509187)
+- [AI-Enabled Plagiarism: Taxonomy, Detection Limitations, and Governance Implications — Masood (2025)](https://medium.com/@adnanmasood/ai-enabled-plagiarism-taxonomy-detection-limitations-and-governance-implications-af3eff47e826)
+- [Generative AI and Academic Integrity in Higher Education: A Systematic Review — *MDPI Information*](https://www.mdpi.com/2078-2489/16/4/296)
+- [When and how to disclose AI use in academic publishing: AMEE Guide No.192](https://www.tandfonline.com/doi/full/10.1080/0142159X.2025.2607513)
+- [Duke Center for Teaching and Learning — AI Policies: Guidelines and Considerations](https://ctl.duke.edu/ai-and-teaching-at-duke-2/artificial-intelligence-policies-in-syllabi-guidelines-and-considerations/)
+
+---
+
+# 3. Beyond Plagiarism: Industrial Language Production and the Denial-of-Service Problem
+
+The debates above — about citation, disclosure, academic integrity — take place within a framework that still assumes language is produced at human scale. But what happens when it isn't? A different set of concerns emerges when we consider the sheer *volume* of AI-generated text now flooding institutions, and what that volume does to the systems built to process it.
+
+---
+
+## The Flooding Problem
+
+A useful framing comes from [a 2025 *Conversation* article](https://theconversation.com/ai-generated-text-is-overwhelming-institutions-setting-off-a-no-win-arms-race-with-ai-detectors-274720) which describes what amounts to a **denial-of-service attack through language**. The core insight: institutions — journals, magazines, courts, legislatures, universities — historically relied on the *difficulty of writing* to limit the volume of submissions they needed to process. Generative AI has removed that bottleneck. The result is not a subtle shift but a structural overwhelm:
+
+- **Science fiction magazine Clarkesworld** halted submissions entirely after being deluged with AI-generated stories, largely from people following "side hustle" advice to submit machine-generated fiction for quick payment ([NPR](https://www.npr.org/2023/02/24/1159286436/ai-chatbot-chatgpt-magazine-clarkesworld-artificial-intelligence)).
+- **Academic journals** have seen explosive growth in AI-generated "letters to the editor." *Neurosurgical Review* stopped accepting letters and commentary in October 2024 after such pieces surged from 9% to 58% of total output ([Marketplace](https://www.marketplace.org/episode/2025/11/24/ai-generated-letters-to-the-editor-are-flooding-academic-publications)).
+- **Conference submissions** have spiked dramatically: ICLR's 2026 conference received nearly 20,000 papers (up 70% from 11,000 the year before). Screening by Pangram found that **21% of peer reviews were fully AI-generated**, and more than half showed signs of AI use ([*Nature*](https://www.nature.com/articles/d41586-025-03506-6)).
+- **Courts and legislatures** are similarly affected — people are using generative AI to flood courts with filings and legislatures with constituent letters at volumes that make human review impossible.
+- **arXiv** has begun requiring peer review for computer science submissions in response to the volume of AI-generated papers ([WinBuzzer](https://winbuzzer.com/2025/11/04/arxiv-cracks-down-on-ai-generated-papers-requiring-peer-review-for-cs-submissions-xcxwbn/)).
+
+The metaphor of a denial-of-service attack is apt: the systems aren't being defeated by sophistication but by *volume*. The cost of producing text has collapsed; the cost of evaluating it has not.
+
+## "AI Slop" and Information Pollution
+
+The broader internet reflects the same dynamic. "Slop" — selected as **2025 Word of the Year** by both Merriam-Webster and the American Dialect Society — refers to the flood of low-quality, machine-generated content saturating platforms: generic articles, clickbait, synthetic images, deepfake video, and spam music.
+
+The scale is striking:
+
+- By mid-2025, approximately **52% of new online English-language articles were machine-generated** ([Tokenring / Financial Content report](https://markets.financialcontent.com/wral/article/tokenring-2025-12-29-the-great-digital-decay-new-2025-report-warns-ai-slop-now-comprises-over-half-of-the-internet)).
+- AI-generated content accounts for **21% of all short-form video recommendations** on major platforms.
+- Spotify removed **75 million spam tracks** in one year as AI tools enabled mass production of fraudulent music ([Euronews](https://www.euronews.com/next/2025/12/28/2025-was-the-year-ai-slop-went-mainstream-is-the-internet-ready-to-grow-up-now)).
+- NBC News reported that some of the largest online **propaganda campaigns** are now built on AI slop, using synthetic content at scale for astroturfing and influence operations ([NBC News](https://www.nbcnews.com/tech/security/online-propaganda-campaigns-are-using-ai-slop-researchers-say-rcna244618)).
+
+The KR Institute frames this as **pollution in our communication environment** — a useful analogy because, like environmental pollution, the harm is cumulative, distributed, and borne disproportionately by those with the least power to filter it out ([KR Institute — "AI Slop I: Pollution in Our Communication Environment"](https://www.krinstitute.org/publications/ai-slop-i-pollution-in-our-communication-environment)). The once-fringe "Dead Internet Theory" — the claim that most online content is no longer human-produced — is, by some measures, becoming an observable reality ([Wikipedia — AI slop](https://en.wikipedia.org/wiki/AI_slop)).
+
+## What Kind of Language Is This? The "Bullshit" Problem
+
+A philosophical strand of this debate asks what *kind* of language LLMs actually produce. Hicks, Humphries, and Slater's widely discussed 2024 paper argues that LLM output is best understood as **bullshit** in the precise sense defined by the philosopher Harry Frankfurt: statements produced with no regard for whether they are true or false. The authors argue that terms like "hallucination" and "confabulation" are misleadingly anthropomorphic — they imply the system is *trying* to be truthful and sometimes failing, when in fact truth is simply not a dimension the system operates in ([Hicks, Humphries & Slater, "ChatGPT is bullshit" — *Ethics and Information Technology*, 2024](https://link.springer.com/article/10.1007/s10676-024-09775-5)).
+
+This has been contested — Gunkel and Coghlan argue that the bullshit framework may itself be misapplied to a non-agentive system, and that anthropomorphic metaphors like "hallucination" may still serve useful roles ([Gunkel & Coghlan, "Cut the crap" — PhilPapers](https://philpapers.org/rec/GUNCTC-2)). But the core observation has force: the institutional flooding problem above isn't just about *volume*, it's about **volume of text that has no epistemic relationship to truth**. When a journal is swamped with AI-generated letters, the problem isn't just that there are too many — it's that the text was produced by a process indifferent to whether any of its claims are true. The volume and the epistemic emptiness compound each other.
+
+## The Arms Race — and Why Detectors Make It Worse
+
+The natural institutional response has been to deploy AI detection tools. But this creates what the *Conversation* article calls a **no-win arms race**: as detectors improve, so do "humaniser" tools designed to evade them, in a cycle of "rapid, adversarial iteration" with no stable endpoint.
+
+Worse, current detection tools are systematically biased:
+
+- A Stanford study found that while detectors were "near-perfect" on essays by US-born eighth-graders, they classified **over 61% of TOEFL essays by non-native English speakers as AI-generated** ([Stanford HAI](https://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers); [original paper, arXiv 2304.02819](https://arxiv.org/abs/2304.02819)).
+- Across seven different AI detectors, **97% of non-native English speaker texts were flagged as AI-generated by at least one tool** ([Berkeley D-Lab](https://dlab.berkeley.edu/news/creation-bad-students-ai-detection-non-native-english-speakers)).
+- The MLA-CCCC Joint Task Force on Writing and AI explicitly cautioned against detection tools, noting that "false accusations" may "disproportionately affect marginalized groups" ([UCLA HumTech](https://humtech.ucla.edu/technology/the-imperfection-of-ai-detection-tools/)).
+
+The detection approach, in other words, risks punishing the people least likely to be cheating — non-native speakers, neurodivergent writers, and those with less conventional prose styles — while sophisticated users evade detection easily.
+
+## What Connects This to the Research Ethics Debate
+
+The plagiarism-and-citation framework discussed in Sections 1 and 2 assumes a context where text is authored, attributable, and produced at human scale. The flooding/slop problem breaks all three assumptions simultaneously:
+
+1. **Attribution becomes meaningless** when a single person can generate thousands of submissions, or when propagandists generate synthetic "grassroots" campaigns. The question shifts from "who wrote this?" to "was a human involved at all?"
+2. **Scale defeats gatekeeping.** Peer review, editorial oversight, and judicial triage all depend on submission volumes that humans can process. Machine-speed production overwhelms these systems regardless of whether each individual piece is "properly cited."
+3. **The epistemic contract erodes.** Academic communication presupposes that writers have some relationship to the truth of what they claim. When the production tool is indifferent to truth (per the Hicks et al. argument), that presupposition fails — not at the margins but structurally.
+
+These are not problems that better disclosure policies can solve. They require institutional responses at a different level.
+
+---
+
+## Positive Approaches and Constructive Responses
+
+The picture above is bleak, but there are emerging constructive responses — both technological and institutional — that move beyond the detect-and-punish paradigm.
+
+### 1. Content Provenance and Labelling
+
+Rather than trying to detect AI-generated content after the fact, the **Coalition for Content Provenance and Authenticity (C2PA)** — led by Adobe, Microsoft, the BBC, and now Google — is developing open standards for cryptographically signing content at the point of creation. Content credentials embed metadata about who created something, when, with what tool, and whether AI was involved ([C2PA specification](https://spec.c2pa.org/specifications/specifications/2.2/explainer/_attachments/Explainer.pdf); [Google's C2PA integration](https://blog.google/innovation-and-ai/products/google-gen-ai-content-transparency-c2pa/)).
+
+Google's **SynthID** embeds invisible watermarks into AI-generated text, audio, images, and video at the point of generation. The US Library of Congress has launched a [Community of Practice for content provenance](https://blogs.loc.gov/thesignal/2025/07/c2pa-glam/) in cultural heritage institutions.
+
+Limitations are real — no watermark is simultaneously robust, unforgeable, and publicly detectable, and provenance metadata can be stripped or forged ([UK Parliament briefing on AI content labelling](https://researchbriefings.files.parliament.uk/documents/CBP-10467/CBP-10467.pdf)). But the approach is promising because it shifts the burden from *detection* (which creates an arms race) to *attestation* (which creates a positive signal of authenticity).
+
+### 2. Redesigning Assessment Around Process, Not Product
+
+In education, the most promising responses move away from policing final outputs and toward assessing the *process* of thinking:
+
+- **Oral examinations** are being revived at scale. The key advantage: "a student cannot convincingly explain a concept they do not understand, even if they used AI to study or prepare." Universities including Western Ontario and UC San Diego have implemented structured oral assessments in large-enrolment courses ([American Physiological Society — oral exams in the AI era](https://journals.physiology.org/doi/full/10.1152/advan.00191.2024); [McGill Daily](https://www.mcgilldaily.com/2026/01/is-ai-killing-academic-integrity/)).
+- **Process-based assessment** breaks work into staged submissions (proposal, outline, draft, revision) so that instructors can monitor thinking over time rather than evaluating only a final product ([Packback — AI-proof assignments](https://packback.co/resources/blog/ai-proof-your-assignments-5-strategies-to-prevent-cognitive-offloading-in-higher-education/)).
+- **Portfolio-based assessment** asks students to build a body of work that demonstrates development, making it harder to substitute machine-generated output for genuine learning ([Rethinking Assessment](https://rethinkingassessment.com/rethinking-blogs/rethinking-assessment-for-generative-ai-beyond-the-essay/)).
+
+The underlying principle is a shift from "can you produce a correct text?" to "can you demonstrate that you understand?" — a question that remains meaningful even when text production is trivially cheap.
+
+### 3. AI Literacy as a Core Competency
+
+Rather than treating AI as a threat to be defended against, several frameworks argue for embedding **critical AI literacy** into education:
+
+- Understanding *how* LLMs work (statistical pattern-matching, not reasoning) equips people to evaluate their outputs appropriately ([Tadimalla, "AI literacy as a core component of AI education" — *AI Magazine*, 2025](https://onlinelibrary.wiley.com/doi/10.1002/aaai.70007)).
+- Teaching **prompt engineering** alongside critical thinking helps students use AI as a tool while retaining epistemic responsibility ([Springer — "Embracing the future of AI in the classroom"](https://link.springer.com/article/10.1186/s41239-024-00448-3)).
+- The EDUCAUSE AI Literacy framework emphasises that literacy includes understanding AI's societal impacts — environmental, labour, and power-concentration issues — not just its technical capabilities ([EDUCAUSE AI Literacy](https://www.educause.edu/content/2024/ai-literacy-in-teaching-and-learning/executive-summary)).
+
+### 4. Institutional Adaptation Over Technological Fix
+
+Perhaps the most important lesson from the literature is that **no technological fix will solve a structural problem**. The *Conversation* article is explicit: "there won't ever be a way to totally stop" fraudulent AI use. What institutions *can* do:
+
+- **Redesign submission systems** that assumed human-speed production — e.g. journals moving to invited contributions for formats like letters to the editor, rather than open submission.
+- **Shift from policing to culture-building.** The MLA-CCCC Joint Task Force urges educators to "focus on approaches to academic integrity that support students rather than punish them" ([Packback — moving beyond plagiarism](https://packback.co/resources/blog/moving-beyond-plagiarism-and-ai-detection-academic-integrity-in-2025/)).
+- **Attend to power dynamics.** The same AI tools that enable corporate astroturfing can also democratise access to legal and administrative language for people who previously couldn't afford it. Constructive policy needs to distinguish between these uses rather than treating all AI-generated text as equally suspect.
+- **Accept that the information environment has changed.** Just as the printing press, the photocopier, and the internet each forced institutional adaptation, generative AI requires rethinking assumptions about what language is, who produces it, and what volume of it institutions can meaningfully process.
+
+### Further Reading: Language Flooding, Slop, and Constructive Responses
+
+- [AI-generated text is overwhelming institutions — *The Conversation* (2025)](https://theconversation.com/ai-generated-text-is-overwhelming-institutions-setting-off-a-no-win-arms-race-with-ai-detectors-274720)
+- [Major AI conference flooded with peer reviews written fully by AI — *Nature* (2025)](https://www.nature.com/articles/d41586-025-03506-6)
+- [Hicks, Humphries & Slater, "ChatGPT is bullshit" — *Ethics and Information Technology* (2024)](https://link.springer.com/article/10.1007/s10676-024-09775-5)
+- [AI Slop I: Pollution in Our Communication Environment — KR Institute](https://www.krinstitute.org/publications/ai-slop-i-pollution-in-our-communication-environment)
+- [AI slop and data pollution — SSRN (Ansari, 2025)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5649410)
+- [The 7Vs of AI Slop: A Typology of Generative Waste — SSRN (Madsen & Puyt)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5558018)
+- [GPT detectors are biased against non-native English writers — arXiv (2023)](https://arxiv.org/abs/2304.02819)
+- [A bibliography of genAI-fueled research fraud from 2025 — Sharon Kabel](http://sharonkabel.com/genai-fraud/)
+- [C2PA Content Credentials Explainer v2.2](https://spec.c2pa.org/specifications/specifications/2.2/explainer/_attachments/Explainer.pdf)
+- [Shaping integrity: why generative AI does not have to undermine education — PMC (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11540794/)
+- [Should oral examination be reimagined in the era of AI? — *Advances in Physiology Education* (2025)](https://journals.physiology.org/doi/full/10.1152/advan.00191.2024)
