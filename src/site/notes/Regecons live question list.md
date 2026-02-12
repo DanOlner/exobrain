@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
 ---
 
 # What's this page?
@@ -209,8 +209,15 @@ So let's think through all the things I want to try and get done before this fir
 - [x] Oh, a biggie - get key data and code over to the modular repo and make sure it runs. ✅ 2026-02-11 (actually not so bad, all data is downloadable from various places)
 - [ ] Draft a 'using LLMs/Claude Code code of practice' that starts from the principle that it's just like any other citation - source needed. So I will try to separate out what's done what, as diligently as I'd not plagiarise. Noting that this is experimental.
 
-OK, that's quite a lot!
+OK, that's quite a lot! Though a lot is just bitty bits. The main thing is have a plan to try and be clear on what this is, where it's going and how I want to try and get feedback.
+
+Specifically lacking at the moment 
 
 
+A chunk of LLM reflections I might use somewhere (moved from ):
 
+As long as we understand the claude-code-generated report below for *what it is* - an auto-generated body of links and sources to draw on, not a replacement for that
 
+Counter-argument: it insidiously replaces human information skills. Does it? I don't think any studies I've seen seem robust enough to conclude that. Conversely, anything that provides the headline "Paper proves LLMs cause human brain matter to actually physically leak out of your ears like runny porridge" will always get a million shares.
+
+The best comparison isn't LLMs and human thought - it's LLMs and google. Let me just go and check, did google cause similar 'human brains will become porridge' warnings...?
