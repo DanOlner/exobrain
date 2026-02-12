@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/llm-use-experimenting-with-short-guidelines/","tags":["AI","brainsystems"]}
+{"dg-publish":true,"permalink":"/llm-use-experimenting-with-short-guidelines/","tags":["#AI","#brainsystems"]}
 ---
 
 # DAN-WRITTEN BIT ([[11th-Feb-2026\|11th-Feb-2026]])
