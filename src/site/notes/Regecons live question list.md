@@ -225,3 +225,5 @@ The best comparison isn't LLMs and human thought - it's LLMs and google. Let me 
 ## Getting actual draft finished ([[12th-Feb-2026\|12th-Feb-2026]])
 
 Blimey there's been an eensy bit of mission creep hasn't there! There is still the actual substantive output to get written though, and I can feel some resistance (and that's definitely not a reason an entire open modular system was set up nope nope).
+
+Let's have a look at where the draft is! Good god.
