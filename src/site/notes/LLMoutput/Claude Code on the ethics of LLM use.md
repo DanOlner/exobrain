@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/ll-moutput/claude-code-on-the-ethics-of-llm-use/","tags":["#AI"]}
+{"dg-publish":true,"permalink":"/ll-moutput/claude-code-on-the-ethics-of-llm-use/","tags":["AI"]}
 ---
 
-*Compiled by Claude Code. Supporting doc for [[LLM use in work - experimenting with short guidelines\|LLM use in work - experimenting with short guidelines]].*
+*Compiled by Claude Code. Supporting doc for [[LLM use in work - experimenting with short guidelines\|LLM use in work - experimenting with short guidelines]].* Prompts / process: see [[claudecode_convos/Claude Code chat about LLM ethics\|Claude Code chat about LLM ethics]].
 # 1. The Deeper Ethics of LLM Use: Structural Issues Behind the Research Debate
 
 The question of whether and how to cite LLM use in research (covered below) sits inside a much larger set of ethical concerns. University disclosure policies tend to focus narrowly on attribution and academic integrity — but the decision to use an LLM at all implicates a researcher in a wider web of environmental, labour, intellectual property, and power-concentration issues. This section collates sources on those structural concerns and considers how they interact with the research-ethics debate.
