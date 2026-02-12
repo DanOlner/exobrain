@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/claudecode-convos/claude-code-chat-about-llm-ethics/","tags":["AI"]}
+{"dg-publish":true,"permalink":"/claudecode-convos/claude-code-chat-about-llm-ethics/","tags":["#AI"]}
 ---
 
 # Claude Code Conversation
@@ -90,17 +90,6 @@ ls /Users/danolner/thevault/LLMoutput/
 ## Assistant
 
 *[Fetch: https://www.csescienceeditor.org/article/undeclared-ai-assisted-academic-writing-as-a-form-of-research-misconduct/]*
-
-
-## Assistant
-
-*[Fetch: https://www.nature.com/articles/d41586-025-02616-5]*
-
-> **Tool result:** Request failed with status code 303
-
-> **Tool result:** <tool_use_error>Sibling tool call errored</tool_use_error>
-
-> **Tool result:** <tool_use_error>Sibling tool call errored</tool_use_error>
 
 
 ## Assistant
@@ -651,9 +640,7 @@ Now I'll write the new section at the end of the document.
 ## Assistant
 
 *[Edit: `/Users/danolner/thevault/LLMoutput/LLM use - experimenting with short guidelines.md`]*
-
-> **Tool result:** <tool_use_error>File has been modified since read, either by the user or by a linter. Read it again before attempting to write it.</tool_use_error>
-
+ 
 
 ## Assistant
 
@@ -665,8 +652,6 @@ Now I'll write the new section at the end of the document.
 ## Assistant
 
 *[Edit: `/Users/danolner/thevault/LLMoutput/LLM use - experimenting with short guidelines.md`]*
-
-> **Tool result:** <tool_use_error>File has been modified since read, either by the user or by a linter. Read it again before attempting to write it.</tool_use_error>
 
 
 ## Assistant
@@ -829,8 +814,6 @@ head -5 ~/.claude/projects/-Users-danolner-thevault/6544d6a2-37bf-47ec-a6d9-9f4c
 # Check what a user message with "text" content type looks like
 head -5 ~/.claude/projects/-Users-danolner-thevault/6544d6a2-37bf-47ec-a6d9-9f4cca8c48e8.jsonl | jq -c 'select(.type == "user") | .message.content[:1][] | {type, text: (.text[:120)}'
 ```
-
-> **Tool result:** Exit code 3 jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at <top-level>, line 1: select(.type == "user") | .message.content[:1][] | {type, text: (.text[:120)}    ...
 
 
 ## Assistant
