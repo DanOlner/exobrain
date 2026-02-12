@@ -42,6 +42,13 @@ In the project below, I've also automated adding in all Claude-Code conversation
 
 > Including LLM prompts and replies as standard in a project's folder.
 
+
+## Other considerations
+
+LLMs may well be excellent supporting tech for people who aren't writing in their first language, or who face other obstacles to producing documents or getting thoughts down. The above "CITE LLM OR IT'S PLAGIARISM/THEFT" approach is probably too coarse.
+
+That said, if using LLMs in any of these supporting roles, it is possible to acknowledge the tools being used?
+
 ## Using these principles in a reproducible project folder
 
 My [current project on regional economic data uncertainty](https://github.com/DanOlner/RegEconWorks/tree/master) is the first time I've fully embedded Claude Code into my workflow, and so I've used it to prototype a project structure that builds in the principles above. I'm also attempting to combined that into testing some other aspects, including open, modular/chunk-size research that is legible across academia, policy and anyone else with an interest. That will include providing clear feedback routes (beyond just using github issues, though that's also an option). 
