@@ -221,3 +221,7 @@ As long as we understand the claude-code-generated report below for *what it is*
 Counter-argument: it insidiously replaces human information skills. Does it? I don't think any studies I've seen seem robust enough to conclude that. Conversely, anything that provides the headline "Paper proves LLMs cause human brain matter to actually physically leak out of your ears like runny porridge" will always get a million shares.
 
 The best comparison isn't LLMs and human thought - it's LLMs and google. Let me just go and check, did google cause similar 'human brains will become porridge' warnings...?
+
+## Getting actual draft finished ([[12th-Feb-2026\|12th-Feb-2026]])
+
+Blimey there's been an eensy bit of mission creep hasn't there! There is still the actual substantive output to get written though, and I can feel some resistance (and that's definitely not a reason an entire open modular system was set up nope nope).
