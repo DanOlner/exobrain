@@ -200,7 +200,8 @@ Getting there. Worth noting - I'm experimenting with several things at the same 
 ## Next stages ([[11th-Feb-2026\|11th-Feb-2026]])
 
 So let's think through all the things I want to try and get done before this first stage counts as 'done'. I think there's quite a lot of them.
-- [ ] Complete this first draft, especially those early sections.
+- [ ] Add in a section showing where LLM use happened in production. 
+- [x] Complete this first draft, especially those early sections. ✅ 2026-02-13
 - [ ] Put a roadmap somewhere, probably in the main repo's README.md
 - [ ] Smaller roadmap for this piece includes: what other error-rate tests to consider, if we press on with this approach? I'd like to do some using Companies House jobs data for smaller sectors - treat those like samples, do the same national LQ error simulations, plot.
 - [ ] Decide when first 'release' is to get DOI.
@@ -227,3 +228,54 @@ The best comparison isn't LLMs and human thought - it's LLMs and google. Let me 
 Blimey there's been an eensy bit of mission creep hasn't there! There is still the actual substantive output to get written though, and I can feel some resistance (and that's definitely not a reason an entire open modular system was set up nope nope).
 
 Let's have a look at where the draft is! Good god.
+
+Couple of other bits:
+
+- Writing as part of a social structure capable of incrementally finding its way to reality / short-circuiting sidequests into delusion - that's all up in the air currently. Note what happened to climate science. LLMs in there. State of unis.
+- Then - note in main piece: ONS doing incredible work in horrible environment, they more than anyone know the flaws. This is no criticism of people way smarter than me. We could just do with developing some other approaches - it's not either/or. Back to testing.
+
+Back to actually getting this draft done though - what else does it need? I'm looking at it wondering what counts as a modular chunk. That is part of the 'modular feedback' process. The piece needs to clearly signpost that. OK then.
+
+So that includes:
+- Where do we put in things like "what are the implications for regional economic policy if we take uncertainty seriously? How might it change what we do?"
+	- I can have some opening thought on that, but I think directing people to specific questions = a good idea. Those can also go into slides or issues etc. (Could even automate adding to issues.)
+
+Let's just go through the draft and do some fixes...
+
+OK, decent re-draft of bulk. Things I need now:
+- End discussion that includes next steps, so let's just think through the whole framework of the modular approach.
+- Decide what goes into the Lost Boys bit. I can leave out the policy bit for now? I think that would probably make sense.
+
+Also, things for the blog post:
+- Modular approach allows more of you to come through. Or, I've allowed myself to come through. And that's a good thing. If a final paper may have to end up more formal, but these earlier stages absolutely don't. That also allows freer linking, sourcing, everthing else. Good!
+
+..
+
+Actually getting there. What next? I could do with better examples from the ones I've got - put side by side 'if we just use point estimates' vs 'with uncertainty'.
+
+We also need some open questions at the end for the next step (if that ever happens - actually doesn't hugely matter if it doesn't).
+
+But yes - the obvious question anyone will ask is "so what difference could it make?" I could do with some ideas.
+
+## Looking through examples to get a table
+
+OK, let's see what there is. I'm going to stick to LQs as it's easier to do this. Let's do it in RStudio.
+
+## What bits are left? Making the overall plan?
+
+Nearly a draft! It all now needs wrapping in the 'this is a chunk' layer.  I think I can probably start trying to write up a blog post, and making a 'tell people' plan that I can add to the repo.
+
+Have also done:
+- Feedback doc update
+- Most of readme
+- Checked on contributions options and I think I have a good solution. Though it needs a revisit / it might be easier to just do it manually given how many people it would be. Let's see... Actually, might be OK as is. Let's test.
+
+There's more to do around the edges, but thought it might be worth just quickly ending the day with a bit of a go at starting a blog post on this. But first, a rough list of places to promote and things to say:
+- [ ] Stick in LinkedIn, obv. Once post is done (and BlueSky).
+- [ ] Email people, possibly separate groups depending on what I want to say. Think of some people to ask to present the questions to.
+
+Err. That might be it? Think through attempts to get feedback. Oh, I also haven't made the whole roadmap. 
+
+
+
+
