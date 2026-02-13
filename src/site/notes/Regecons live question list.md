@@ -31,6 +31,8 @@ The error rates stuff I think lends itself to a discrete piece of work that does
 
 # Misc links
 
+- Sheffield Tribune: "[Should Sheffield aim to be a city of makers](https://thetribune.substack.com/p/should-sheffield-aim-to-be-a-city)?" James Evans (then from Centre for Cities).
+- Trib again: "[Sheffield and Rotherham are reversing the spiral of manufacturing decline](https://thetribune.substack.com/p/sheffield-and-rotherham-are-reversing)", John Yates.
 - "Have the UK’s northern cities really experienced a productivity miracle?" Paul Swinney, [economics observatory](https://www.economicsobservatory.com/have-the-uks-northern-cities-really-experienced-a-productivity-miracle) via [linkedin](https://www.linkedin.com/posts/paulswinney_have-the-uks-northern-cities-really-experienced-activity-7417612085670416384-p-HT).
 
 # Intro
