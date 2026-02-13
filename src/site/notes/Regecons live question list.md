@@ -272,7 +272,7 @@ Have also done:
 - Most of readme
 - Checked on contributions options and I think I have a good solution. Though it needs a revisit / it might be easier to just do it manually given how many people it would be. Let's see... Actually, might be OK as is. Let's test.
 
-
+Some bits on my pestering plan I'm keeping elsewhere in own obsidian file [[regeconplanner\|regeconplanner]]^d5eff3
 
 
 
