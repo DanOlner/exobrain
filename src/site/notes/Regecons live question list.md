@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
 ---
 
 # What's this page?
@@ -272,11 +272,6 @@ Have also done:
 - Most of readme
 - Checked on contributions options and I think I have a good solution. Though it needs a revisit / it might be easier to just do it manually given how many people it would be. Let's see... Actually, might be OK as is. Let's test.
 
-There's more to do around the edges, but thought it might be worth just quickly ending the day with a bit of a go at starting a blog post on this. But first, a rough list of places to promote and things to say:
-- [ ] Stick in LinkedIn, obv. Once post is done (and BlueSky).
-- [ ] Email people, possibly separate groups depending on what I want to say. Think of some people to ask to present the questions to.
-
-Err. That might be it? Think through attempts to get feedback. Oh, I also haven't made the whole roadmap. 
 
 
 
