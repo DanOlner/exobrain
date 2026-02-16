@@ -36,7 +36,7 @@ I'm still experimenting with mechanisms for doing this - see below for a self-co
 
 That's what I've done in [this](https://exobrain.coveredinbees.org/ll-moutput/manski-uncertainty-in-policymaking/) and other outputs, for instance - Claude Code acting as a slightly-posher-than-a-google-search, source-synthesising engine that can draft useful text around its results, and will persist for reference. Useful. Claude-written and clearly marked as so.
 
-[Here's](https://github.com/DanOlner/RegEconWorks/blob/master/FEEDBACK.md) a smush example (with the diff link at the top). For this one, I got CC to create a rough project folder template, which included this feedback .md, and then I edited it.
+[Here's](https://github.com/DanOlner/RegEconWorks/blob/master/FEEDBACK.md) a smush example (with the diff link at the top). For this one, I got CC to create a rough project folder template, which included this feedback .md, and then I edited it. That's not perfect - it could do with the LLM showing up as its own committer. One more thing in the long list of things to automate...
 
 As other examples, I've done the same in some [recent R code](https://github.com/DanOlner/RegEconWorks/blob/master/code/ABS_error_rates.R). I've used R sections here to separate my coding from CC's.
 
