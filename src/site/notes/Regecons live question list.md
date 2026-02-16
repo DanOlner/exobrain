@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
 ---
 
 # What's this page?
@@ -201,20 +201,6 @@ Getting there. Worth noting - I'm experimenting with several things at the same 
 
 ## Next stages ([[11th-Feb-2026\|11th-Feb-2026]])
 
-So let's think through all the things I want to try and get done before this first stage counts as 'done'. I think there's quite a lot of them.
-- [ ] Add in a section showing where LLM use happened in production. 
-- [x] Complete this first draft, especially those early sections. ✅ 2026-02-13
-- [ ] Put a roadmap somewhere, probably in the main repo's README.md
-- [ ] Smaller roadmap for this piece includes: what other error-rate tests to consider, if we press on with this approach? I'd like to do some using Companies House jobs data for smaller sectors - treat those like samples, do the same national LQ error simulations, plot.
-- [ ] Decide when first 'release' is to get DOI.
-- [ ] Be clear on the 'open modular feedback iterate cross-academia/policy paper' approach thing.
-- [ ] Include a clear summary somewhere (there's a policymaker summary folder in the repo, could put some slides there?)
-- [x] Oh, a biggie - get key data and code over to the modular repo and make sure it runs. ✅ 2026-02-11 (actually not so bad, all data is downloadable from various places)
-- [x] Draft a 'using LLMs/Claude Code code of practice' that starts from the principle that it's just like any other citation - source needed. So I will try to separate out what's done what, as diligently as I'd not plagiarise. Noting that this is experimental. ✅ 2026-02-12
-
-OK, that's quite a lot! Though a lot is just bitty bits. The main thing is have a plan to try and be clear on what this is, where it's going and how I want to try and get feedback.
-
-Specifically lacking at the moment 
 
 
 A chunk of LLM reflections I might use somewhere (moved from ):
@@ -272,7 +258,24 @@ Have also done:
 - Most of readme
 - Checked on contributions options and I think I have a good solution. Though it needs a revisit / it might be easier to just do it manually given how many people it would be. Let's see... Actually, might be OK as is. Let's test.
 
-Some bits on my pestering plan I'm keeping elsewhere in own obsidian file [[regeconplanner\|regeconplanner]]^d5eff3 as it has specific pesterees in.
+Some bits on my pestering plan I'm keeping elsewhere in own obsidian file [[Planners/regeconplanner\|regeconplanner]] as it has specific pesterees in.
+
+Didn't quite get to writing a blog post about all this, but can do that next. I think it's very near to being able to DOI it. Huzzah!
 
 
+## Next bits [[16th-Feb-2026\|16th-Feb-2026]]
+
+Moving the task list here:
+
+- [ ] Add in a section showing where LLM use happened in production. Include that as standard template in the repo that includes a version of the [[LLM use in work - experimenting with short guidelines\|LLM use in work - experimenting with short guidelines]].
+- [ ] Smaller roadmap for this piece includes: what other error-rate tests to consider, if we press on with this approach? I'd like to do some using Companies House jobs data for smaller sectors - treat those like samples, do the same national LQ error simulations, plot.
+- [ ] Decide when first 'release' is to get DOI.
+- [ ] Be clear on the 'open modular feedback iterate cross-academia/policy paper' approach thing.
+- [ ] Include a clear summary somewhere (there's a policymaker summary folder in the repo, could put some slides there?)
+- [x] Put a roadmap somewhere, probably in the main repo's README.md ✅ 2026-02-16
+- [x] Complete this first draft, especially those early sections. ✅ 2026-02-13
+- [x] Oh, a biggie - get key data and code over to the modular repo and make sure it runs. ✅ 2026-02-11 (actually not so bad, all data is downloadable from various places)
+- [x] Draft a 'using LLMs/Claude Code code of practice' that starts from the principle that it's just like any other citation - source needed. So I will try to separate out what's done what, as diligently as I'd not plagiarise. Noting that this is experimental. ✅ 2026-02-12
+
+Getting there. Before picking through the draft one more time, I'd like to start getting on with writing a blog post and various other bits to explain what this is. That will help me think through what I haven't done here.
 

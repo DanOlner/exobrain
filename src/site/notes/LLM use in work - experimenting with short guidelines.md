@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/llm-use-in-work-experimenting-with-short-guidelines/","tags":["#AI","#brainsystems"]}
+{"dg-publish":true,"permalink":"/llm-use-in-work-experimenting-with-short-guidelines/","tags":["AI","brainsystems"]}
 ---
 
 ## What's this doc?
@@ -32,9 +32,11 @@ But let's not over-complicate this. While acknowledging that feedback will occur
 
 I'm still experimenting with mechanisms for doing this - see below for a self-contained project experiment - but it doesn't necessarily need to be more complex than:
 
-> In writing and code, I'll use either headings or designated blocks to separate out my own work from LLM output.
+> In writing and code, I'll use either headings or designated blocks to separate out my own work from LLM output. In pieces where it's a mix of LLM and me (sometimes unavoidable) I'll label them 'human/LLM smush' and link to a diff file so you can see who did what.
 
 That's what I've done in [this](https://exobrain.coveredinbees.org/ll-moutput/manski-uncertainty-in-policymaking/) and other outputs, for instance - Claude Code acting as a slightly-posher-than-a-google-search, source-synthesising engine that can draft useful text around its results, and will persist for reference. Useful. Claude-written and clearly marked as so.
+
+[Here's](https://github.com/DanOlner/RegEconWorks/blob/master/FEEDBACK.md) a smush example (with the diff link at the top). For this one, I got CC to create a rough project folder template, which included this feedback .md, and then I edited it.
 
 As other examples, I've done the same in some [recent R code](https://github.com/DanOlner/RegEconWorks/blob/master/code/ABS_error_rates.R). I've used R sections here to separate my coding from CC's.
 
