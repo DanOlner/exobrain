@@ -267,15 +267,28 @@ Didn't quite get to writing a blog post about all this, but can do that next. I 
 
 Moving the task list here:
 
-- [ ] Add in a section showing where LLM use happened in production. Include that as standard template in the repo that includes a version of the [[LLM use in work - experimenting with short guidelines\|LLM use in work - experimenting with short guidelines]].
-- [ ] Smaller roadmap for this piece includes: what other error-rate tests to consider, if we press on with this approach? I'd like to do some using Companies House jobs data for smaller sectors - treat those like samples, do the same national LQ error simulations, plot.
+- [x] Add in a section showing where LLM use happened in production. Include that as standard template in the repo that includes a version of the [[LLM use in work - experimenting with short guidelines\|LLM use in work - experimenting with short guidelines]]. ✅ 2026-02-16
+- [x] Smaller roadmap for this piece includes: what other error-rate tests to consider, if we press on with this approach? I'd like to do some using Companies House jobs data for smaller sectors - treat those like samples, do the same national LQ error simulations, plot. ✅ 2026-02-16
 - [ ] Decide when first 'release' is to get DOI.
-- [ ] Be clear on the 'open modular feedback iterate cross-academia/policy paper' approach thing.
+- [x] Be clear on the 'open modular feedback iterate cross-academia/policy paper' approach thing. ✅ 2026-02-16
 - [ ] Include a clear summary somewhere (there's a policymaker summary folder in the repo, could put some slides there?)
+- [x] Check I'm happy with the title! Obvious one I may have got blind to. ✅ 2026-02-16
 - [x] Put a roadmap somewhere, probably in the main repo's README.md ✅ 2026-02-16
 - [x] Complete this first draft, especially those early sections. ✅ 2026-02-13
 - [x] Oh, a biggie - get key data and code over to the modular repo and make sure it runs. ✅ 2026-02-11 (actually not so bad, all data is downloadable from various places)
 - [x] Draft a 'using LLMs/Claude Code code of practice' that starts from the principle that it's just like any other citation - source needed. So I will try to separate out what's done what, as diligently as I'd not plagiarise. Noting that this is experimental. ✅ 2026-02-12
 
 Getting there. Before picking through the draft one more time, I'd like to start getting on with writing a blog post and various other bits to explain what this is. That will help me think through what I haven't done here.
+
+Oh I probably need to include the 'where LLM use happened'... done.
+
+So now just to check through the draft of the actual thing, to see if it gets what I wanted.
+
+Mostly. There's some vagueness in the argument that I may have to leave until next week. But that'd be OK. So for instance, these things need better language, and there's no need to rush it:
+
+- In the earlier "make spurious accuracy potentially more troublesome" section - clarify what I'm saying there. It needs a bit more precision. Can I explain it to myself?
+- First part of next steps: something important about iteration etc, but what am I saying?
+
+
+
 
