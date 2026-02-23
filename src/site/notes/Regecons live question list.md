@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
 ---
 
 # What's this page?
@@ -288,6 +288,12 @@ Mostly. There's some vagueness in the argument that I may have to leave until ne
 
 - In the earlier "make spurious accuracy potentially more troublesome" section - clarify what I'm saying there. It needs a bit more precision. Can I explain it to myself?
 - First part of next steps: something important about iteration etc, but what am I saying?
+
+***
+
+OK, just trying to close things down before being away for a few days. I didn't rush to push this out today - couple of the arguments I want to not be so baggy before I call it a release. But this is all getting there nicely. A rest will help. And I can take the time to pick through all the various bits and make sure to tick them off.
+
+
 
 
 

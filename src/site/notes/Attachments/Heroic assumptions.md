@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/attachments/heroic-assumptions/","tags":["#glossary"]}
+{"dg-publish":true,"permalink":"/attachments/heroic-assumptions/","tags":["glossary"]}
 ---
 
 From "Model Construction and Evaluation When Theoretical Knowledge Is Scarce: Theory and Application of Partial Least Squares", Herman Wold, 1980. [PDF here](https://www.nber.org/system/files/chapters/c11693/c11693.pdf).

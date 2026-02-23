@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/llm-use-in-work-experimenting-with-short-guidelines/","tags":["#AI","#brainsystems"]}
+{"dg-publish":true,"permalink":"/llm-use-in-work-experimenting-with-short-guidelines/","tags":["AI","brainsystems"]}
 ---
 
 ## What's this doc?

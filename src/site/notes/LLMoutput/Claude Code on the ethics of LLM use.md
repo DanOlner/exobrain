@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ll-moutput/claude-code-on-the-ethics-of-llm-use/","tags":["#AI"]}
+{"dg-publish":true,"permalink":"/ll-moutput/claude-code-on-the-ethics-of-llm-use/","tags":["AI"]}
 ---
 
 *Compiled by Claude Code. Supporting doc for [[LLM use in work - experimenting with short guidelines\|LLM use in work - experimenting with short guidelines]].* Prompts / process: see [[claudecode_convos/Claude Code chat about LLM ethics\|Claude Code chat about LLM ethics]].
