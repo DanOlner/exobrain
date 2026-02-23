@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
 ---
 
 # What's this page?
@@ -258,7 +258,7 @@ Have also done:
 - Most of readme
 - Checked on contributions options and I think I have a good solution. Though it needs a revisit / it might be easier to just do it manually given how many people it would be. Let's see... Actually, might be OK as is. Let's test.
 
-Some bits on my pestering plan I'm keeping elsewhere in own obsidian file [[Planners/regeconplanner\|regeconplanner]] as it has specific pesterees in.
+Some bits on my pestering plan I'm keeping elsewhere in own obsidian file [[Planners/regeconworks planner non-public\|regeconworks planner non-public]] as it has specific pesterees in.
 
 Didn't quite get to writing a blog post about all this, but can do that next. I think it's very near to being able to DOI it. Huzzah!
 
