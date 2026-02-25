@@ -719,19 +719,19 @@ You can add a [Zenodo DOI badge](https://help.zenodo.org/docs/github/) to the RE
 
 A concrete checklist for each milestone release:
 
-- [ ] All module `README.md` files are up to date (status, dependencies)
-- [ ] `modules.yml` manifest is current
-- [ ] `CITATION.cff` version and date-released are updated
-- [ ] `.zenodo.json` version is updated (if using)
-- [ ] `renv.lock` is current (if using `renv`)
-- [ ] Any new policy notes are in place
-- [ ] Create git tag: `git tag -a v0.X.0 -m "Description of this release"`
-- [ ] Push tag: `git push origin v0.X.0`
-- [ ] Draft GitHub Release with notes (what changed, which modules, links to blog posts)
-- [ ] Publish release → Zenodo archives and mints DOI
-- [ ] Copy new DOI into README badge, CITATION.cff, modules.yml, and relevant blog posts
-- [ ] Upload rendered PDF to MPRA/SSRN (if this release includes a working paper version)
-- [ ] Announce on blog / LinkedIn with DOI link
+- [x] All module `README.md` files are up to date (status, dependencies) ✅ 2026-02-24
+- [x] `modules.yml` manifest is current ✅ 2026-02-24
+- [x] `CITATION.cff` version and date-released are updated ✅ 2026-02-24
+- [x] `.zenodo.json` version is updated (if using) ✅ 2026-02-24
+- [x] `renv.lock` is current (if using `renv`) ✅ 2026-02-24
+- [x] Any new policy notes are in place ✅ 2026-02-24
+- [x] Create git tag: `git tag -a v0.X.0 -m "Description of this release"` ✅ 2026-02-24
+- [x] Push tag: `git push origin v0.X.0` ✅ 2026-02-24
+- [x] Draft GitHub Release with notes (what changed, which modules, links to blog posts) ✅ 2026-02-24
+- [x] Publish release → Zenodo archives and mints DOI ✅ 2026-02-24
+- [x] Copy new DOI into README badge, CITATION.cff, modules.yml, and relevant blog posts ✅ 2026-02-24
+- [x] Upload rendered PDF to MPRA/SSRN (if this release includes a working paper version) ✅ 2026-02-24
+- [x] Announce on blog / LinkedIn with DOI link ✅ 2026-02-24
 
 ### Technical References
 

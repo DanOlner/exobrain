@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
 ---
 
 # What's this page?
@@ -293,6 +293,45 @@ Mostly. There's some vagueness in the argument that I may have to leave until ne
 
 OK, just trying to close things down before being away for a few days. I didn't rush to push this out today - couple of the arguments I want to not be so baggy before I call it a release. But this is all getting there nicely. A rest will help. And I can take the time to pick through all the various bits and make sure to tick them off.
 
+# Sharpening final bits / pulling together ([[24th-Feb-2026\|24th-Feb-2026]])
+
+I want to distill the arguments a bit more for the final thing. They're there, but baggy, and after a few days away I think there's a couple of things I can be a bit sharper on. Specifically - national accounts need to sum/balance single value numbers means (a) we have no idea about uncertainty levels and (b) we're not building on sound statistical ground for making key economic claims. That Coyle quote seems apt...
+
+That will involve being more precise with the headlines also.
+
+## Bits that may need sharpening
+
+> This is especially vexatious for place-based policies, including industrial strategy. As devolution deepens, the problems will only multiply. We need to better understand what we do and don't know, how that affects available regional choices, and how policy should or shouldn't align across regions.
+
+Multiply how? Example this early?
+
+Just mulling the lost boys metaphor. Prob need to come back to that in discussion section, and tie to what I'm saying in the lit bit.
+
+The next steps section is a bit of a mess, and I think I've got some other good sources to drop in. Then think through what questions to actually ask - can end on those?
+
+I think... it needs a rewrite, with those other sources. I'm arguing two things: type 1/2 as steering principle. Back to the vampires.
+
+I should acknowledge the difficulties - the pressure for certitude due to funding allocation e.g. regional GVA originated in EU funding allocation.
+
+..
+
+I think I've gone into academese mode, and that's not the point of this piece, or the point of my brain right now. Let's re-phrase what I've got in there as a series of either provocations or questions, not as 'acadasplaining'... 
+
+What that looks like: forcibly stringing together thoughts into an attempted coherent argument through annealing. It's slow, it does look like an argument, but I'm not sure it is, or needs to be that long.
+
+What have we got, what are the questions I've got from that? And CRUCIALLY how do they actually connect to what the piece is doing with error bars?
+
+
+
+
+
+CUTTINZ
+
+Introducing uncertainty doesn't have to mean losing information. In fact it can be the reverse - revealing genuine signal in the noise, like a lighthouse in fog.
+
+GVA at sub-regional level, however, throws up other sets of problems that make spurious accuracy potentially more troublesome. We've already mentioned how much regional values are estimated through a top-down process that divides up national numbers in various ways, rather than being based directly on regional data. This is compounded by the fact that local and mayoral authorities don't get national-level data support and resources. UK level economic data works at the level it was made for.
+
+But it's not always that way round - an issue that signal detection theory attempts to grapple with (see e.g. @simchon2026). As it says [here](https://www.keiseruniversity.edu/signal-detection-theory/), we are trying to detect the signal in the noise and then act appropriately.
 
 
 

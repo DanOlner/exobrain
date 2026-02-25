@@ -1,6 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/oldscript/old-script-journal/","tags":["oldscript","scifi","AI","planner"]}
+{"dg-publish":true,"permalink":"/oldscript/old-script-journal/","tags":["#oldscript","#scifi","#AI","#planner"]}
 ---
+
+# Random thoughts
+
+I'm going to explain to you why you're a brain in a jar who thinks they're reading a book.
 
 # What's this?
 

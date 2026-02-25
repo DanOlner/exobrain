@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/y-and-h-sector-key-messages/","tags":["regecon"]}
+{"dg-publish":true,"permalink":"/y-and-h-sector-key-messages/","tags":["#regecon"]}
 ---
 
 Written [[23rd-Feb-2026\|23rd-Feb-2026]]. 
@@ -16,7 +16,7 @@ And the original sector portraits:
 
 ## Some key messages
 
-- Manufacturing strengths show up right across Y&H in many different ways in the data - strong in traditional locations, continuing growth in less obvious places (e.g. growth in food and chemical/petroleum manfacturing in east side of Y&H).
+- [ ] Manufacturing strengths show up right across Y&H in many different ways in the data - strong in traditional locations, continuing growth in less obvious places (e.g. growth in food and chemical/petroleum manfacturing in east side of Y&H).
 	- The specific SICs in the Industrial Strategy 'advanced manufacturing' list ([here](https://www.gov.uk/government/publications/industrial-strategy/industrial-strategy-sector-definitions-list#advanced-manufacturing)) support that picture too (see the new figure 6 at the bottom [here](https://danolner.github.io/RegionalEconomicTools/quarto_docs/Yorkshire_n_Humber_sectors_Nov2025.html#industrial-strategy-jobs-as-a-percent-of-each-places-whole-economy-for-each-is-8-change-over-time)). Those IS-8 sectors have a larger presence in different spots - Kirklees, East Riding, Calderdale as well as Rotherham.
 	- The large increase in 'public/defence' supply chain concentration in Y&H might support this for defence connections (from the regional industry to industry payment flows, see the last plot [here](http://localhost:3430/quarto_docs/industry_to_industry_supply_chain_locality_2025.html)).
 - High value financial services continue to be strong - outside of London, Y&H is second only to Scotland, with really large GVA growth (though not jobs growth) in Doncaster suggesting it could continue to develop.
