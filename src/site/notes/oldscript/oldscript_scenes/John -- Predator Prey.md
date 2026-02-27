@@ -30,7 +30,7 @@ Medic said, “Fine. But you’ll have to sit down. I’ll be needing some of th
 
 “Sure thing.” John took the beer and corkscrew back to his seat. Once there, he popped the top off, letting it tinkle onto the floor in front of him.
 
-“Good. Now — one of the paths I’m trying might take us right to the root, start from where life itself emerged, actually re-create the conditions where sensation arise.”
+“Good. Now — one of the paths I’m trying might take us right to the root, start from where life itself emerged, actually re-create the conditions where sensation arises.”
 
 John focused on the bottle top as he mindfully raised it to his lips and rolled a mouthful of beer over his tongue.
 
