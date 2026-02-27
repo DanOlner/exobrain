@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/oldscript/old-script-journal/","tags":["#oldscript","#scifi","#AI","#planner"]}
+{"dg-publish":true,"permalink":"/oldscript/old-script-journal/","tags":["oldscript","scifi","AI","planner"]}
 ---
 
 # Random thoughts

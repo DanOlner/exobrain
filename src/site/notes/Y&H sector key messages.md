@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/y-and-h-sector-key-messages/","tags":["#regecon"]}
+{"dg-publish":true,"permalink":"/y-and-h-sector-key-messages/","tags":["regecon"]}
 ---
 
 Written [[23rd-Feb-2026\|23rd-Feb-2026]]. 

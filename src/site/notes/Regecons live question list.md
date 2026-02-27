@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["regecon"]}
+{"dg-publish":true,"permalink":"/regecons-live-question-list/","tags":["#regecon"]}
 ---
 
 # What's this page?
@@ -313,7 +313,7 @@ I think... it needs a rewrite, with those other sources. I'm arguing two things:
 
 I should acknowledge the difficulties - the pressure for certitude due to funding allocation e.g. regional GVA originated in EU funding allocation.
 
-..
+## Restate assumptions! [[25th-Feb-2026\|25th-Feb-2026]]
 
 I think I've gone into academese mode, and that's not the point of this piece, or the point of my brain right now. Let's re-phrase what I've got in there as a series of either provocations or questions, not as 'acadasplaining'... 
 
@@ -321,6 +321,28 @@ What that looks like: forcibly stringing together thoughts into an attempted coh
 
 What have we got, what are the questions I've got from that? And CRUCIALLY how do they actually connect to what the piece is doing with error bars?
 
+Maybe on the 'it turns us towards what we know regionally' thing - state that as what I think and why uncertainty here helps with that.
+
+..
+
+So from that, what's actually in this discussion session I want to propose as key points? Not many I think (the headlines need to change to be reflected in this final section's questions - that's a good, clear way to structure it).
+
+1. "The fog is information" - knowing GVA uncertainty levels points back towards what we do know about our regions. I already had a good sentence or two on this: "Error makes the fog visible, and so directs us back to to what we concretely know about our regions, and how that knowledge is built into the choices we make." Coyle and Muhtar's point.
+	1. National accounts is fundamentally top down... I could do with being sharper with the message here; its dominance is symptomatic of those wider issues C/M identify, and of the lack of bottom-up systems building. We have to rely on it at the moment. We could do with moving away - I could maybe argue that possibly, more strongly, it's a necessary element of devolution. Lip service paid to this, but...
+	2. Nationally run datasets still vital.
+
+Then there's the stuff about error types, the mistakes we make, the confusion matrix. What am I trying to say here? Might help if I could build on some examples - there might be better ones lurking in the data, if I take a bit of time to look.
+
+
+# Backing off slightly [[26th-Feb-2026\|26th-Feb-2026]]
+
+This is pushing too many acadamese buttons still. That's not what I want to be doing here. Forget what I think any other structure might want from this - how can I make it work for me?
+
+And don't forget the sunk cost fallacy...
+
+So, have added some hitchhikers in to help inoculate me slightly. Now let's just check I don't want to add another tweak / that doing so isn't perfectionism going over the top.
+
+What I want to check: can I do a quick before/after for point estimates versus uncertainty included? 
 
 
 
