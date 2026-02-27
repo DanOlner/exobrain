@@ -46,7 +46,7 @@ Medic said, “We’re running more than one test today. The first is visual. I 
 
 John began to float up out of the trees. They faded to darkness and against the black, bright specks began blinking into existence, some very near, most receding into the distance. He looked around — the specks were beginning to fill the space, darting in all directions seemingly without purpose, occasionally vanishing in bright pops. A new one appeared very near to him, a sharp click into existence. He saw it wasn’t quite a speck — more a tiny, elongated cone. Each cone was one of two colours: grass green or a liver purple.
 
-There was something more now. Frothing, Gritty, meaningless but a hint of order.
+There was something more now. Frothing, gritty, meaningless but a hint of order.
 
 John said, “This is weird. What is this?”
 
