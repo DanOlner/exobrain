@@ -34,7 +34,7 @@ Medic said, “Fine. But you’ll have to sit down. I’ll be needing some of th
 
 John focused on the bottle top as he mindfully raised it to his lips and rolled a mouthful of beer over his tongue.
 
-“Somewhere in the simplest living creature’s reaction to external stimuli — a bacteria climbing a chemical gradient to find nutrients, say — perhaps there’s the tiniest seed of sense. But a single bacteria is still an entire biological city. Better to get away from that huge mess. In fact, we can do things that nature can’t if we’re simulating, stick to what really matters. It…” 
+Medic pressed on. “Somewhere in the simplest living creature’s reaction to external stimuli — a bacteria climbing a chemical gradient to find nutrients, say — perhaps there’s the tiniest seed of sense. But a single bacteria is still an entire biological city. Better to get away from that huge mess. In fact, we can do things that nature can’t if we’re simulating, stick to what really matters. It…” 
 
 Silence grew. Iris, Bernie and John lifted out of their private stillnesses, exchanging eye contact for an instant.
 
