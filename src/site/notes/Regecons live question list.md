@@ -344,6 +344,27 @@ So, have added some hitchhikers in to help inoculate me slightly. Now let's just
 
 What I want to check: can I do a quick before/after for point estimates versus uncertainty included? 
 
+# Backing off some more / Monday [[2nd-Mar-2026\|2nd-Mar-2026]]
+
+Can I decide where to cut off the last discussion? I am trying to solve 
+
+Compare to standard ML confusion matrix and spam filters. Obv not directly relevant but here's why this thinking applies 
+
+Mention political push for numbers
+
+False positives a result of confirmation bias due to political need for "look how great we are" numbers.
+
+I.e. think through more the structural pressure for different kinds of bias and error and what that means
+
+# What next / any stories to pick out? [[4th-Mar-2026\|4th-Mar-2026]]
+
+I just deleted the old attempt to pull some stories out. Wasn't good. New triangle plots a better basis - but what to say? Let's just cycle through and look...
+
+The point though? What illustrative cases? I'd perhaps rather shape that around questions.
+
+I've just solve the 'argh the final section' issue by punting it into a part 2 chunk. Which means it's now easier for this last one. 
+
+
 
 
 
