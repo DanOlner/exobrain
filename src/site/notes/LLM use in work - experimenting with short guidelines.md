@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/llm-use-in-work-experimenting-with-short-guidelines/","tags":["AI","brainsystems"]}
+{"dg-publish":true,"permalink":"/llm-use-in-work-experimenting-with-short-guidelines/","tags":["#AI","#brainsystems"]}
 ---
 
 ## What's this doc?
@@ -22,9 +22,9 @@ This is, of course, the opposite of what many major tech companies are pushing f
 
 And being so black and white about it does nothing to address how paid-word-production jobs are being corroded by LLMs (e.g. [article today](https://www.theguardian.com/technology/2026/feb/11/big-ai-job-swap-white-collar-workers-ditching-their-careers) talking about copywriters' losses).
 
-But in many roles still, provenance is vital. And there are ways around LLMs muddying the water - starting with the easy-to-grasp, crystal clear principle, drummed into undergrads repeatedly, that my words are my own and anyone else's ideas and words are theirs and need to be acknowledged as such (including 'past me'). LLM words are definitely not mine. LLM code isn't mine. 
+But in many roles still, provenance is vital. And there are ways around LLMs muddying the water - starting with the easy-to-grasp, crystal clear principle, drummed into undergrads repeatedly, that my words are my own and anyone else's ideas and words are theirs and need to be acknowledged as such (including 'past me'). LLM words are definitely not mine. LLM code isn't mine. The need for acknowledgement would be no different if I'd commissioned a human with the same set of questions. Their work, not mine!
 
-There are more complex approaches being considered - see CC's summary below, where it's added links to the [Coalition for Content Provenance and Authenticity](https://spec.c2pa.org/specifications/specifications/2.2/explainer/_attachments/Explainer.pdf) and [Google's use of it](https://blog.google/innovation-and-ai/products/google-gen-ai-content-transparency-c2pa/) (I'll be adding those into my [sci-fi book](https://coveredinbees.org/posts/i_wrote_a_scifi_book/) backstory, perfect...)
+There are more complex approaches being considered - again, [[LLMoutput/Claude Code on the ethics of LLM use\|see CC's summary]] where it's added links to the [Coalition for Content Provenance and Authenticity](https://spec.c2pa.org/specifications/specifications/2.2/explainer/_attachments/Explainer.pdf) and [Google's use of it](https://blog.google/innovation-and-ai/products/google-gen-ai-content-transparency-c2pa/) (I'll be adding those into my [sci-fi book](https://coveredinbees.org/posts/i_wrote_a_scifi_book/) backstory, perfect...)
 
 But let's not over-complicate this. While acknowledging that feedback will occur between my work and LLM output:
 
@@ -40,7 +40,7 @@ That's what I've done in [this](https://exobrain.coveredinbees.org/ll-moutput/ma
 
 As other examples, I've done the same in some [recent R code](https://github.com/DanOlner/RegEconWorks/blob/master/code/ABS_error_rates.R). I've used R sections here to separate my coding from CC's.
 
-In the project below, I've also automated adding in all Claude-Code conversations, so anyone can see what steps led where. I think this is the only thing that makes sense, if I'm trying to be fully open about the process:
+I've also automated adding in all Claude-Code conversations, so anyone can see what steps led where (correction - I asked Claude Code, it wrote the python). Examples in the [llm convos folder here](https://github.com/DanOlner/RegEconWorks/tree/master/llm_convos). I think this is the only thing that makes sense, if I'm trying to be fully open about the process:
 
 > Including LLM prompts and replies as standard in a project's folder.
 
