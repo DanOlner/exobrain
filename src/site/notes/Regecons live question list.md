@@ -364,19 +364,15 @@ The point though? What illustrative cases? I'd perhaps rather shape that around 
 
 I've just solve the 'argh the final section' issue by punting it into a part 2 chunk. Which means it's now easier for this last one. 
 
+..
 
+I've got some more bits on minimax and examples of good thinking around uncertainty it would be ideal to drop in. 
 
+..
 
+Back to the stories point. The bit of writing in there about error types and what it means is good - but having some examples from this work would be muuuch better. So can I find some?
 
-CUTTINZ
+What would those look like? What we're after:
 
-Introducing uncertainty doesn't have to mean losing information. In fact it can be the reverse - revealing genuine signal in the noise, like a lighthouse in fog.
-
-GVA at sub-regional level, however, throws up other sets of problems that make spurious accuracy potentially more troublesome. We've already mentioned how much regional values are estimated through a top-down process that divides up national numbers in various ways, rather than being based directly on regional data. This is compounded by the fact that local and mayoral authorities don't get national-level data support and resources. UK level economic data works at the level it was made for.
-
-But it's not always that way round - an issue that signal detection theory attempts to grapple with (see e.g. @simchon2026). As it says [here](https://www.keiseruniversity.edu/signal-detection-theory/), we are trying to detect the signal in the noise and then act appropriately.
-
-
-
-
+- 
 

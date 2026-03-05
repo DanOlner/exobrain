@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/regecons-reflections-1/","tags":["cib","regecon"]}
+{"dg-publish":true,"permalink":"/regecons-reflections-1/","tags":["#cib","#regecon"]}
 ---
 
 

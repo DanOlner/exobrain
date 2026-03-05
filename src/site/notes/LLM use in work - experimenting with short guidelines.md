@@ -16,7 +16,7 @@ This is all very experimental. Things are changing rapidly. Any thoughts gratefu
 
 The simplest and most reasonable position to take is that **LLM use without acknowledgement is equivalent to plagiarism**. 
 
-In Claude's survey below, some institutions are taking exactly that position; some are questioning whether unacknowledged use is closer to falsification of data (because effectively an LLM is making up the output for you). But I think that distinction doesn't matter so much if you're making **very clear** what's your own work and what isn't.
+In [[LLMoutput/Claude Code on the ethics of LLM use\|Claude's survey here]], some institutions are taking exactly that position; some are questioning whether unacknowledged use is closer to falsification of data (because effectively an LLM is making up the output for you). But I think that distinction doesn't matter so much if you're making **very clear** what's your own work and what isn't.
 
 This is, of course, the opposite of what many major tech companies are pushing for. Microsoft's marketing, for example, is full of suggestions that co-pilot should quietly slip into your workflow and write all your words for you, whether email, teams comments, slide prep. They seem to have zero qualms smushing the human / LLM distinction.
 
