@@ -8,7 +8,7 @@ He opened his eyes. Remembered. Closed them again, lay still on the bed.
 
 He sat forward, hands in his lap, and looked around. “You there?”
 
-Medic spoke. “Yes. Good morning John.”
+Medic said, “Yes. Good morning John.”
 
 “Can I leave now?”
 
