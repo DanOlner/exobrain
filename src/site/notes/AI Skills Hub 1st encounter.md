@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ai-skills-hub-1st-encounter/","tags":["AI"]}
+{"dg-publish":true,"permalink":"/ai-skills-hub-1st-encounter/","tags":["#AI"]}
 ---
 
 # Now I've looked... 
@@ -18,7 +18,7 @@ I pointed out, not unfairly I thought, that we didn't have any kite-making mater
 
 So we did. We glued two sticks together into a cross, and stuck paper on the cross, and the children happily painted their little kites, and we all got through those few hours alive, which is all the parents wanted from us.
 
-Did it matter that thei kites weren't actually kites? Depends on your perspective I suppose. Most of the children didn't really know the difference and were perfectly content painting their little squares of paper glued on sticks. We passed the time and everyone went about their day.
+Did it matter that the kites weren't actually kites? Depends on your perspective I suppose. Most of the children didn't really know the difference and were perfectly content painting their little squares of paper glued on sticks. We passed the time and everyone went about their day.
 
 On the other hand, it didn't cost four million pounds. I think with four million pounds we probably could have hired some actual kite makers.
 
