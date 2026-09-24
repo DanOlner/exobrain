@@ -5,6 +5,7 @@
 ## See also
 
 * External: '[How I garden](https://jzhao.xyz/posts/networked-thought#how-i-garden)' 
+* [[Andy Matuschak on notes\|Andy Matuschak on notes]]
 
 *Note: this page is a horrible hodgepodge of my ideas and chatGPT's output. In future I want to be very clear about what's human and not. It absolutely shouldn't be any different to standard citation practice - if there's ambiguity, that's plagiarism! That's without getting into all the common LLMs being industrial plagiarism machines. [Here's a search engine](https://www.theatlantic.com/technology/archive/2025/03/search-libgen-data-set/682094/) to check if Meta's LLMs have used any of your work in a trove of pirated books they use. The rest do it too but hide it better.*
 
