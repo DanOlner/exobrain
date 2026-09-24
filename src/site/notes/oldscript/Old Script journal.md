@@ -4,7 +4,11 @@
 
 # Random thoughts
 
-I'm going to explain to you why you're a brain in a jar who thinks they're reading a book.
+- I'm going to explain to you why you're a brain in a jar who thinks they're reading a book.
+- Tru and outside line: outside becomes much more a refuge for refuseniks, but Tru is like "fucking hell you think I like it out here? Fucking self-righteous pricks weaving baskets and living off lentils and telling themselves they're pure and happy. I want to get back in, please God!"
+- Meat proxy! https://www.reddit.com/r/ENGLISH/comments/1w5ft7u/i_am_curious_what_the_phrase_meat_proxy_conjures/ Via [Tom Watson on LinkedIn](https://lnkd.in/p/eAwvN-Mw).
+- Bouncing off [this in nytimes](https://www.nytimes.com/2026/09/22/opinion/artificial-intelligence-ai-danger.html?searchResultPosition=1) - Tufecki on the Navier Stokes thing. AI pushing at research boundaries - what would have happened in the book? How did the uni and learning accommodate it? And then how is it that Apai is carrying out secret research on brains? That makes for a more interesting dynamic.
+
 
 # What's this?
 
@@ -21,7 +25,10 @@ Skip to the end for the latest; it's a working doc.
 Sarracenia. (Bit beat over head with metaphor?)
 
 Your blood is our blood. (Anything with 'blood' in, hmmph.)
- 
+
+Chasing Red... nope, already taken, 150 million fecking copies for that one!
+
+
 ## Getting help! \[24.10.25\]
 
 Writing community and help has been fckin vital in getting this thing done up to now. I need to cultivate more and pester people for advice along the way. So some ideas on what I'm doing next to keep that going / grow it.
@@ -100,4 +107,8 @@ p.103 - ger plan for a distributed LLM that returns value to those it has combin
 It's probably OK to write up differing versions of this history...
 
 And! What about a computational breakthrough allowing vast model training with trillions of parameters on a single box or small set of connected boxes?
+
+# Tru [[20th-Aug-2026\|20th-Aug-2026]]
+
+See [this](https://www.patreon.com/RobinInce/posts/gaslight-years-166761233). As well as Tru placing the bet, it would make sense if he was also at the centre of the stories about him, that had very little to do with who he actually was. What stories would those be? How could that be connected to the tiny village that's where they all live?
 
