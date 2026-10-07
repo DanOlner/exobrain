@@ -3,6 +3,9 @@ body {
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
+    // Restore pre-v1.91 sidebar padding so the site title fits on one line
+    --dg-filetree-padding: 10px;
+
     //  background-color: white;
     //  .content {
     //   font-size: 14px;
