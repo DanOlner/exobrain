@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/claudecode-convos/claude-code-chat-about-llm-ethics/","tags":["AI"]}
+{"dg-publish":true,"permalink":"/claudecode-convos/claude-code-chat-about-llm-ethics/","tags":["AI"],"dg-note-properties":{"tags":["AI"]}}
 ---
 
 # Claude Code Conversation

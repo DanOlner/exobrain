@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/paper-the-race-between-man-and-machine-2018/","tags":["AI","productivity","technology","paper"]}
+{"dg-publish":true,"permalink":"/paper-the-race-between-man-and-machine-2018/","tags":["AI","productivity","technology","paper"],"dg-note-properties":{"created":"2025-12-05","source":"https://www.aeaweb.org/articles?id=10.1257%2Faer.20160696","tags":["AI","productivity","technology","paper"]}}
 ---
 
 

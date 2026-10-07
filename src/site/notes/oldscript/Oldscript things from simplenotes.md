@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/oldscript/oldscript-things-from-simplenotes/","tags":["oldscript"]}
+{"dg-publish":true,"permalink":"/oldscript/oldscript-things-from-simplenotes/","tags":["oldscript"],"dg-note-properties":{"tags":["oldscript"]}}
 ---
 
 
@@ -18,7 +18,7 @@ A thought off the back of that - can I trace a line of tech dev from this, throu
 
 ..
 
-John: wall is holographic. It's just him, easy nuff for 3D. Not until much later (house memories) that he's open that he knows it's his dad. I might want to get their mum into this story somehow better too.
+John: wall is holographic. It's just him, easy nuff for 3D, happens in auction of course. Not until much later (house memories) that he's open that he knows it's his dad. I might want to get their mum into this story somehow better too.
 
 That means changing what happens when it becomes apparent it's not just holographic, it's interacting with it. That has lots of possibilities including what ipai is pursuing. What are options here?
 
@@ -40,7 +40,7 @@ More on their mum and dad: maybe dad's lens / hologram tech was a key breakthrou
 
 .. Back story - lean more into "AI was used to create structure that "solved" polarisation and emergent fascism" (subtly!) .. Second (?) John scene where he brings up his grandma's talkbox, mulls thinking Medic's a person - it's clumsy (and only there to link to later). I need to much more carefully think through what he says here and why / how it ties to the person idea I'm bringing up elsewhere (with mucho LLM overlap of course).
 
-But how to do light-touch personhood thing? Maybe make it flippant. "I can anthropomorphise anything. I got guilt about taking my old washing machine to be scrapped. School trained us on this but I can't help it. I'm more like my grandma...." But the point? ..
+But how to do light-touch personhood thing? Maybe make it flippant. "I can anthropomorphise anything. I felt guilty taking my old washing machine to be scrapped. School trained us on this but I can't help it. I'm more like my grandma...." But the point? ..
 
 For the Judy mulling. <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4626276#paper-citations-widget> See e.g. <file:///home/dano/Downloads/ssrn-5098708.pdf> - "Judge AI: Assessing Large Language Models in Judicial Decision-Making" (Will AI judges replace humans? Nope.)
 
@@ -118,7 +118,7 @@ Across line, tru can make names up, other two refuse or become quiet. "Go on try
 
 Actually, expand this. Tie to point below about hierarchy in school itself. Tru illustrates point by making them play Band Names either side of the line. One addition: either an extra person, or probably Remzi doesn't have same privileges as Hill \[no he doesn't before Viva!\] - so actually it costs him on that side of the line. They don't know it's there. Remzi does.
 
-That's not a bad idea - viva can be Remzi getting extra privileges. Or Hill. Gonna have to piece that together.
+That's not a bad idea - viva (the gin and tonic session?) can be Remzi getting extra privileges. Or Hill. Gonna have to piece that together.
 
 (Remzi makes sense as it'll give more opps for building in tensions between them, things to work from, rather than adding fourth person.)
 
@@ -132,7 +132,7 @@ Difficulty of researching poisons given IPAI system...? (Or not actually - make 
 
 ..
 
-Add in some people with a mildly fanatical devotion to making sure their creative endeavours are untouched by machine. \[See above, Tru's girlfriend / boyfriend\]
+Add in some people with a fanatical devotion to making sure their creative endeavours are untouched by machine. \[See above, Tru's girlfriend / boyfriend\]
 
 ..
 
@@ -150,7 +150,7 @@ A class of people in the school (support, estate, cleaning) with no library priv
 
 <https://en.wikipedia.org/wiki/Dark_academia> "One writer compared it to the contemporary cottagecore lifestyle aesthetic, saying that while cottagecore requires a home in the country and leisure time for crafting, dark academia's "simple act of putting on a blazer and reading Dostoevsky is far more doable."
 
-Mulling, in relation to how the uni goes / Hill's rel to it, how she has to consiously shape herself and her view of herself given IPAI, and how that gets warped and twisted by Noah and others.
+Mulling, in relation to how the uni goes / Hill's rel to it, how she has to consciously shape herself and her view of herself given IPAI, and how that gets warped and twisted by Noah and others.
 
 <https://www.reddit.com/r/TheSecretHistory/comments/1akn5pf/the_secret_history_is_very_disappointing_but/> "the secret history doesn’t deconstruct dark academia, it is dark academia. it’s the popularity of the secret history (alongside the 2014 film kill your darlings) on tumblr during the early to mid 2010s that gave rise to the term “dark academia.” you can see both stories are very much about seemingly sophisticated and cultured university students going off the rails and committing brutal acts, hence the “dark” bit."
 
@@ -168,7 +168,7 @@ Bernie: dupes Hill into "checking" that he's the person she's working with, not 
 
 ..
 
-Use ZRAIN protein chat as opening? \[What??\]
+Use ZRAIN protein chat as opening? \[What??\] Oh - as in, that's a cool way to open the book. Maybe.
 
 LINKS! \* <https://www.careful.industries/blog/2025-4-what-we-talk-about-when-we-talk-about-ai> \* The language in this abstract is kind of exactly the nonsense that could happen at the auction plus in IPAI-academia. Just awful! How did we get there? Fitting into epistemes oh no I'm doing it! <http://www.richard-hall.org/2024/02/15/generative-ai-and-re-weaving-a-pedagogical-horizon-of-social-possibility/>
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/metal-production-random-links/","tags":["industrial"]}
+{"dg-publish":true,"permalink":"/metal-production-random-links/","tags":["industrial"],"dg-note-properties":{"tags":["industrial"]}}
 ---
 
 See also:

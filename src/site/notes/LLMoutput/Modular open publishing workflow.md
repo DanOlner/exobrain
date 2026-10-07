@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ll-moutput/modular-open-publishing-workflow/"}
+{"dg-publish":true,"permalink":"/ll-moutput/modular-open-publishing-workflow/","dg-note-properties":{}}
 ---
 
 ## Maximising Openness & Contribution Acknowledgement

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/planners/under-the-skin-of-sy-ai/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/planners/under-the-skin-of-sy-ai/","tags":["AI"],"dg-note-properties":{"tags":["AI"]}}
 ---
 
 # What's this?

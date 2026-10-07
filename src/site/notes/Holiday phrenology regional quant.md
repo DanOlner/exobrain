@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/holiday-phrenology-regional-quant/","tags":["regecon"]}
+{"dg-publish":true,"permalink":"/holiday-phrenology-regional-quant/","tags":["regecon"],"dg-note-properties":{"tags":["regecon"]}}
 ---
 
 [Posted](https://lnkd.in/p/eU2YcYDQ) on LinkedIn [[17th-Sep-2026\|17th-Sep-2026]].

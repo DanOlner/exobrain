@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/oldscript/oldscript-notes-from-last-read-through/","tags":["oldscript"]}
+{"dg-publish":true,"permalink":"/oldscript/oldscript-notes-from-last-read-through/","tags":["oldscript"],"dg-note-properties":{"tags":["oldscript"]}}
 ---
 
 
@@ -52,7 +52,7 @@ From the blue/red stripey notebook. Shit, I have to try and read my hand writing
 
 -   Better word than "context"? Clique?
 
--   p.183 = good (IP / getting laid). Something like that nearer to the beginning? Lay out intro to how the whole system works?
+-   p.183 = good (IP / getting laid). Something like that nearer to the beginning? Lay out intro to how the whole system works? (Could Tru be doing that, not guy in ear? Could Tru actually be hired by Ipai, actually be the guide?)
 
 -   Predator prey: give them a touch more life? \[Do they really need it? Dunno. Connect to John's memories? (The shark memory, introduce the ocean book earlier, so it's not so suddenly introduced. And can be John applying memory at different levels.) Shadow of sharks, all teeth and knife-sharp focus? Add noise, hiding in dark of trees.
 

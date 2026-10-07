@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/andy-matuschak-on-notes/","tags":["brainsystems"]}
+{"dg-publish":true,"permalink":"/andy-matuschak-on-notes/","tags":["brainsystems"],"dg-note-properties":{"tags":["brainsystems"]}}
 ---
 
 - [Main website](https://andymatuschak.org)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/oldscript/oldscript-scenes/john-predator-prey/"}
+{"dg-publish":true,"permalink":"/oldscript/oldscript-scenes/john-predator-prey/","dg-note-properties":{}}
 ---
 
 He opened his eyes. Remembered. Closed them again, lay still on the bed.
@@ -24,7 +24,7 @@ John took his now-empty beer bottle, strolled over to the kitchen, rustled throu
 
 “Planning on drinking all morning again?” said Medic.
 
-He pulled a second beer out of the fridge, raised it and nodded ceremoniously to the room. “That is my plan. Correct. Heavy drinking’s an old family tradition I’ve rather neglected in recent years — now seems the perfect time to pick it up again. I’ve discovered if I get drunk enough I can almost enjoy this.” He rested his back against the counter and peered at the sides of Iris’ and Bernie’s heads.
+John pulled a second beer out of the fridge, raised it and nodded ceremoniously to the room. “That is my plan, correct. Heavy drinking’s an old family tradition I’ve rather neglected in recent years — now seems the perfect time to pick it up again. I’ve discovered if I get drunk enough I can almost enjoy this.” He rested his back against the counter and peered at the sides of Iris’ and Bernie’s heads.
 
 Medic said, “Fine. But you’ll have to sit down. I’ll be needing some of the same techniques that create the forest, though we’re taking it somewhere different today. Is that OK?”
 
@@ -44,7 +44,7 @@ John raised his bottle in salute again before closing his eyes and picturing a v
 
 Medic said, “We’re running more than one test today. The first is visual. I think I’ve understood enough to go beyond the forest into other forms. Let’s see.”
 
-John began to float up out of the trees. They faded to darkness and against the black, bright specks began blinking into existence, some very near, most receding into the distance. He looked around — the specks were beginning to fill the space, darting in all directions seemingly without purpose, occasionally vanishing in bright pops. A new one appeared very near to him, a sharp click into existence. He saw it wasn’t quite a speck — more a tiny, elongated cone. Each cone was one of two colours: grass green or a liver purple.
+John began to float up out of the trees. As they faded into darkness, bright specks began blinking into existence. Some were very near, most receding into the distance. He looked around — the specks were beginning to fill the space, darting in all directions seemingly without purpose, occasionally vanishing in bright pops. A new one appeared very near to him, a sharp click into existence. He saw it wasn’t quite a speck — more a tiny, elongated cone. Each cone was one of two colours: grass green or a liver purple.
 
 There was something more now. Frothing, gritty, meaningless but a hint of order.
 
@@ -54,7 +54,7 @@ John said, “This is weird. What is this?”
 
 “Uh.”
 
-“The point is, this isn’t just using your senses to idly present a world to you. It’s much more than that. We’re starting to actually allow communication between your own cognition and ideas I’m modelling. And who knows where that ends up? It’s quite exciting actua—”
+“The point is, this isn’t just using your senses to passively present a world to you. It’s much more than that. We’re starting to actually allow communication between your own cognition and ideas I’m modelling. And who knows where that ends up? It’s quite exciting actua—”
 
 “What _are_ those things?” Something about the specks gave John a diffuse dread.
 

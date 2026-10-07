@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ci-b-exobrain/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/ci-b-exobrain/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 [Coveredinbees](https://coveredinbees.org) exobrain. Hi there.

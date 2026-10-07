@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/clippings/stone-system/","title":"Stone system","tags":["clippings","areyouhumansystem","llm"]}
+{"dg-publish":true,"permalink":"/clippings/stone-system/","title":"Stone system","tags":["clippings","areyouhumansystem","llm"],"dg-note-properties":{"title":"Stone system","source":"https://www.linkedin.com/posts/patrick-galey-8158b01b_write-in-stone-activity-7404838495904763904-RTQw/","author":null,"published":"1h","created":"2025-12-11","description":null,"tags":["clippings","areyouhumansystem","llm"]}}
 ---
 
 # journalist / academic 'show your working' platform

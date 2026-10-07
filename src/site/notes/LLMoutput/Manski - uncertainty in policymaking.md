@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ll-moutput/manski-uncertainty-in-policymaking/"}
+{"dg-publish":true,"permalink":"/ll-moutput/manski-uncertainty-in-policymaking/","dg-note-properties":{}}
 ---
 
 # Uncertainty in Policymaking

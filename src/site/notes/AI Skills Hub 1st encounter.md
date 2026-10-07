@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ai-skills-hub-1st-encounter/","tags":["#AI"]}
+{"dg-publish":true,"permalink":"/ai-skills-hub-1st-encounter/","tags":["AI"],"dg-note-properties":{"tags":["AI"]}}
 ---
 
 # Now I've looked... 

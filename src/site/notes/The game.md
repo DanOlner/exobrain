@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/the-game/","tags":["socialoperatingsystems"]}
+{"dg-publish":true,"permalink":"/the-game/","tags":["socialoperatingsystems"],"dg-note-properties":{"tags":["socialoperatingsystems"]}}
 ---
 
 # Me on signal (2025): 

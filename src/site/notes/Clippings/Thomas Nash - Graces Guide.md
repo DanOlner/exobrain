@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/clippings/thomas-nash-graces-guide/","title":"Thomas Nash - Graces Guide","tags":["clippings","stworks","industrial"]}
+{"dg-publish":true,"permalink":"/clippings/thomas-nash-graces-guide/","title":"Thomas Nash - Graces Guide","tags":["clippings","stworks","industrial"],"dg-note-properties":{"title":"Thomas Nash - Graces Guide","source":"https://www.gracesguide.co.uk/Thomas_Nash","author":null,"published":null,"created":"2025-12-02","description":null,"tags":["clippings","stworks","industrial"]}}
 ---
 
-Key quote [[#^66daa1|here]].
+Key quote [[Clippings/Thomas Nash - Graces Guide#^66daa1\|here]].
 ## Grace's Guide To British Industrial History
 
 Registered UK Charity (No. 1154342)

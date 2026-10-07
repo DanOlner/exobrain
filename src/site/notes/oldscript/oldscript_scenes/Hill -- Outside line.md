@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/oldscript/oldscript-scenes/hill-outside-line/"}
+{"dg-publish":true,"permalink":"/oldscript/oldscript-scenes/hill-outside-line/","dg-note-properties":{}}
 ---
 
 "The Wondrous Torsos. Diffraction Orifice. The Untidy Igloos."
