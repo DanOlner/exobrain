@@ -44,6 +44,8 @@ So - I want to test whether there's something I can do myself to deepen what the
 
 I want to leave the plan a bit strategically vague. In my previous academic life, that's a horrifying proposal - what, just jump in without a pre-defined methodology carefully laid out with a gantt chart and ethics review?
 
+I don't know where this will go or whether it'll 'work'. 
+
 Maybe something more defined comes later, if this test shows any promise. But let's prototype first. There are a million ways to approach this. I might start with the simplest - just speak to people and listen. If this shows promise, more structure can follow. I can picture an iterative flow back and forth between the data and those it affects and describes. I can imagine this as a true, regional intelligence system that properly connects data, knowledge and action (the kind of thing Neil McSweeney's work above gets closer to than most else I've seen).
 
 But that's all fantasy until I've tested. And if it comes to something more structured, I handily have an expert on-tap (my partner Helen) who, with her colleagues, created and tested a [cutting edge collaborative](https://link.springer.com/article/10.1186/s12888-018-1794-8) data analysis framework (in mental health settings, but it's been picked up in a bunch of other places).
