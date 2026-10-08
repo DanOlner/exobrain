@@ -57,6 +57,9 @@ Notes on the map:
 	- AIIE is 'AI industrial exposure' index, taken from Felten et al's US data and applied to firms in Companies House (see the [method outline](https://danolner.github.io/AI_economy/quartodocs/GM_AI_miscplots.html) for full details on how  the crosswalk from US to UK is made, including the 'cascading to appropriate SIC per firm' method).
 	- 'Aug>rep' is a 'jobs more likely augmentable by AI than replaceable' scale. This does attempt to address another point Sarah O'Connor made in her LinkedIn post: "these calculations don’t tell you anything about whether jobs which are highly 'exposed' to AI are going to get better, or worse, or disappear altogether." The method idea isn't mine - build on repeated probabilities from LLM calls - it's in a few papers now. But I'm not happy with it now. We'll come back to that.
 
+That said - as a suggestion guide for where to look, it could work. Why is it picking up a band of 'exposed but more augmentable' across South Sheffield, for example? Who are those firms?
+
+
 ![sy_ai_hex2d 1.png](/img/user/Attachments/sy_ai_hex2d%201.png)
 
 # Journal
