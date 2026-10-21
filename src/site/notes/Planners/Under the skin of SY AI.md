@@ -2,11 +2,11 @@
 {"dg-publish":true,"permalink":"/planners/under-the-skin-of-sy-ai/","tags":["AI"],"dg-note-properties":{"tags":["AI"]}}
 ---
 
-# What's this?
+# Starting post
 
-An open work journal for an experimental project digging under the skin of very 'top down' data on the impact of AI in the workplace, looking at South Yorkshire (where I live).
+I was the main data bod for a [Greater Manchester AI impact project](https://manchesterdigitalstrategy.com/resilient-ai-adoption-in-greater-manchester) led by Prof. Richard Whittle, tasked with applying impact metrics to businesses ([github repo](https://github.com/DanOlner/AI_economy), [method outline](https://danolner.github.io/AI_economy/quartodocs/GM_AI_miscplots.html)). The map below comes from applying the method to South Yorkshire.
 
-That 'very top down data' has been made by a few different people - I'm one of them. I was the main data bod for a [Greater Manchester AI impact project](https://manchesterdigitalstrategy.com/resilient-ai-adoption-in-greater-manchester) led by Prof. Richard Whittle, tasked with applying impact metrics to businesses ([github repo](https://github.com/DanOlner/AI_economy), [method outline](https://danolner.github.io/AI_economy/quartodocs/GM_AI_miscplots.html)). The map below comes from applying the method to South Yorkshire.
+I didn't leave the room or speak to any firms.
 
 Of this kind of 'exposure' analysis, FT journalist Sarah O'Connor - a big inspiration for me in trying to dig below the data - [said on LinkedIn](https://www.linkedin.com/posts/sarah-o-connor-86067a31_the-ai-shift-do-we-really-know-which-jobs-share-7433197092975587328-zviT/):
 
@@ -34,7 +34,7 @@ Of the people affected:
 
 Those protagonists could and should also shape how data describing them affects them through policy. That would inevitably change many things about the entire data / people / action cycle. But what?
 
-I can how data choices are immediately changed when thinking like this. I built the previous exposure analysis on top of Companies House data (from the [open pipeline work](https://github.com/DanOlner/companieshouseopen) I've being doing). We get rich, granular firm location, sector and employee data (and there's more to extract), though it has weaknesses. For the map below, that makes it possible to produce properly weighted values built on firms, and at geographies we choose. Great.
+I can see how data choices are immediately changed when thinking like this. I built the previous exposure analysis on top of Companies House data (from the [open pipeline work](https://github.com/DanOlner/companieshouseopen) I've being doing). We get rich, granular firm location, sector and employee data (and there's more to extract), though it has weaknesses. For the map below, that makes it possible to produce properly weighted values built on firms, and at geographies we choose. Great.
 
 But if I'm trying to dig under the surface, that raises other ideas. I have about a 44% website match in South Yorkshire for firms over 10 employees - the web text is another window. It's also hugely valuable that we know *who each firm is*. I can look at places the data might suggest is interesting, look at who exactly it suggests. I could ask questions of the web text to see what connects them, what differs. Not in an ML text classification way (I did some of that to support SYMCA's LIPF bid, and ML on web text is the basis for [Data City's RTICs](https://thedatacity.com/product-service/rtics/)) but more fluidly, more curiosity-led.
 
@@ -48,7 +48,7 @@ I don't know where this will go or whether it'll 'work'.
 
 Maybe something more defined comes later, if this test shows any promise. But let's prototype first. There are a million ways to approach this. I might start with the simplest - just speak to people and listen. If this shows promise, more structure can follow. I can picture an iterative flow back and forth between the data and those it affects and describes. I can imagine this as a true, regional intelligence system that properly connects data, knowledge and action (the kind of thing Neil McSweeney's work above gets closer to than most else I've seen).
 
-But that's all fantasy until I've tested. And if it comes to something more structured, I handily have an expert on-tap (my partner Helen) who, with her colleagues, created and tested a [cutting edge collaborative](https://link.springer.com/article/10.1186/s12888-018-1794-8) data analysis framework (in mental health settings, but it's been picked up in a bunch of other places).
+That's all fantasy until I've tested. And if it comes to something more structured, I handily have an expert on-tap (my partner Helen) who, with her colleagues, created and tested a [cutting edge collaborative](https://link.springer.com/article/10.1186/s12888-018-1794-8) data analysis framework (in mental health settings, but it's been picked up in a bunch of other places).
 
 First step in the next post: go through the data for South Yorkshire and look for somewhere to start...
 
@@ -64,8 +64,19 @@ That said - as a suggestion guide for where to look, it could work. Why is it pi
 
 ![sy_ai_hex2d 1.png](/img/user/Attachments/sy_ai_hex2d%201.png)
 
+
+# Links
+
+- Microsoft funding complement/substitute work. https://www.linkedin.com/posts/benluong_ai-laboureconomics-futureofwork-share-7518250472521191424-o2bF/
+
+
 # Journal
 
 Top entry is most recent.
 
-## Day 1 [[7th-Oct-2026\|7th-Oct-2026]]
+# Scope? [[19th-Oct-2026\|19th-Oct-2026]]
+
+I am thinking it might make more sense if this is a branch of the larger test idea of using Companies House data as a route into 'finding out what's under it'.
+
+
+
